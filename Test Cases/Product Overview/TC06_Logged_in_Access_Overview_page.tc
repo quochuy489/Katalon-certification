@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_Logged_in_Access_Overview_page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>281a9355-1727-4e88-9971-2cb14f0edc43</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>c8935854-ab02-4da9-9e0f-ff12e2499077</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Login_correct</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>c8935854-ab02-4da9-9e0f-ff12e2499077</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>833d5134-1986-4194-98ea-7b61a58514b4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>c8935854-ab02-4da9-9e0f-ff12e2499077</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>27b03382-f4c5-434f-8a92-5c64a194f639</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>833d5134-1986-4194-98ea-7b61a58514b4</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>27b03382-f4c5-434f-8a92-5c64a194f639</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

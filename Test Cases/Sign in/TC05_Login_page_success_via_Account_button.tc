@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_Login_page_success_via_Account_button</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>181a33b4-1f69-4d9e-aeda-78a00989f841</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>a00fc4ba-755b-48b2-8d31-5132054e3c6f</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Login_correct</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>a00fc4ba-755b-48b2-8d31-5132054e3c6f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>9907d71b-9269-48cc-9de3-a7452d3c16f4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>a00fc4ba-755b-48b2-8d31-5132054e3c6f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>b7eb2625-798c-459f-a25e-dd95f35bd01d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9907d71b-9269-48cc-9de3-a7452d3c16f4</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b7eb2625-798c-459f-a25e-dd95f35bd01d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

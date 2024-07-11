@@ -17,6 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://demo-store.katalon.com./signin')
+WebUI.openBrowser(GlobalVariable.Login_URL)
 
-WebUI.delay(10)
+WebUI.maximizeWindow()
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sign in/Sign_in_page'), 10)
+
+WebUI.setText(findTestObject('Object Repository/Sign in/Email_input'), username)
+
+WebUI.setText(findTestObject('Object Repository/Sign in/Password_input'), password)
+
+WebUI.click(findTestObject('Object Repository/Sign in/Signin_button'))
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/Dashboard/Dashboard_page'), 10)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Dashboard/Dashboard_page'), 10)
+
+WebUI.closeBrowser()
