@@ -17,18 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.Login_URL)
+/* Create test case with following steps:
+1. Access login page with Login_URL in default profle
+2. Click on Sign up link
+3. Verify Sign up page present
+4. Fill email with wrong format
+5. Verify error message display
+
+*/
+
+WebUI.openBrowser(GlobalVariable.Signup_URL)
 
 WebUI.maximizeWindow()
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Sign in/Sign_in_page'), 10)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sign up/Sign_up_page'), 5)
 
-WebUI.setText(findTestObject('Object Repository/Sign in/Email_input'), username)
+WebUI.setText(findTestObject('Object Repository/Sign up/Email_input'), username)
 
-WebUI.setText(findTestObject('Object Repository/Sign in/Password_input'), password)
+WebUI.sendKeys(findTestObject('Object Repository/Sign up/Email_input'), Keys.chord(Keys.TAB))
 
-WebUI.click(findTestObject('Object Repository/Sign in/Signin_button'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sign up/Email_error_message_lb'), 5)
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Dashboard/Dashboard_page'), 5)
+String Actual_email_error = WebUI.getText(findTestObject('Object Repository/Sign up/Email_error_message_lb'))
+
+WebUI.verifyEqual(Actual_email_error, expec_email_error)
 
 WebUI.closeBrowser()

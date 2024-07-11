@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC18_Fill_wrong_email_format</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5a5516f9-458a-4dd2-9de0-666ecad70465</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>07da2b0c-6cad-45de-9259-ba56f183be0f</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Login_wrong_format</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>07da2b0c-6cad-45de-9259-ba56f183be0f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>70e1fded-e571-43df-9c58-eed100ec230d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>07da2b0c-6cad-45de-9259-ba56f183be0f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username Error</value>
+      <variableId>20e600b4-d0d7-4b64-bb4f-56a480d2494f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>70e1fded-e571-43df-9c58-eed100ec230d</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>20e600b4-d0d7-4b64-bb4f-56a480d2494f</id>
+      <masked>false</masked>
+      <name>expec_email_error</name>
+   </variable>
+</TestCaseEntity>

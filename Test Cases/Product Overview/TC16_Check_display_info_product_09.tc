@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC16_Check_display_info_product_09</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b73d3528-3f5a-4f31-95ea-d12693a0a2b2</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>f844cc8d-08e7-4e3a-bf0f-bfa84cf64047</id>
+      <iterationEntity>
+         <iterationType>SPECIFIC</iterationType>
+         <value>9</value>
+      </iterationEntity>
+      <testDataId>Data Files/Product_info</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>f844cc8d-08e7-4e3a-bf0f-bfa84cf64047</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Name</value>
+      <variableId>5ad6654e-e5f6-423b-a23a-3213a3aaad9d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>f844cc8d-08e7-4e3a-bf0f-bfa84cf64047</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Color</value>
+      <variableId>f5b71d58-d65d-4d67-9ada-8004cc2dc954</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>f844cc8d-08e7-4e3a-bf0f-bfa84cf64047</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Price</value>
+      <variableId>b12d53f9-36d3-4eae-8f61-68b77888a2f4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5ad6654e-e5f6-423b-a23a-3213a3aaad9d</id>
+      <masked>false</masked>
+      <name>product_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f5b71d58-d65d-4d67-9ada-8004cc2dc954</id>
+      <masked>false</masked>
+      <name>color</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b12d53f9-36d3-4eae-8f61-68b77888a2f4</id>
+      <masked>false</masked>
+      <name>price</name>
+   </variable>
+</TestCaseEntity>

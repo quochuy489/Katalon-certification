@@ -17,18 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.Login_URL)
+/* Write a test case similar with test case TC09_Check_display_info_product_01 but with product 5*/
+// Open browser to the URL stored in default profile with name Dashborad_URL
+WebUI.openBrowser(GlobalVariable.Dashborad_URL)
 
 WebUI.maximizeWindow()
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Sign in/Sign_in_page'), 10)
+// Click the product item in the Dashboard page
+WebUI.waitForElementPresent(findTestObject('Object Repository/Dashboard/Product_item', [('product_name'):product_name]), 5)
 
-WebUI.setText(findTestObject('Object Repository/Sign in/Email_input'), username)
+WebUI.click(findTestObject('Object Repository/Dashboard/Product_item', [('product_name'):product_name]))
 
-WebUI.setText(findTestObject('Object Repository/Sign in/Password_input'), password)
+// Wait for element Prduct_Overview_page is present
+WebUI.waitForElementPresent(findTestObject('Object Repository/Product Overview/Product_Overview_page'), 5)
 
-WebUI.click(findTestObject('Object Repository/Sign in/Signin_button'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Product Overview/Product_title', [('product_name'):product_name]), 5)
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Dashboard/Dashboard_page'), 5)
+String price_web = WebUI.getText(findTestObject('Object Repository/Product Overview/Product_price'))
 
+boolean get_price = price_web.contains(price)
+
+WebUI.verifyEqual(get_price, true)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Product Overview/Product_color', [('color'):color]), 5)
+
+// Close the browser
 WebUI.closeBrowser()
