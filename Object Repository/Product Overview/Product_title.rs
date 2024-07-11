@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Product_item</name>
+   <name>Product_title</name>
    <tag></tag>
-   <elementGuidId>59e4b7a6-ddff-474d-b78b-b4784d985b23</elementGuidId>
+   <elementGuidId>92581c4e-92ad-4877-97bb-e8f9298254a4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[contains(@class,'product_title') and contains (text(), '${product_name}')]</value>
+         <value>//*[contains(@class,'productOverview_title') and contains (text(), '${product_name}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

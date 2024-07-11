@@ -28,13 +28,15 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser(GlobalVariable.Dashborad_URL)
 
 // Click the product item in the Dashboard page
-WebUI.click(findTestObject('Dashboard/Page_Product_Item'))
+WebUI.waitForElementPresent(findTestObject('Object Repository/Dashboard/Product_item', [('product_name'):'Basic Top']), 5)
+
+WebUI.click(findTestObject('Object Repository/Dashboard/Product_item', [('product_name'):'Basic Top']))
 
 // Wait for element Prduct_Overview_page is present
-WebUI.waitForElementPresent(findTestObject('Dashboard/Page_Product_Overview'), 10)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Product Overview/Product_Overview_page'), 5)
 
 // Verify that element Prduct_Overview_page is present
-WebUI.verifyElementPresent(findTestObject('Dashboard/Page_Product_Overview'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Product Overview/Product_Overview_page'), 5)
 
 // Close the browser
 WebUI.closeBrowser()
