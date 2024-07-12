@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC41_Search_and_check_detail_info_product_03</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>de8377f9-8d14-4e7e-8c0b-58498b41f5b5</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>900a7cbe-b5e1-4017-bc8a-f9866481a796</id>
+      <iterationEntity>
+         <iterationType>SPECIFIC</iterationType>
+         <value>3</value>
+      </iterationEntity>
+      <testDataId>Data Files/Product_info</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>900a7cbe-b5e1-4017-bc8a-f9866481a796</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Name</value>
+      <variableId>c95b6313-152f-4b19-bd59-cfff813bbaa2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>900a7cbe-b5e1-4017-bc8a-f9866481a796</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Price</value>
+      <variableId>a3d3b85a-19af-44db-ab49-78b2031411c8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>900a7cbe-b5e1-4017-bc8a-f9866481a796</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Color</value>
+      <variableId>0822c5fd-40d6-478c-a35d-e1f45264ec6b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c95b6313-152f-4b19-bd59-cfff813bbaa2</id>
+      <masked>false</masked>
+      <name>product_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a3d3b85a-19af-44db-ab49-78b2031411c8</id>
+      <masked>false</masked>
+      <name>price</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0822c5fd-40d6-478c-a35d-e1f45264ec6b</id>
+      <masked>false</masked>
+      <name>color</name>
+   </variable>
+</TestCaseEntity>

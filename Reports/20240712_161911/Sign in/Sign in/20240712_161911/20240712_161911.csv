@@ -1,0 +1,81 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sign in,Chrome 126.0.0.0,,,12-07-2024 16:19:26,12-07-2024 16:22:19,2m - 53.868s,PASSED
+,,,,,,,
+Test Cases/Sign in/TC01_Fill_wrong_username_password_format,Chrome 126.0.0.0,,,12-07-2024 16:19:26,12-07-2024 16:19:44,17.982s,PASSED
+openBrowser(Login_URL),Chrome 126.0.0.0,,,12-07-2024 16:19:27,12-07-2024 16:19:33,6.491s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 16:19:33,12-07-2024 16:19:40,6.406s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign in/Sign_in_page""), 10)",Chrome 126.0.0.0,,,12-07-2024 16:19:40,12-07-2024 16:19:40,0.536s,PASSED
+"setText(findTestObject(""Object Repository/Sign in/Email_input""), username)",Chrome 126.0.0.0,,,12-07-2024 16:19:40,12-07-2024 16:19:41,1.271s,PASSED
+"setText(findTestObject(""Object Repository/Sign in/Password_input""), password)",Chrome 126.0.0.0,,,12-07-2024 16:19:41,12-07-2024 16:19:42,0.808s,PASSED
+"sendKeys(findTestObject(""Object Repository/Sign in/Password_input""), Keys.chord(TAB))",Chrome 126.0.0.0,,,12-07-2024 16:19:42,12-07-2024 16:19:43,0.588s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign in/Email_error_message_lb""), 10)",Chrome 126.0.0.0,,,12-07-2024 16:19:43,12-07-2024 16:19:43,0.464s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign in/Password_error_message_lb""), 10)",Chrome 126.0.0.0,,,12-07-2024 16:19:43,12-07-2024 16:19:44,0.339s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,12-07-2024 16:19:44,12-07-2024 16:19:44,0.357s,PASSED
+,,,,,,,
+Test Cases/Sign in/TC01_Fill_wrong_username_password_format,Chrome 126.0.0.0,,,12-07-2024 16:19:44,12-07-2024 16:19:56,12.216s,PASSED
+openBrowser(Login_URL),Chrome 126.0.0.0,,,12-07-2024 16:19:44,12-07-2024 16:19:51,6.958s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 16:19:51,12-07-2024 16:19:51,0.072s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign in/Sign_in_page""), 10)",Chrome 126.0.0.0,,,12-07-2024 16:19:51,12-07-2024 16:19:52,1.157s,PASSED
+"setText(findTestObject(""Object Repository/Sign in/Email_input""), username)",Chrome 126.0.0.0,,,12-07-2024 16:19:52,12-07-2024 16:19:53,1.200s,PASSED
+"setText(findTestObject(""Object Repository/Sign in/Password_input""), password)",Chrome 126.0.0.0,,,12-07-2024 16:19:53,12-07-2024 16:19:54,0.683s,PASSED
+"sendKeys(findTestObject(""Object Repository/Sign in/Password_input""), Keys.chord(TAB))",Chrome 126.0.0.0,,,12-07-2024 16:19:54,12-07-2024 16:19:55,0.838s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign in/Email_error_message_lb""), 10)",Chrome 126.0.0.0,,,12-07-2024 16:19:55,12-07-2024 16:19:55,0.439s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign in/Password_error_message_lb""), 10)",Chrome 126.0.0.0,,,12-07-2024 16:19:55,12-07-2024 16:19:56,0.291s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,12-07-2024 16:19:56,12-07-2024 16:19:56,0.510s,PASSED
+,,,,,,,
+Test Cases/Sign in/TC01_Fill_wrong_username_password_format,Chrome 126.0.0.0,,,12-07-2024 16:19:56,12-07-2024 16:20:07,10.987s,PASSED
+openBrowser(Login_URL),Chrome 126.0.0.0,,,12-07-2024 16:19:56,12-07-2024 16:20:03,6.421s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 16:20:03,12-07-2024 16:20:03,0.132s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign in/Sign_in_page""), 10)",Chrome 126.0.0.0,,,12-07-2024 16:20:03,12-07-2024 16:20:04,1.261s,PASSED
+"setText(findTestObject(""Object Repository/Sign in/Email_input""), username)",Chrome 126.0.0.0,,,12-07-2024 16:20:04,12-07-2024 16:20:05,0.711s,PASSED
+"setText(findTestObject(""Object Repository/Sign in/Password_input""), password)",Chrome 126.0.0.0,,,12-07-2024 16:20:05,12-07-2024 16:20:06,0.789s,PASSED
+"sendKeys(findTestObject(""Object Repository/Sign in/Password_input""), Keys.chord(TAB))",Chrome 126.0.0.0,,,12-07-2024 16:20:06,12-07-2024 16:20:06,0.421s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign in/Email_error_message_lb""), 10)",Chrome 126.0.0.0,,,12-07-2024 16:20:06,12-07-2024 16:20:07,0.589s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign in/Password_error_message_lb""), 10)",Chrome 126.0.0.0,,,12-07-2024 16:20:07,12-07-2024 16:20:07,0.272s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,12-07-2024 16:20:07,12-07-2024 16:20:07,0.333s,PASSED
+,,,,,,,
+Test Cases/Sign in/TC02_Login_with_blank_username_password,Chrome 126.0.0.0,,,12-07-2024 16:20:07,12-07-2024 16:20:18,11.079s,PASSED
+openBrowser(Login_URL),Chrome 126.0.0.0,,,12-07-2024 16:20:07,12-07-2024 16:20:14,6.108s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 16:20:14,12-07-2024 16:20:14,0.080s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign in/Sign_in_page""), 10)",Chrome 126.0.0.0,,,12-07-2024 16:20:14,12-07-2024 16:20:15,1.371s,PASSED
+"setText(findTestObject(""Object Repository/Sign in/Email_input""), """")",Chrome 126.0.0.0,,,12-07-2024 16:20:15,12-07-2024 16:20:16,0.691s,PASSED
+"setText(findTestObject(""Object Repository/Sign in/Password_input""), """")",Chrome 126.0.0.0,,,12-07-2024 16:20:16,12-07-2024 16:20:17,0.791s,PASSED
+"click(findTestObject(""Object Repository/Sign in/Signin_button""))",Chrome 126.0.0.0,,,12-07-2024 16:20:17,12-07-2024 16:20:17,0.563s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign in/Email_error_message_lb""), 10)",Chrome 126.0.0.0,,,12-07-2024 16:20:17,12-07-2024 16:20:18,0.563s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign in/Password_error_message_lb""), 10)",Chrome 126.0.0.0,,,12-07-2024 16:20:18,12-07-2024 16:20:18,0.332s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,12-07-2024 16:20:18,12-07-2024 16:20:18,0.314s,PASSED
+,,,,,,,
+Test Cases/Sign in/TC03_Login_with_incorrect_username_password,Chrome 126.0.0.0,,,12-07-2024 16:20:18,12-07-2024 16:20:32,13.547s,PASSED
+openBrowser(Login_URL),Chrome 126.0.0.0,,,12-07-2024 16:20:19,12-07-2024 16:20:25,6.246s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 16:20:25,12-07-2024 16:20:25,0.114s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign in/Sign_in_page""), 10)",Chrome 126.0.0.0,,,12-07-2024 16:20:25,12-07-2024 16:20:26,1.554s,PASSED
+"setText(findTestObject(""Object Repository/Sign in/Email_input""), username)",Chrome 126.0.0.0,,,12-07-2024 16:20:26,12-07-2024 16:20:28,1.261s,PASSED
+"setText(findTestObject(""Object Repository/Sign in/Password_input""), password)",Chrome 126.0.0.0,,,12-07-2024 16:20:28,12-07-2024 16:20:28,0.734s,PASSED
+"click(findTestObject(""Object Repository/Sign in/Signin_button""))",Chrome 126.0.0.0,,,12-07-2024 16:20:28,12-07-2024 16:20:29,0.566s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Dashboard/Dashboard_page""), 5)",Chrome 126.0.0.0,,,12-07-2024 16:20:29,12-07-2024 16:20:31,1.542s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,12-07-2024 16:20:31,12-07-2024 16:20:32,1.339s,PASSED
+,,,,,,,
+Test Cases/Sign in/TC04_Login_with_correct_username_password,Chrome 126.0.0.0,,,12-07-2024 16:20:32,12-07-2024 16:21:36,1m - 3.633s,PASSED
+openBrowser(Login_URL),Chrome 126.0.0.0,,,12-07-2024 16:20:32,12-07-2024 16:20:38,5.634s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 16:20:38,12-07-2024 16:20:38,0.091s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign in/Sign_in_page""), 10)",Chrome 126.0.0.0,,,12-07-2024 16:20:38,12-07-2024 16:20:40,1.695s,PASSED
+"setText(findTestObject(""Object Repository/Sign in/Email_input""), username)",Chrome 126.0.0.0,,,12-07-2024 16:20:40,12-07-2024 16:20:41,1.175s,PASSED
+"setText(findTestObject(""Object Repository/Sign in/Password_input""), password)",Chrome 126.0.0.0,,,12-07-2024 16:20:41,12-07-2024 16:20:42,0.730s,PASSED
+"click(findTestObject(""Object Repository/Sign in/Signin_button""))",Chrome 126.0.0.0,,,12-07-2024 16:20:42,12-07-2024 16:20:42,0.680s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Dashboard/Dashboard_page""), 10)",Chrome 126.0.0.0,,,12-07-2024 16:20:42,12-07-2024 16:21:10,27.745s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/Dashboard_page""), 10)",Chrome 126.0.0.0,,,12-07-2024 16:21:10,12-07-2024 16:21:35,25.273s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,12-07-2024 16:21:35,12-07-2024 16:21:36,0.364s,PASSED
+,,,,,,,
+Test Cases/Sign in/TC05_Login_page_success_via_Account_button,Chrome 126.0.0.0,,,12-07-2024 16:21:36,12-07-2024 16:22:19,43.826s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,12-07-2024 16:21:36,12-07-2024 16:21:38,2.512s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 16:21:38,12-07-2024 16:21:41,2.922s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/Dashboard_page""), 10)",Chrome 126.0.0.0,,,12-07-2024 16:21:41,12-07-2024 16:21:43,1.374s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Header/User_icon_logged_out""), 10)",Chrome 126.0.0.0,,,12-07-2024 16:21:43,12-07-2024 16:21:44,1.386s,PASSED
+"click(findTestObject(""Object Repository/Header/User_icon_logged_out""))",Chrome 126.0.0.0,,,12-07-2024 16:21:44,12-07-2024 16:21:44,0.362s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign in/Sign_in_page""), 10)",Chrome 126.0.0.0,,,12-07-2024 16:21:44,12-07-2024 16:21:45,0.721s,PASSED
+"setText(findTestObject(""Object Repository/Sign in/Email_input""), username)",Chrome 126.0.0.0,,,12-07-2024 16:21:45,12-07-2024 16:21:46,0.759s,PASSED
+"setText(findTestObject(""Object Repository/Sign in/Password_input""), password)",Chrome 126.0.0.0,,,12-07-2024 16:21:46,12-07-2024 16:21:47,1.002s,PASSED
+"click(findTestObject(""Object Repository/Sign in/Signin_button""))",Chrome 126.0.0.0,,,12-07-2024 16:21:47,12-07-2024 16:21:47,0.363s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Dashboard/Dashboard_page""), 10)",Chrome 126.0.0.0,,,12-07-2024 16:21:47,12-07-2024 16:21:49,1.779s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/Dashboard_page""), 10)",Chrome 126.0.0.0,,,12-07-2024 16:21:49,12-07-2024 16:22:19,30.037s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,12-07-2024 16:22:19,12-07-2024 16:22:19,0.450s,PASSED

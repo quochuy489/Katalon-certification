@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC22_Search_and_check_detail_info_product</name>
+   <name>TC45_Search_and_check_detail_info_product_07</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>a9e0e9fc-9aa3-4856-b49d-18657cc55040</testCaseGuid>
+   <testCaseGuid>edd977f4-f302-4914-bf6e-f565a6a3faf9</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
       <id>900a7cbe-b5e1-4017-bc8a-f9866481a796</id>
       <iterationEntity>
-         <iterationType>ALL</iterationType>
-         <value></value>
+         <iterationType>SPECIFIC</iterationType>
+         <value>7</value>
       </iterationEntity>
       <testDataId>Data Files/Product_info</testDataId>
    </testDataLinks>
@@ -19,38 +19,38 @@
       <testDataLinkId>900a7cbe-b5e1-4017-bc8a-f9866481a796</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Name</value>
-      <variableId>f186022e-bc26-48e2-95c1-61bc744a44d6</variableId>
+      <variableId>e45176e4-44c9-418b-acb2-f28f9aca0a4a</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>900a7cbe-b5e1-4017-bc8a-f9866481a796</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Price</value>
-      <variableId>8e82e49c-c55f-4134-8065-306183502297</variableId>
+      <variableId>ef420da5-c269-47e3-b88d-594e0480bbdb</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>900a7cbe-b5e1-4017-bc8a-f9866481a796</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Color</value>
-      <variableId>99d19c75-6e00-46a7-a82b-688c6587259f</variableId>
+      <variableId>54469f13-249b-4860-ac3b-e698a846f9db</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>f186022e-bc26-48e2-95c1-61bc744a44d6</id>
+      <id>e45176e4-44c9-418b-acb2-f28f9aca0a4a</id>
       <masked>false</masked>
       <name>product_name</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>8e82e49c-c55f-4134-8065-306183502297</id>
+      <id>ef420da5-c269-47e3-b88d-594e0480bbdb</id>
       <masked>false</masked>
       <name>price</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>99d19c75-6e00-46a7-a82b-688c6587259f</id>
+      <id>54469f13-249b-4860-ac3b-e698a846f9db</id>
       <masked>false</masked>
       <name>color</name>
    </variable>

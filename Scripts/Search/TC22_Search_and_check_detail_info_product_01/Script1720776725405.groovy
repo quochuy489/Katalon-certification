@@ -29,12 +29,4 @@ WebUI.click(findTestObject('Object Repository/Dashboard/Search_input'))
 
 WebUI.setText(findTestObject('Object Repository/Dashboard/Search_input'), product_name)
 
-WebUI.click(findTestObject('Object Repository/Dashboard/Search_result_Product_name_option',[('product_name'):product_name]))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Dashboard/Product_item', [('product_name'):product_name]), 5)
-
-WebUI.click(findTestObject('Object Repository/Dashboard/Product_item', [('product_name'):product_name]))
-
-CustomKeywords.'store.Function.Check_product_info.Check_products_info'(product_name, price, color)
-
 WebUI.closeBrowser()

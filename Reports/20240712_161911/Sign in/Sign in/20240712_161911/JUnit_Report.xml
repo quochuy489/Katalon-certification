@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign in" time="173.868" tests="7" failures="0" errors="0">
+   <testsuite name="Sign in" tests="7" failures="0" errors="0" time="173.868" skipped="0" timestamp="12-07-2024T16:19:26" hostname="quochuy.lu - VN-HCM-D-W-0011.globalservs.com" id="Test Suites/Sign in/Sign in">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\quochuy.lu\\git\\Katalon-certification\\Reports\\20240712_161911\\Sign in\\Sign in\\20240712_161911"/>
+         <property name="logFiles" value="C:\\Users\\quochuy.lu\\git\\Katalon-certification\\Reports\\20240712_161911\\Sign in\\Sign in\\20240712_161911\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="quochuy.lu - VN-HCM-D-W-0011.globalservs.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="10.161.207.102"/>
+         <property name="sessionId" value="1ea40cd1d1856d5e83847a8230023fce"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Sign in/TC01_Fill_wrong_username_password_format" time="17.982" classname="Test Cases/Sign in/TC01_Fill_wrong_username_password_format" status="PASSED">
+         <system-out><![CDATA[12-07-2024T16:19:26 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC01_Fill_wrong_username_password_format: Test Cases/Sign in/TC01_Fill_wrong_username_password_format
+
+12-07-2024T16:19:27 - [TEST_STEP][PASSED] - openBrowser(Login_URL): Browser is opened with url: 'https://demo-store.katalon.com./signin'
+
+12-07-2024T16:19:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T16:19:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T16:19:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com./signin'
+
+12-07-2024T16:19:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-07-2024T16:19:40 - [MESSAGE][PASSED] - Current window maximized
+
+12-07-2024T16:19:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Sign in/Sign_in_page"), 10): Object 'Object Repository/Sign in/Sign_in_page' is present
+
+12-07-2024T16:19:40 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in/Sign_in_page' is present
+
+12-07-2024T16:19:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign in/Email_input"), username): Text 'abc' is set on object 'Object Repository/Sign in/Email_input'
+
+12-07-2024T16:19:41 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Sign in/Email_input'
+
+12-07-2024T16:19:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign in/Password_input"), password): Text 'def' is set on object 'Object Repository/Sign in/Password_input'
+
+12-07-2024T16:19:42 - [MESSAGE][PASSED] - Text 'def' is set on object 'Object Repository/Sign in/Password_input'
+
+12-07-2024T16:19:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Sign in/Password_input"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/Sign in/Password_input'
+
+12-07-2024T16:19:43 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Sign in/Password_input'
+
+12-07-2024T16:19:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Sign in/Email_error_message_lb"), 10): Object 'Object Repository/Sign in/Email_error_message_lb' is present
+
+12-07-2024T16:19:43 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in/Email_error_message_lb' is present
+
+12-07-2024T16:19:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Sign in/Password_error_message_lb"), 10): Object 'Object Repository/Sign in/Password_error_message_lb' is present
+
+12-07-2024T16:19:44 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in/Password_error_message_lb' is present
+
+12-07-2024T16:19:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-07-2024T16:19:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign in/TC01_Fill_wrong_username_password_format" time="12.216" classname="Test Cases/Sign in/TC01_Fill_wrong_username_password_format" status="PASSED">
+         <system-out><![CDATA[12-07-2024T16:19:44 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC01_Fill_wrong_username_password_format: Test Cases/Sign in/TC01_Fill_wrong_username_password_format
+
+12-07-2024T16:19:44 - [TEST_STEP][PASSED] - openBrowser(Login_URL): Browser is opened with url: 'https://demo-store.katalon.com./signin'
+
+12-07-2024T16:19:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T16:19:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T16:19:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com./signin'
+
+12-07-2024T16:19:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-07-2024T16:19:51 - [MESSAGE][PASSED] - Current window maximized
+
+12-07-2024T16:19:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Sign in/Sign_in_page"), 10): Object 'Object Repository/Sign in/Sign_in_page' is present
+
+12-07-2024T16:19:52 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in/Sign_in_page' is present
+
+12-07-2024T16:19:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign in/Email_input"), username): Text 'avgff@' is set on object 'Object Repository/Sign in/Email_input'
+
+12-07-2024T16:19:53 - [MESSAGE][PASSED] - Text 'avgff@' is set on object 'Object Repository/Sign in/Email_input'
+
+12-07-2024T16:19:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign in/Password_input"), password): Text 'abcdef' is set on object 'Object Repository/Sign in/Password_input'
+
+12-07-2024T16:19:54 - [MESSAGE][PASSED] - Text 'abcdef' is set on object 'Object Repository/Sign in/Password_input'
+
+12-07-2024T16:19:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Sign in/Password_input"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/Sign in/Password_input'
+
+12-07-2024T16:19:55 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Sign in/Password_input'
+
+12-07-2024T16:19:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Sign in/Email_error_message_lb"), 10): Object 'Object Repository/Sign in/Email_error_message_lb' is present
+
+12-07-2024T16:19:55 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in/Email_error_message_lb' is present
+
+12-07-2024T16:19:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Sign in/Password_error_message_lb"), 10): Object 'Object Repository/Sign in/Password_error_message_lb' is present
+
+12-07-2024T16:19:56 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in/Password_error_message_lb' is present
+
+12-07-2024T16:19:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-07-2024T16:19:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign in/TC01_Fill_wrong_username_password_format" time="10.987" classname="Test Cases/Sign in/TC01_Fill_wrong_username_password_format" status="PASSED">
+         <system-out><![CDATA[12-07-2024T16:19:56 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC01_Fill_wrong_username_password_format: Test Cases/Sign in/TC01_Fill_wrong_username_password_format
+
+12-07-2024T16:19:56 - [TEST_STEP][PASSED] - openBrowser(Login_URL): Browser is opened with url: 'https://demo-store.katalon.com./signin'
+
+12-07-2024T16:19:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T16:19:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T16:20:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com./signin'
+
+12-07-2024T16:20:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-07-2024T16:20:03 - [MESSAGE][PASSED] - Current window maximized
+
+12-07-2024T16:20:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Sign in/Sign_in_page"), 10): Object 'Object Repository/Sign in/Sign_in_page' is present
+
+12-07-2024T16:20:04 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in/Sign_in_page' is present
+
+12-07-2024T16:20:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign in/Email_input"), username): Text 'avgff@com' is set on object 'Object Repository/Sign in/Email_input'
+
+12-07-2024T16:20:05 - [MESSAGE][PASSED] - Text 'avgff@com' is set on object 'Object Repository/Sign in/Email_input'
+
+12-07-2024T16:20:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign in/Password_input"), password): Text 'ABC123' is set on object 'Object Repository/Sign in/Password_input'
+
+12-07-2024T16:20:06 - [MESSAGE][PASSED] - Text 'ABC123' is set on object 'Object Repository/Sign in/Password_input'
+
+12-07-2024T16:20:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Sign in/Password_input"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/Sign in/Password_input'
+
+12-07-2024T16:20:06 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Sign in/Password_input'
+
+12-07-2024T16:20:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Sign in/Email_error_message_lb"), 10): Object 'Object Repository/Sign in/Email_error_message_lb' is present
+
+12-07-2024T16:20:07 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in/Email_error_message_lb' is present
+
+12-07-2024T16:20:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Sign in/Password_error_message_lb"), 10): Object 'Object Repository/Sign in/Password_error_message_lb' is present
+
+12-07-2024T16:20:07 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in/Password_error_message_lb' is present
+
+12-07-2024T16:20:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-07-2024T16:20:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign in/TC02_Login_with_blank_username_password" time="11.079" classname="Test Cases/Sign in/TC02_Login_with_blank_username_password" status="PASSED">
+         <system-out><![CDATA[12-07-2024T16:20:07 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC02_Login_with_blank_username_password: Test Cases/Sign in/TC02_Login_with_blank_username_password
+
+12-07-2024T16:20:07 - [TEST_STEP][PASSED] - openBrowser(Login_URL): Browser is opened with url: 'https://demo-store.katalon.com./signin'
+
+12-07-2024T16:20:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T16:20:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T16:20:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com./signin'
+
+12-07-2024T16:20:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-07-2024T16:20:14 - [MESSAGE][PASSED] - Current window maximized
+
+12-07-2024T16:20:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Sign in/Sign_in_page"), 10): Object 'Object Repository/Sign in/Sign_in_page' is present
+
+12-07-2024T16:20:15 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in/Sign_in_page' is present
+
+12-07-2024T16:20:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign in/Email_input"), ""): Text '' is set on object 'Object Repository/Sign in/Email_input'
+
+12-07-2024T16:20:16 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign in/Email_input'
+
+12-07-2024T16:20:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign in/Password_input"), ""): Text '' is set on object 'Object Repository/Sign in/Password_input'
+
+12-07-2024T16:20:17 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign in/Password_input'
+
+12-07-2024T16:20:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign in/Signin_button")): Object: 'Object Repository/Sign in/Signin_button' is clicked on
+
+12-07-2024T16:20:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign in/Signin_button' is clicked on
+
+12-07-2024T16:20:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Sign in/Email_error_message_lb"), 10): Object 'Object Repository/Sign in/Email_error_message_lb' is present
+
+12-07-2024T16:20:18 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in/Email_error_message_lb' is present
+
+12-07-2024T16:20:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Sign in/Password_error_message_lb"), 10): Object 'Object Repository/Sign in/Password_error_message_lb' is present
+
+12-07-2024T16:20:18 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in/Password_error_message_lb' is present
+
+12-07-2024T16:20:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-07-2024T16:20:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign in/TC03_Login_with_incorrect_username_password" time="13.547" classname="Test Cases/Sign in/TC03_Login_with_incorrect_username_password" status="PASSED">
+         <system-out><![CDATA[12-07-2024T16:20:18 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC03_Login_with_incorrect_username_password: Test Cases/Sign in/TC03_Login_with_incorrect_username_password
+
+12-07-2024T16:20:19 - [TEST_STEP][PASSED] - openBrowser(Login_URL): Browser is opened with url: 'https://demo-store.katalon.com./signin'
+
+12-07-2024T16:20:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T16:20:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T16:20:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com./signin'
+
+12-07-2024T16:20:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-07-2024T16:20:25 - [MESSAGE][PASSED] - Current window maximized
+
+12-07-2024T16:20:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Sign in/Sign_in_page"), 10): Object 'Object Repository/Sign in/Sign_in_page' is present
+
+12-07-2024T16:20:26 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in/Sign_in_page' is present
+
+12-07-2024T16:20:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign in/Email_input"), username): Text 'abc@gmail.com' is set on object 'Object Repository/Sign in/Email_input'
+
+12-07-2024T16:20:28 - [MESSAGE][PASSED] - Text 'abc@gmail.com' is set on object 'Object Repository/Sign in/Email_input'
+
+12-07-2024T16:20:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign in/Password_input"), password): Text 'Abcdef123' is set on object 'Object Repository/Sign in/Password_input'
+
+12-07-2024T16:20:28 - [MESSAGE][PASSED] - Text 'Abcdef123' is set on object 'Object Repository/Sign in/Password_input'
+
+12-07-2024T16:20:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign in/Signin_button")): Object: 'Object Repository/Sign in/Signin_button' is clicked on
+
+12-07-2024T16:20:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign in/Signin_button' is clicked on
+
+12-07-2024T16:20:29 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Dashboard/Dashboard_page"), 5): Web element with id: 'Object Repository/Dashboard/Dashboard_page' located by 'By.xpath: //*[contains(@class,'dashboard_box')]' is not present after '5' second(s)
+
+12-07-2024T16:20:31 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Dashboard/Dashboard_page' located by 'By.xpath: //*[contains(@class,'dashboard_box')]' is not present after '5' second(s)
+
+12-07-2024T16:20:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-07-2024T16:20:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign in/TC04_Login_with_correct_username_password" time="63.633" classname="Test Cases/Sign in/TC04_Login_with_correct_username_password" status="PASSED">
+         <system-out><![CDATA[12-07-2024T16:20:32 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC04_Login_with_correct_username_password: Test Cases/Sign in/TC04_Login_with_correct_username_password
+
+12-07-2024T16:20:32 - [TEST_STEP][PASSED] - openBrowser(Login_URL): Browser is opened with url: 'https://demo-store.katalon.com./signin'
+
+12-07-2024T16:20:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T16:20:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T16:20:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com./signin'
+
+12-07-2024T16:20:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-07-2024T16:20:38 - [MESSAGE][PASSED] - Current window maximized
+
+12-07-2024T16:20:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Sign in/Sign_in_page"), 10): Object 'Object Repository/Sign in/Sign_in_page' is present
+
+12-07-2024T16:20:40 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in/Sign_in_page' is present
+
+12-07-2024T16:20:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign in/Email_input"), username): Text 'quoc.huy.lu8960@gmail.com' is set on object 'Object Repository/Sign in/Email_input'
+
+12-07-2024T16:20:41 - [MESSAGE][PASSED] - Text 'quoc.huy.lu8960@gmail.com' is set on object 'Object Repository/Sign in/Email_input'
+
+12-07-2024T16:20:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign in/Password_input"), password): Text 'KatalonCerti123' is set on object 'Object Repository/Sign in/Password_input'
+
+12-07-2024T16:20:42 - [MESSAGE][PASSED] - Text 'KatalonCerti123' is set on object 'Object Repository/Sign in/Password_input'
+
+12-07-2024T16:20:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign in/Signin_button")): Object: 'Object Repository/Sign in/Signin_button' is clicked on
+
+12-07-2024T16:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign in/Signin_button' is clicked on
+
+12-07-2024T16:20:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Dashboard/Dashboard_page"), 10): Object 'Object Repository/Dashboard/Dashboard_page' is present
+
+12-07-2024T16:21:10 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/Dashboard_page' is present
+
+12-07-2024T16:21:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Dashboard/Dashboard_page"), 10): Object 'Object Repository/Dashboard/Dashboard_page' is present
+
+12-07-2024T16:21:35 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/Dashboard_page' is present
+
+12-07-2024T16:21:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-07-2024T16:21:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign in/TC05_Login_page_success_via_Account_button" time="43.826" classname="Test Cases/Sign in/TC05_Login_page_success_via_Account_button" status="PASSED">
+         <system-out><![CDATA[12-07-2024T16:21:36 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC05_Login_page_success_via_Account_button: Test Cases/Sign in/TC05_Login_page_success_via_Account_button
+
+12-07-2024T16:21:36 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com./'
+
+12-07-2024T16:21:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T16:21:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T16:21:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com./'
+
+12-07-2024T16:21:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-07-2024T16:21:41 - [MESSAGE][PASSED] - Current window maximized
+
+12-07-2024T16:21:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Dashboard/Dashboard_page"), 10): Object 'Object Repository/Dashboard/Dashboard_page' is present
+
+12-07-2024T16:21:43 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/Dashboard_page' is present
+
+12-07-2024T16:21:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Header/User_icon_logged_out"), 10): Object 'Object Repository/Header/User_icon_logged_out' is present
+
+12-07-2024T16:21:44 - [MESSAGE][PASSED] - Object 'Object Repository/Header/User_icon_logged_out' is present
+
+12-07-2024T16:21:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/User_icon_logged_out")): Object: 'Object Repository/Header/User_icon_logged_out' is clicked on
+
+12-07-2024T16:21:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/User_icon_logged_out' is clicked on
+
+12-07-2024T16:21:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Sign in/Sign_in_page"), 10): Object 'Object Repository/Sign in/Sign_in_page' is present
+
+12-07-2024T16:21:45 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in/Sign_in_page' is present
+
+12-07-2024T16:21:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign in/Email_input"), username): Text 'quoc.huy.lu8960@gmail.com' is set on object 'Object Repository/Sign in/Email_input'
+
+12-07-2024T16:21:46 - [MESSAGE][PASSED] - Text 'quoc.huy.lu8960@gmail.com' is set on object 'Object Repository/Sign in/Email_input'
+
+12-07-2024T16:21:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign in/Password_input"), password): Text 'KatalonCerti123' is set on object 'Object Repository/Sign in/Password_input'
+
+12-07-2024T16:21:47 - [MESSAGE][PASSED] - Text 'KatalonCerti123' is set on object 'Object Repository/Sign in/Password_input'
+
+12-07-2024T16:21:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign in/Signin_button")): Object: 'Object Repository/Sign in/Signin_button' is clicked on
+
+12-07-2024T16:21:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign in/Signin_button' is clicked on
+
+12-07-2024T16:21:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Dashboard/Dashboard_page"), 10): Object 'Object Repository/Dashboard/Dashboard_page' is present
+
+12-07-2024T16:21:49 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/Dashboard_page' is present
+
+12-07-2024T16:21:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Dashboard/Dashboard_page"), 10): Object 'Object Repository/Dashboard/Dashboard_page' is present
+
+12-07-2024T16:22:19 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/Dashboard_page' is present
+
+12-07-2024T16:22:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-07-2024T16:22:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-07-2024T16:19:26 - [TEST_SUITE][PASSED] - Sign in: Test Cases/Sign in/TC05_Login_page_success_via_Account_button]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

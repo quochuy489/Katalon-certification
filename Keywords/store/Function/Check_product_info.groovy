@@ -34,6 +34,8 @@ public class Check_product_info {
 
 		WebUI.verifyEqual(get_price, true)
 
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Product Overview/Product_color', [('color'):color]), 5)
+		String actual_color = WebUI.getText(findTestObject('Object Repository/Product Overview/Product_color')).toLowerCase()
+
+		WebUI.verifyMatch(actual_color, color, true)
 	}
 }

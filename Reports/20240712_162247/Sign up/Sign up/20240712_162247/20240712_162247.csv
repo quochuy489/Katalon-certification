@@ -1,0 +1,114 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sign up,Chrome 126.0.0.0,,,12-07-2024 16:22:59,12-07-2024 16:25:02,2m - 2.959s,PASSED
+,,,,,,,
+Test Cases/Sign up/TC18_Fill_wrong_email_format,Chrome 126.0.0.0,,,12-07-2024 16:22:59,12-07-2024 16:23:14,14.543s,PASSED
+openBrowser(Signup_URL),Chrome 126.0.0.0,,,12-07-2024 16:23:00,12-07-2024 16:23:09,9.138s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 16:23:09,12-07-2024 16:23:09,0.098s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign up/Sign_up_page""), 5)",Chrome 126.0.0.0,,,12-07-2024 16:23:09,12-07-2024 16:23:10,1.366s,PASSED
+"setText(findTestObject(""Object Repository/Sign up/Email_input""), username)",Chrome 126.0.0.0,,,12-07-2024 16:23:10,12-07-2024 16:23:12,1.156s,PASSED
+"sendKeys(findTestObject(""Object Repository/Sign up/Email_input""), Keys.chord(TAB))",Chrome 126.0.0.0,,,12-07-2024 16:23:12,12-07-2024 16:23:12,0.402s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign up/Email_error_message_lb""), 5)",Chrome 126.0.0.0,,,12-07-2024 16:23:12,12-07-2024 16:23:13,0.931s,PASSED
+"Actual_email_error = getText(findTestObject(""Object Repository/Sign up/Email_error_message_lb""))",Chrome 126.0.0.0,,,12-07-2024 16:23:13,12-07-2024 16:23:13,0.308s,PASSED
+"verifyEqual(Actual_email_error, expec_email_error)",Chrome 126.0.0.0,,,12-07-2024 16:23:13,12-07-2024 16:23:13,0.051s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,12-07-2024 16:23:13,12-07-2024 16:23:14,0.384s,PASSED
+,,,,,,,
+Test Cases/Sign up/TC18_Fill_wrong_email_format,Chrome 126.0.0.0,,,12-07-2024 16:23:14,12-07-2024 16:23:24,10.715s,PASSED
+openBrowser(Signup_URL),Chrome 126.0.0.0,,,12-07-2024 16:23:14,12-07-2024 16:23:16,2.333s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 16:23:16,12-07-2024 16:23:20,3.649s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign up/Sign_up_page""), 5)",Chrome 126.0.0.0,,,12-07-2024 16:23:20,12-07-2024 16:23:22,1.700s,PASSED
+"setText(findTestObject(""Object Repository/Sign up/Email_input""), username)",Chrome 126.0.0.0,,,12-07-2024 16:23:22,12-07-2024 16:23:23,1.200s,PASSED
+"sendKeys(findTestObject(""Object Repository/Sign up/Email_input""), Keys.chord(TAB))",Chrome 126.0.0.0,,,12-07-2024 16:23:23,12-07-2024 16:23:23,0.337s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign up/Email_error_message_lb""), 5)",Chrome 126.0.0.0,,,12-07-2024 16:23:23,12-07-2024 16:23:24,0.530s,PASSED
+"Actual_email_error = getText(findTestObject(""Object Repository/Sign up/Email_error_message_lb""))",Chrome 126.0.0.0,,,12-07-2024 16:23:24,12-07-2024 16:23:24,0.497s,PASSED
+"verifyEqual(Actual_email_error, expec_email_error)",Chrome 126.0.0.0,,,12-07-2024 16:23:24,12-07-2024 16:23:24,0.002s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,12-07-2024 16:23:24,12-07-2024 16:23:24,0.392s,PASSED
+,,,,,,,
+Test Cases/Sign up/TC18_Fill_wrong_email_format,Chrome 126.0.0.0,,,12-07-2024 16:23:24,12-07-2024 16:23:40,15.473s,PASSED
+openBrowser(Signup_URL),Chrome 126.0.0.0,,,12-07-2024 16:23:25,12-07-2024 16:23:35,10.627s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 16:23:35,12-07-2024 16:23:35,0.145s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign up/Sign_up_page""), 5)",Chrome 126.0.0.0,,,12-07-2024 16:23:35,12-07-2024 16:23:36,0.979s,PASSED
+"setText(findTestObject(""Object Repository/Sign up/Email_input""), username)",Chrome 126.0.0.0,,,12-07-2024 16:23:36,12-07-2024 16:23:37,1.102s,PASSED
+"sendKeys(findTestObject(""Object Repository/Sign up/Email_input""), Keys.chord(TAB))",Chrome 126.0.0.0,,,12-07-2024 16:23:37,12-07-2024 16:23:38,0.368s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign up/Email_error_message_lb""), 5)",Chrome 126.0.0.0,,,12-07-2024 16:23:38,12-07-2024 16:23:38,0.480s,PASSED
+"Actual_email_error = getText(findTestObject(""Object Repository/Sign up/Email_error_message_lb""))",Chrome 126.0.0.0,,,12-07-2024 16:23:38,12-07-2024 16:23:39,0.465s,PASSED
+"verifyEqual(Actual_email_error, expec_email_error)",Chrome 126.0.0.0,,,12-07-2024 16:23:39,12-07-2024 16:23:39,0.003s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,12-07-2024 16:23:39,12-07-2024 16:23:40,1.269s,PASSED
+,,,,,,,
+Test Cases/Sign up/TC19_Fill_wrong_password_rule,Chrome 126.0.0.0,,,12-07-2024 16:23:40,12-07-2024 16:23:52,12.127s,PASSED
+openBrowser(Signup_URL),Chrome 126.0.0.0,,,12-07-2024 16:23:40,12-07-2024 16:23:47,7.009s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 16:23:47,12-07-2024 16:23:48,0.170s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign up/Sign_up_page""), 5)",Chrome 126.0.0.0,,,12-07-2024 16:23:48,12-07-2024 16:23:49,1.199s,PASSED
+"setText(findTestObject(""Object Repository/Sign up/Password_input""), password)",Chrome 126.0.0.0,,,12-07-2024 16:23:49,12-07-2024 16:23:50,1.427s,PASSED
+"sendKeys(findTestObject(""Object Repository/Sign up/Password_input""), Keys.chord(TAB))",Chrome 126.0.0.0,,,12-07-2024 16:23:50,12-07-2024 16:23:51,0.452s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign up/Password_error_message_lb""), 5)",Chrome 126.0.0.0,,,12-07-2024 16:23:51,12-07-2024 16:23:51,0.838s,PASSED
+"Actual_password_error = getText(findTestObject(""Object Repository/Sign up/Password_error_message_lb""))",Chrome 126.0.0.0,,,12-07-2024 16:23:51,12-07-2024 16:23:52,0.294s,PASSED
+"verifyEqual(Actual_password_error, expec_password_error)",Chrome 126.0.0.0,,,12-07-2024 16:23:52,12-07-2024 16:23:52,0.005s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,12-07-2024 16:23:52,12-07-2024 16:23:52,0.383s,PASSED
+,,,,,,,
+Test Cases/Sign up/TC19_Fill_wrong_password_rule,Chrome 126.0.0.0,,,12-07-2024 16:23:52,12-07-2024 16:24:03,10.791s,PASSED
+openBrowser(Signup_URL),Chrome 126.0.0.0,,,12-07-2024 16:23:52,12-07-2024 16:23:58,6.283s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 16:23:58,12-07-2024 16:23:59,0.084s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign up/Sign_up_page""), 5)",Chrome 126.0.0.0,,,12-07-2024 16:23:59,12-07-2024 16:24:00,1.372s,PASSED
+"setText(findTestObject(""Object Repository/Sign up/Password_input""), password)",Chrome 126.0.0.0,,,12-07-2024 16:24:00,12-07-2024 16:24:01,1.113s,PASSED
+"sendKeys(findTestObject(""Object Repository/Sign up/Password_input""), Keys.chord(TAB))",Chrome 126.0.0.0,,,12-07-2024 16:24:01,12-07-2024 16:24:01,0.345s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign up/Password_error_message_lb""), 5)",Chrome 126.0.0.0,,,12-07-2024 16:24:01,12-07-2024 16:24:02,0.526s,PASSED
+"Actual_password_error = getText(findTestObject(""Object Repository/Sign up/Password_error_message_lb""))",Chrome 126.0.0.0,,,12-07-2024 16:24:02,12-07-2024 16:24:02,0.467s,PASSED
+"verifyEqual(Actual_password_error, expec_password_error)",Chrome 126.0.0.0,,,12-07-2024 16:24:02,12-07-2024 16:24:02,0.002s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,12-07-2024 16:24:02,12-07-2024 16:24:03,0.578s,PASSED
+,,,,,,,
+Test Cases/Sign up/TC19_Fill_wrong_password_rule,Chrome 126.0.0.0,,,12-07-2024 16:24:03,12-07-2024 16:24:13,10.307s,PASSED
+openBrowser(Signup_URL),Chrome 126.0.0.0,,,12-07-2024 16:24:03,12-07-2024 16:24:09,5.880s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 16:24:09,12-07-2024 16:24:09,0.102s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign up/Sign_up_page""), 5)",Chrome 126.0.0.0,,,12-07-2024 16:24:09,12-07-2024 16:24:10,1.222s,PASSED
+"setText(findTestObject(""Object Repository/Sign up/Password_input""), password)",Chrome 126.0.0.0,,,12-07-2024 16:24:10,12-07-2024 16:24:11,1.166s,PASSED
+"sendKeys(findTestObject(""Object Repository/Sign up/Password_input""), Keys.chord(TAB))",Chrome 126.0.0.0,,,12-07-2024 16:24:11,12-07-2024 16:24:12,0.305s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign up/Password_error_message_lb""), 5)",Chrome 126.0.0.0,,,12-07-2024 16:24:12,12-07-2024 16:24:13,1.042s,PASSED
+"Actual_password_error = getText(findTestObject(""Object Repository/Sign up/Password_error_message_lb""))",Chrome 126.0.0.0,,,12-07-2024 16:24:13,12-07-2024 16:24:13,0.326s,PASSED
+"verifyEqual(Actual_password_error, expec_password_error)",Chrome 126.0.0.0,,,12-07-2024 16:24:13,12-07-2024 16:24:13,0.002s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,12-07-2024 16:24:13,12-07-2024 16:24:13,0.242s,PASSED
+,,,,,,,
+Test Cases/Sign up/TC20_Fill_wrong_verify_password_rule,Chrome 126.0.0.0,,,12-07-2024 16:24:13,12-07-2024 16:24:25,11.249s,PASSED
+openBrowser(Signup_URL),Chrome 126.0.0.0,,,12-07-2024 16:24:13,12-07-2024 16:24:19,5.896s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 16:24:19,12-07-2024 16:24:19,0.067s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign up/Sign_up_page""), 5)",Chrome 126.0.0.0,,,12-07-2024 16:24:19,12-07-2024 16:24:21,1.616s,PASSED
+"setText(findTestObject(""Object Repository/Sign up/Verify_password_input""), password)",Chrome 126.0.0.0,,,12-07-2024 16:24:21,12-07-2024 16:24:22,1.196s,PASSED
+"sendKeys(findTestObject(""Object Repository/Sign up/Verify_password_input""), Keys.chord(TAB))",Chrome 126.0.0.0,,,12-07-2024 16:24:22,12-07-2024 16:24:23,0.335s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign up/VerifyPass_error_message_lb""), 5)",Chrome 126.0.0.0,,,12-07-2024 16:24:23,12-07-2024 16:24:24,1.048s,PASSED
+"Actual_verify_password_error = getText(findTestObject(""Object Repository/Sign up/VerifyPass_error_message_lb""))",Chrome 126.0.0.0,,,12-07-2024 16:24:24,12-07-2024 16:24:24,0.331s,PASSED
+"verifyEqual(Actual_verify_password_error, expec_verify_password_error)",Chrome 126.0.0.0,,,12-07-2024 16:24:24,12-07-2024 16:24:24,0.004s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,12-07-2024 16:24:24,12-07-2024 16:24:25,0.609s,PASSED
+,,,,,,,
+Test Cases/Sign up/TC20_Fill_wrong_verify_password_rule,Chrome 126.0.0.0,,,12-07-2024 16:24:25,12-07-2024 16:24:35,10.655s,PASSED
+openBrowser(Signup_URL),Chrome 126.0.0.0,,,12-07-2024 16:24:25,12-07-2024 16:24:30,5.792s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 16:24:30,12-07-2024 16:24:30,0.074s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign up/Sign_up_page""), 5)",Chrome 126.0.0.0,,,12-07-2024 16:24:30,12-07-2024 16:24:32,1.730s,PASSED
+"setText(findTestObject(""Object Repository/Sign up/Verify_password_input""), password)",Chrome 126.0.0.0,,,12-07-2024 16:24:32,12-07-2024 16:24:33,1.200s,PASSED
+"sendKeys(findTestObject(""Object Repository/Sign up/Verify_password_input""), Keys.chord(TAB))",Chrome 126.0.0.0,,,12-07-2024 16:24:33,12-07-2024 16:24:34,0.314s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign up/VerifyPass_error_message_lb""), 5)",Chrome 126.0.0.0,,,12-07-2024 16:24:34,12-07-2024 16:24:35,0.941s,PASSED
+"Actual_verify_password_error = getText(findTestObject(""Object Repository/Sign up/VerifyPass_error_message_lb""))",Chrome 126.0.0.0,,,12-07-2024 16:24:35,12-07-2024 16:24:35,0.292s,PASSED
+"verifyEqual(Actual_verify_password_error, expec_verify_password_error)",Chrome 126.0.0.0,,,12-07-2024 16:24:35,12-07-2024 16:24:35,0.002s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,12-07-2024 16:24:35,12-07-2024 16:24:35,0.289s,PASSED
+,,,,,,,
+Test Cases/Sign up/TC20_Fill_wrong_verify_password_rule,Chrome 126.0.0.0,,,12-07-2024 16:24:35,12-07-2024 16:24:46,10.390s,PASSED
+openBrowser(Signup_URL),Chrome 126.0.0.0,,,12-07-2024 16:24:35,12-07-2024 16:24:41,5.617s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 16:24:41,12-07-2024 16:24:41,0.079s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign up/Sign_up_page""), 5)",Chrome 126.0.0.0,,,12-07-2024 16:24:41,12-07-2024 16:24:43,1.675s,PASSED
+"setText(findTestObject(""Object Repository/Sign up/Verify_password_input""), password)",Chrome 126.0.0.0,,,12-07-2024 16:24:43,12-07-2024 16:24:44,1.191s,PASSED
+"sendKeys(findTestObject(""Object Repository/Sign up/Verify_password_input""), Keys.chord(TAB))",Chrome 126.0.0.0,,,12-07-2024 16:24:44,12-07-2024 16:24:44,0.317s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign up/VerifyPass_error_message_lb""), 5)",Chrome 126.0.0.0,,,12-07-2024 16:24:44,12-07-2024 16:24:45,0.552s,PASSED
+"Actual_verify_password_error = getText(findTestObject(""Object Repository/Sign up/VerifyPass_error_message_lb""))",Chrome 126.0.0.0,,,12-07-2024 16:24:45,12-07-2024 16:24:45,0.609s,PASSED
+"verifyEqual(Actual_verify_password_error, expec_verify_password_error)",Chrome 126.0.0.0,,,12-07-2024 16:24:45,12-07-2024 16:24:45,0.002s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,12-07-2024 16:24:45,12-07-2024 16:24:46,0.328s,PASSED
+,,,,,,,
+Test Cases/Sign up/TC21_Leave_all_empty_info,Chrome 126.0.0.0,,,12-07-2024 16:24:46,12-07-2024 16:25:02,16.090s,PASSED
+openBrowser(Signup_URL),Chrome 126.0.0.0,,,12-07-2024 16:24:46,12-07-2024 16:24:52,6.067s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 16:24:52,12-07-2024 16:24:52,0.075s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign up/Sign_up_page""), 5)",Chrome 126.0.0.0,,,12-07-2024 16:24:52,12-07-2024 16:24:53,1.580s,PASSED
+"setText(findTestObject(""Object Repository/Sign up/Email_input""), """")",Chrome 126.0.0.0,,,12-07-2024 16:24:53,12-07-2024 16:24:54,0.994s,PASSED
+"setText(findTestObject(""Object Repository/Sign up/Password_input""), """")",Chrome 126.0.0.0,,,12-07-2024 16:24:54,12-07-2024 16:24:55,0.701s,PASSED
+"setText(findTestObject(""Object Repository/Sign up/Verify_password_input""), """")",Chrome 126.0.0.0,,,12-07-2024 16:24:55,12-07-2024 16:24:56,0.856s,PASSED
+"click(findTestObject(""Object Repository/Sign up/Sign_up_button""))",Chrome 126.0.0.0,,,12-07-2024 16:24:56,12-07-2024 16:24:56,0.406s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Sign up/Email_error_message_lb""), ""Required"")",Chrome 126.0.0.0,,,12-07-2024 16:24:56,12-07-2024 16:24:57,0.602s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Sign up/Password_error_message_lb""), ""Required"")",Chrome 126.0.0.0,,,12-07-2024 16:24:57,12-07-2024 16:24:57,0.339s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Sign up/VerifyPass_error_message_lb""), ""Required"")",Chrome 126.0.0.0,,,12-07-2024 16:24:57,12-07-2024 16:24:58,0.544s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,12-07-2024 16:24:58,12-07-2024 16:25:02,3.817s,PASSED
