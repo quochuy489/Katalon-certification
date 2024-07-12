@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Authen Product Overview,Chrome 126.0.0.0,,,12-07-2024 09:58:04,12-07-2024 10:00:01,1m - 56.287s,PASSED
+,,,,,,,
+Test Cases/Product Overview/TC06_Logged_in_Access_Overview_page,Chrome 126.0.0.0,,,12-07-2024 09:58:05,12-07-2024 09:59:51,1m - 46.435s,PASSED
+"store.Authentication.Login.Login_successed(username, password)",Chrome 126.0.0.0,,,12-07-2024 09:58:05,12-07-2024 09:58:20,15.042s,PASSED
+"click(findTestObject(""Object Repository/Dashboard/Product_item"", [""product_name"":""Basic Top""]))",Chrome 126.0.0.0,,,12-07-2024 09:58:20,12-07-2024 09:58:51,30.185s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Product Overview/Product_Overview_page""), 5)",Chrome 126.0.0.0,,,12-07-2024 09:58:51,12-07-2024 09:59:21,30.073s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Product Overview/Product_Overview_page""), 5)",Chrome 126.0.0.0,,,12-07-2024 09:59:21,12-07-2024 09:59:51,30.047s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,12-07-2024 09:59:51,12-07-2024 09:59:51,0.359s,PASSED
+,,,,,,,
+Test Cases/Product Overview/TC07_Logged_out_Access_Overview_page,Chrome 126.0.0.0,,,12-07-2024 09:59:51,12-07-2024 10:00:01,9.457s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,12-07-2024 09:59:51,12-07-2024 09:59:56,4.691s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Dashboard/Product_item"", [""product_name"":""Basic Top""]), 5)",Chrome 126.0.0.0,,,12-07-2024 09:59:56,12-07-2024 09:59:58,2.524s,PASSED
+"click(findTestObject(""Object Repository/Dashboard/Product_item"", [""product_name"":""Basic Top""]))",Chrome 126.0.0.0,,,12-07-2024 09:59:58,12-07-2024 09:59:59,0.335s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Product Overview/Product_Overview_page""), 5)",Chrome 126.0.0.0,,,12-07-2024 09:59:59,12-07-2024 10:00:00,1.109s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Product Overview/Product_Overview_page""), 5)",Chrome 126.0.0.0,,,12-07-2024 10:00:00,12-07-2024 10:00:00,0.285s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,12-07-2024 10:00:00,12-07-2024 10:00:01,0.334s,PASSED
