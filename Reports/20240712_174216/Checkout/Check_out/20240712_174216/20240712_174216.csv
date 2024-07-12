@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Check_out,Chrome 126.0.0.0,,,12-07-2024 17:42:26,12-07-2024 17:46:56,4m - 29.778s,PASSED
+,,,,,,,
+Test Cases/Check out/TC49_Logged_out_Checkout,Chrome 126.0.0.0,,,12-07-2024 17:42:27,12-07-2024 17:42:41,14.495s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,12-07-2024 17:42:27,12-07-2024 17:42:32,4.468s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 17:42:32,12-07-2024 17:42:35,3.071s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Dashboard/Product_item"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,12-07-2024 17:42:35,12-07-2024 17:42:38,2.749s,PASSED
+"click(findTestObject(""Object Repository/Dashboard/Product_item"", [""product_name"":product_name]))",Chrome 126.0.0.0,,,12-07-2024 17:42:38,12-07-2024 17:42:38,0.463s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Product Overview/Product_Overview_page""), 5)",Chrome 126.0.0.0,,,12-07-2024 17:42:38,12-07-2024 17:42:39,1.111s,PASSED
+"click(findTestObject(""Object Repository/Product Overview/Buy_now_button""))",Chrome 126.0.0.0,,,12-07-2024 17:42:39,12-07-2024 17:42:40,0.389s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Sign in/Sign_in_page""), 5)",Chrome 126.0.0.0,,,12-07-2024 17:42:40,12-07-2024 17:42:41,1.358s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,12-07-2024 17:42:41,12-07-2024 17:42:41,0.361s,PASSED
+,,,,,,,
+Test Cases/Check out/TC50_Logged_in_Checkout,Chrome 126.0.0.0,,,12-07-2024 17:42:41,12-07-2024 17:46:56,4m - 14.593s,PASSED
+"store.Authentication.Login.Login_successed(username, password)",Chrome 126.0.0.0,,,12-07-2024 17:42:42,12-07-2024 17:42:54,12.507s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,12-07-2024 17:42:54,12-07-2024 17:42:54,0.017s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Dashboard/Product_item"", [""product_name"":product_name]), 3)",Chrome 126.0.0.0,,,12-07-2024 17:42:54,12-07-2024 17:42:55,0.831s,PASSED
+"click(findTestObject(""Object Repository/Dashboard/Product_item"", [""product_name"":product_name]))",Chrome 126.0.0.0,,,12-07-2024 17:42:55,12-07-2024 17:43:25,30.127s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Product Overview/Product_Overview_page""), 3)",Chrome 126.0.0.0,,,12-07-2024 17:43:25,12-07-2024 17:43:55,30.100s,PASSED
+store.Function.Check_out_product.Check_out_a_product(),Chrome 126.0.0.0,,,12-07-2024 17:43:55,12-07-2024 17:46:26,2m - 30.657s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Check out/Success page/Checkout_success_page""), 5)",Chrome 126.0.0.0,,,12-07-2024 17:46:26,12-07-2024 17:46:56,30.059s,PASSED
