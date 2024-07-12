@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC26_HeaderMenu_Kids_product_type_Boy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>749b12f3-b6dd-4fc1-9eb5-a4548d5d4f7c</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>b372f918-2a00-4abc-8068-5a4df0d5fe75</id>
+      <iterationEntity>
+         <iterationType>SPECIFIC</iterationType>
+         <value>7</value>
+      </iterationEntity>
+      <testDataId>Data Files/Product_info</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>b372f918-2a00-4abc-8068-5a4df0d5fe75</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Department</value>
+      <variableId>31531bda-8604-4273-98e1-35887c7c416d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>b372f918-2a00-4abc-8068-5a4df0d5fe75</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Type</value>
+      <variableId>949a5a72-6bf6-4bc6-9238-57b526863de7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>b372f918-2a00-4abc-8068-5a4df0d5fe75</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Name</value>
+      <variableId>1afd1502-7638-46de-ae0c-d01241fa8e67</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>31531bda-8604-4273-98e1-35887c7c416d</id>
+      <masked>false</masked>
+      <name>department</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>949a5a72-6bf6-4bc6-9238-57b526863de7</id>
+      <masked>false</masked>
+      <name>type</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1afd1502-7638-46de-ae0c-d01241fa8e67</id>
+      <masked>false</masked>
+      <name>product_name</name>
+   </variable>
+</TestCaseEntity>

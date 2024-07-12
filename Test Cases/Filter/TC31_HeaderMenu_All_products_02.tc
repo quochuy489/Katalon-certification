@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC31_HeaderMenu_All_products_02</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7c29ccfc-34c8-4111-bff4-253b0d482924</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>4e6c7f64-4136-440b-a934-9642bc1a994e</id>
+      <iterationEntity>
+         <iterationType>SPECIFIC</iterationType>
+         <value>2</value>
+      </iterationEntity>
+      <testDataId>Data Files/Product_info</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>4e6c7f64-4136-440b-a934-9642bc1a994e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Name</value>
+      <variableId>c679d037-bcc4-4f4b-b2aa-5a8272e624fa</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c679d037-bcc4-4f4b-b2aa-5a8272e624fa</id>
+      <masked>false</masked>
+      <name>product_name</name>
+   </variable>
+</TestCaseEntity>

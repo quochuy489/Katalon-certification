@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC24_HeaderMenu_Women_product_type_Blazer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e1e73c32-7a2f-430c-aff1-818fc66691ce</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>eea130fe-78a2-47fb-ae3c-cd27bd3cae4d</id>
+      <iterationEntity>
+         <iterationType>SPECIFIC</iterationType>
+         <value>10</value>
+      </iterationEntity>
+      <testDataId>Data Files/Product_info</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>eea130fe-78a2-47fb-ae3c-cd27bd3cae4d</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Department</value>
+      <variableId>9197adb2-0747-4235-8769-1a40c0281dcf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>eea130fe-78a2-47fb-ae3c-cd27bd3cae4d</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Type</value>
+      <variableId>9edf8abd-2bb1-4ca1-9732-b22bed14fd8f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>eea130fe-78a2-47fb-ae3c-cd27bd3cae4d</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Name</value>
+      <variableId>1100415a-70da-4281-81a3-41376b129ef5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9197adb2-0747-4235-8769-1a40c0281dcf</id>
+      <masked>false</masked>
+      <name>department</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9edf8abd-2bb1-4ca1-9732-b22bed14fd8f</id>
+      <masked>false</masked>
+      <name>type</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1100415a-70da-4281-81a3-41376b129ef5</id>
+      <masked>false</masked>
+      <name>product_name</name>
+   </variable>
+</TestCaseEntity>

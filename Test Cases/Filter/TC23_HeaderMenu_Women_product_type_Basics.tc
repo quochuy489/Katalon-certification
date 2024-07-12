@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC23_HeaderMenu_Women_product_type_Basics</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>41787389-def1-4188-8dff-d93a4bcaa315</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>cc253c42-14f6-4a6b-8080-47359ddc4068</id>
+      <iterationEntity>
+         <iterationType>SPECIFIC</iterationType>
+         <value>1,8,9</value>
+      </iterationEntity>
+      <testDataId>Data Files/Product_info</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>cc253c42-14f6-4a6b-8080-47359ddc4068</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Department</value>
+      <variableId>27621b1c-787c-4ddc-b25c-e4f31cc8d031</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>cc253c42-14f6-4a6b-8080-47359ddc4068</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Type</value>
+      <variableId>4a51a563-42c6-42cd-a5bc-8e121fc8ac2e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>cc253c42-14f6-4a6b-8080-47359ddc4068</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Name</value>
+      <variableId>f30b705f-0bba-4b0f-b668-07414ef7b90a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>27621b1c-787c-4ddc-b25c-e4f31cc8d031</id>
+      <masked>false</masked>
+      <name>department</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4a51a563-42c6-42cd-a5bc-8e121fc8ac2e</id>
+      <masked>false</masked>
+      <name>type</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f30b705f-0bba-4b0f-b668-07414ef7b90a</id>
+      <masked>false</masked>
+      <name>product_name</name>
+   </variable>
+</TestCaseEntity>

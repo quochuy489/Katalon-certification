@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC29_HeaderMenu_Men_product_type_Jackets</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3a14fa78-5541-4bcd-bd82-588edf34937f</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>59e04faa-faf5-4f4c-9e8e-2597070e658a</id>
+      <iterationEntity>
+         <iterationType>SPECIFIC</iterationType>
+         <value>5</value>
+      </iterationEntity>
+      <testDataId>Data Files/Product_info</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>59e04faa-faf5-4f4c-9e8e-2597070e658a</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Department</value>
+      <variableId>6ec882e8-413c-4f59-a338-4dd97431fe78</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>59e04faa-faf5-4f4c-9e8e-2597070e658a</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Type</value>
+      <variableId>7b3e48a4-dd61-44a2-bec0-03535de7948c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>59e04faa-faf5-4f4c-9e8e-2597070e658a</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Name</value>
+      <variableId>a1762556-f980-4ae5-99a9-d07131cdc3cb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6ec882e8-413c-4f59-a338-4dd97431fe78</id>
+      <masked>false</masked>
+      <name>department</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7b3e48a4-dd61-44a2-bec0-03535de7948c</id>
+      <masked>false</masked>
+      <name>type</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a1762556-f980-4ae5-99a9-d07131cdc3cb</id>
+      <masked>false</masked>
+      <name>product_name</name>
+   </variable>
+</TestCaseEntity>

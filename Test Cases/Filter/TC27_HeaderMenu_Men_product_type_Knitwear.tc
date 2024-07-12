@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC27_HeaderMenu_Men_product_type_Knitwear</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bb8e7e29-03b2-49ff-a4d3-4921a6a916ed</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>4fd28f84-3f96-45f5-98a1-e2f319abc89c</id>
+      <iterationEntity>
+         <iterationType>SPECIFIC</iterationType>
+         <value>2</value>
+      </iterationEntity>
+      <testDataId>Data Files/Product_info</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>4fd28f84-3f96-45f5-98a1-e2f319abc89c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Department</value>
+      <variableId>2f279d50-e0c4-4c0c-bcab-ab1bd3f9d710</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>4fd28f84-3f96-45f5-98a1-e2f319abc89c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Type</value>
+      <variableId>6eca748d-e0cc-4c11-8089-8b6fbe92a10d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>4fd28f84-3f96-45f5-98a1-e2f319abc89c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Name</value>
+      <variableId>c039d16d-d39a-4553-bee8-0ae7563ac743</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2f279d50-e0c4-4c0c-bcab-ab1bd3f9d710</id>
+      <masked>false</masked>
+      <name>department</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6eca748d-e0cc-4c11-8089-8b6fbe92a10d</id>
+      <masked>false</masked>
+      <name>type</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c039d16d-d39a-4553-bee8-0ae7563ac743</id>
+      <masked>false</masked>
+      <name>product_name</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC25_HeaderMenu_Kids_product_type_Girl</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1ee7bb9b-e98e-4027-8c79-dd00a7f0a99e</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>be321619-6efd-4248-a9ee-2353ab89e608</id>
+      <iterationEntity>
+         <iterationType>SPECIFIC</iterationType>
+         <value>6</value>
+      </iterationEntity>
+      <testDataId>Data Files/Product_info</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>be321619-6efd-4248-a9ee-2353ab89e608</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Department</value>
+      <variableId>3f4a51ea-f7f8-42d4-9d8c-8587605dc95e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>be321619-6efd-4248-a9ee-2353ab89e608</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Type</value>
+      <variableId>484b1d9f-953b-496e-aee1-c7a676f2aa41</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>be321619-6efd-4248-a9ee-2353ab89e608</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Name</value>
+      <variableId>e0aeb11d-89ea-4de9-a77b-849eb249b78e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3f4a51ea-f7f8-42d4-9d8c-8587605dc95e</id>
+      <masked>false</masked>
+      <name>department</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>484b1d9f-953b-496e-aee1-c7a676f2aa41</id>
+      <masked>false</masked>
+      <name>type</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e0aeb11d-89ea-4de9-a77b-849eb249b78e</id>
+      <masked>false</masked>
+      <name>product_name</name>
+   </variable>
+</TestCaseEntity>
