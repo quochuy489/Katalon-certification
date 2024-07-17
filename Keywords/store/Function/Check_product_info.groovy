@@ -24,17 +24,17 @@ public class Check_product_info {
 	@Keyword
 	public static void Check_products_info (String product_name, String price, String color) {
 
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Product Overview/Product_Overview_page'), 5)
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Shopping Cart/Product Overview/Product_Overview_page'), 5)
 
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Product Overview/Product_title', [('product_name'):product_name]), 5)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Shopping Cart/Product Overview/Product_title', [('product_name'):product_name]), 5)
 
-		String price_web = WebUI.getText(findTestObject('Object Repository/Product Overview/Product_price'))
+		String price_web = WebUI.getText(findTestObject('Object Repository/Shopping Cart/Product Overview/Product_price'))
 
 		boolean get_price = price_web.contains(price)
 
 		WebUI.verifyEqual(get_price, true)
 
-		String actual_color = WebUI.getText(findTestObject('Object Repository/Product Overview/Product_color')).toLowerCase()
+		String actual_color = WebUI.getText(findTestObject('Object Repository/Shopping Cart/Product Overview/Product_color')).toLowerCase()
 
 		WebUI.verifyMatch(actual_color, color, true)
 	}

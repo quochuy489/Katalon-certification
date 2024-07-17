@@ -27,14 +27,14 @@ public class Login {
 
 		WebUI.maximizeWindow()
 
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Sign in/Sign_in_page'), 10)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Shopping Cart/Sign in/Sign_in_page'), 10)
 
-		WebUI.setText(findTestObject('Object Repository/Sign in/Email_input'), username)
+		WebUI.setText(findTestObject('Object Repository/Shopping Cart/Sign in/Email_input'), username)
 
-		WebUI.setText(findTestObject('Object Repository/Sign in/Password_input'), password)
+		WebUI.setText(findTestObject('Object Repository/Shopping Cart/Sign in/Password_input'), password)
 
-		WebUI.click(findTestObject('Object Repository/Sign in/Signin_button'))
+		WebUI.click(findTestObject('Object Repository/Shopping Cart/Sign in/Signin_button'))
 
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Dashboard/Dashboard_page'), 10)
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Shopping Cart/Dashboard/Dashboard_page'), 10)
 	}
 }

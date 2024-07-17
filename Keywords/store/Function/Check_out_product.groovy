@@ -24,14 +24,14 @@ public class Check_out_product {
 	@Keyword
 	public static void Check_out_a_product () {
 		
-		WebUI.click(findTestObject('Object Repository/Product Overview/Add_to_cart_button'))
+		WebUI.click(findTestObject('Object Repository/Shopping Cart/Product Overview/Add_to_cart_button'))
 		
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Cart/Cart_page'), 3)
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Shopping Cart/Cart/Cart_page'), 3)
 		
-		WebUI.click(findTestObject('Object Repository/Cart/Check_out_button'))
+		WebUI.click(findTestObject('Object Repository/Shopping Cart/Cart/Check_out_button'))
 		
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Check out/Checkout_page'), 3)
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Shopping Cart/Check out/Checkout_page'), 3)
 		
-		WebUI.click(findTestObject('Object Repository/Check out/Confirm_checkout_button'))
+		WebUI.click(findTestObject('Object Repository/Shopping Cart/Check out/Confirm_checkout_button'))
 	}
 }

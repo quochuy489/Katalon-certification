@@ -23,13 +23,13 @@ import internal.GlobalVariable
 public class Access_Sign_up_page {
 	@Keyword
 	public static void Access_signup () {
-		
+
 		WebUI.openBrowser(GlobalVariable.Login_URL)
-		
+
 		WebUI.maximizeWindow()
-		
-		WebUI.click(findTestObject('Object Repository/Sign in/Signup_link'))
-		
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Sign up/Sign_up_page'),5)
+
+		WebUI.click(findTestObject('Object Repository/Shopping Cart/Sign in/Signup_link'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Shopping Cart/Sign up/Sign_up_page'),5)
 	}
 }
