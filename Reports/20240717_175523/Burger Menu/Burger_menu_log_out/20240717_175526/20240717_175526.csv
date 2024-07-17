@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Burger_menu_log_out,Chrome 126.0.0.0,,,17-07-2024 17:55:52,17-07-2024 17:56:13,20.924s,PASSED
+,,,,,,,
+Test Cases/Healthcare/Buger Menu/TC04_Logged_out_Check_display,Chrome 126.0.0.0,,,17-07-2024 17:55:53,17-07-2024 17:56:13,20.214s,PASSED
+openBrowser(HC_Dashborad_URL),Chrome 126.0.0.0,,,17-07-2024 17:55:53,17-07-2024 17:56:03,9.582s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,17-07-2024 17:56:03,17-07-2024 17:56:03,0.147s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Burger menu/a_Burger_menu""))",Chrome 126.0.0.0,,,17-07-2024 17:56:03,17-07-2024 17:56:04,0.745s,PASSED
+delay(5),Chrome 126.0.0.0,,,17-07-2024 17:56:04,17-07-2024 17:56:09,5.097s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Burger menu/Slidebar_opened""), 3)",Chrome 126.0.0.0,,,17-07-2024 17:56:09,17-07-2024 17:56:09,0.447s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Burger menu/a_Home""), 3)",Chrome 126.0.0.0,,,17-07-2024 17:56:09,17-07-2024 17:56:10,0.307s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Burger menu/a_Login""), 3)",Chrome 126.0.0.0,,,17-07-2024 17:56:10,17-07-2024 17:56:10,0.485s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Healthcare/Burger menu/a_History""), 3)",Chrome 126.0.0.0,,,17-07-2024 17:56:10,17-07-2024 17:56:12,1.579s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Healthcare/Burger menu/a_Profile""), 3)",Chrome 126.0.0.0,,,17-07-2024 17:56:12,17-07-2024 17:56:12,0.375s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Healthcare/Burger menu/a_Logout""), 3)",Chrome 126.0.0.0,,,17-07-2024 17:56:12,17-07-2024 17:56:12,0.313s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,17-07-2024 17:56:12,17-07-2024 17:56:13,0.424s,PASSED

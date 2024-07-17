@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Burger_menu" time="89.63" tests="6" failures="0" errors="0">
+   <testsuite name="Burger_menu_log_in" tests="5" failures="0" errors="0" time="71.423" skipped="0" timestamp="17-07-2024T17:55:47" hostname="quochuy.lu - VN-HCM-D-W-0011.globalservs.com" id="Test Suites/Burger Menu/Burger_menu_log_in">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\quochuy.lu\\git\\Katalon-certification\\Reports\\20240717_175523\\Burger Menu\\Burger_menu_log_in\\20240717_175524"/>
+         <property name="logFiles" value="C:\\Users\\quochuy.lu\\git\\Katalon-certification\\Reports\\20240717_175523\\Burger Menu\\Burger_menu_log_in\\20240717_175524\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="quochuy.lu - VN-HCM-D-W-0011.globalservs.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="10.161.207.102"/>
+         <property name="sessionId" value="17e26ebcb76e6d8dee069aa39f0f789b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Healthcare/Buger Menu/TC05_Logged_in_Check_display" time="21.996" classname="Test Cases/Healthcare/Buger Menu/TC05_Logged_in_Check_display" status="PASSED">
+         <system-out><![CDATA[17-07-2024T17:55:47 - [TEST_CASE][PASSED] - Test Cases/Healthcare/Buger Menu/TC05_Logged_in_Check_display: Test Cases/Healthcare/Buger Menu/TC05_Logged_in_Check_display
+
+17-07-2024T17:55:48 - [TEST_STEP][PASSED] - store.Authentication.HC_Login_Burger_menu.Login_via_Burger_menu(): store.Authentication.HC_Login_Burger_menu.Login_via_Burger_menu is PASSED
+
+17-07-2024T17:55:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-07-2024T17:55:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-07-2024T17:56:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+17-07-2024T17:56:00 - [MESSAGE][PASSED] - Current window maximized
+
+17-07-2024T17:56:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+17-07-2024T17:56:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Login' is clicked on
+
+17-07-2024T17:56:03 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Healthcare/Login/input_Username_username'
+
+17-07-2024T17:56:04 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Healthcare/Login/input_Password_password'
+
+17-07-2024T17:56:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Login/button_Login' is clicked on
+
+17-07-2024T17:56:06 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+17-07-2024T17:56:06 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+17-07-2024T17:56:06 - [MESSAGE][PASSED] - store.Authentication.HC_Login_Burger_menu.Login_via_Burger_menu is PASSED
+
+17-07-2024T17:56:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Burger menu/a_Burger_menu")): Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+17-07-2024T17:56:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+17-07-2024T17:56:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Burger menu/Slidebar_opened"), 3): Object 'Object Repository/Healthcare/Burger menu/Slidebar_opened' is present
+
+17-07-2024T17:56:07 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Burger menu/Slidebar_opened' is present
+
+17-07-2024T17:56:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Burger menu/a_Home"), 3): Object 'Object Repository/Healthcare/Burger menu/a_Home' is present
+
+17-07-2024T17:56:07 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Burger menu/a_Home' is present
+
+17-07-2024T17:56:07 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Healthcare/Burger menu/a_Login"), 3): Web element with id: 'Object Repository/Healthcare/Burger menu/a_Login' located by 'By.xpath: //a[@href = 'profile.php#login' and (text() = 'Login' or . = 'Login')]' is not present after '3' second(s)
+
+17-07-2024T17:56:08 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Healthcare/Burger menu/a_Login' located by 'By.xpath: //a[@href = 'profile.php#login' and (text() = 'Login' or . = 'Login')]' is not present after '3' second(s)
+
+17-07-2024T17:56:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Burger menu/a_History"), 3): Object 'Object Repository/Healthcare/Burger menu/a_History' is present
+
+17-07-2024T17:56:08 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Burger menu/a_History' is present
+
+17-07-2024T17:56:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Burger menu/a_Profile"), 3): Object 'Object Repository/Healthcare/Burger menu/a_Profile' is present
+
+17-07-2024T17:56:08 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Burger menu/a_Profile' is present
+
+17-07-2024T17:56:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Burger menu/a_Logout"), 3): Object 'Object Repository/Healthcare/Burger menu/a_Logout' is present
+
+17-07-2024T17:56:09 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Burger menu/a_Logout' is present
+
+17-07-2024T17:56:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-07-2024T17:56:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Healthcare/Buger Menu/TC07_Check_navigation_Home_Logged_in" time="12.778" classname="Test Cases/Healthcare/Buger Menu/TC07_Check_navigation_Home_Logged_in" status="PASSED">
+         <system-out><![CDATA[17-07-2024T17:56:09 - [TEST_CASE][PASSED] - Test Cases/Healthcare/Buger Menu/TC07_Check_navigation_Home_Logged_in: Test Cases/Healthcare/Buger Menu/TC07_Check_navigation_Home_Logged_in
+
+17-07-2024T17:56:10 - [TEST_STEP][PASSED] - store.Authentication.HC_Login_Burger_menu.Login_via_Burger_menu(): store.Authentication.HC_Login_Burger_menu.Login_via_Burger_menu is PASSED
+
+17-07-2024T17:56:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-07-2024T17:56:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-07-2024T17:56:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+17-07-2024T17:56:15 - [MESSAGE][PASSED] - Current window maximized
+
+17-07-2024T17:56:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+17-07-2024T17:56:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Login' is clicked on
+
+17-07-2024T17:56:17 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Healthcare/Login/input_Username_username'
+
+17-07-2024T17:56:18 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Healthcare/Login/input_Password_password'
+
+17-07-2024T17:56:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Login/button_Login' is clicked on
+
+17-07-2024T17:56:19 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+17-07-2024T17:56:20 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+17-07-2024T17:56:20 - [MESSAGE][PASSED] - store.Authentication.HC_Login_Burger_menu.Login_via_Burger_menu is PASSED
+
+17-07-2024T17:56:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Burger menu/a_Burger_menu")): Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+17-07-2024T17:56:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+17-07-2024T17:56:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Burger menu/Slidebar_opened"), 3): Object 'Object Repository/Healthcare/Burger menu/Slidebar_opened' is present
+
+17-07-2024T17:56:20 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Burger menu/Slidebar_opened' is present
+
+17-07-2024T17:56:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Burger menu/a_Home")): Object: 'Object Repository/Healthcare/Burger menu/a_Home' is clicked on
+
+17-07-2024T17:56:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Home' is clicked on
+
+17-07-2024T17:56:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Appointment/form_Healthcare"), 3): Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+17-07-2024T17:56:21 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+17-07-2024T17:56:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-07-2024T17:56:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Healthcare/Buger Menu/TC08_Check_navigation_History" time="11.08" classname="Test Cases/Healthcare/Buger Menu/TC08_Check_navigation_History" status="PASSED">
+         <system-out><![CDATA[17-07-2024T17:56:22 - [TEST_CASE][PASSED] - Test Cases/Healthcare/Buger Menu/TC08_Check_navigation_History: Test Cases/Healthcare/Buger Menu/TC08_Check_navigation_History
+
+17-07-2024T17:56:22 - [TEST_STEP][PASSED] - store.Authentication.HC_Login_Burger_menu.Login_via_Burger_menu(): store.Authentication.HC_Login_Burger_menu.Login_via_Burger_menu is PASSED
+
+17-07-2024T17:56:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-07-2024T17:56:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-07-2024T17:56:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+17-07-2024T17:56:27 - [MESSAGE][PASSED] - Current window maximized
+
+17-07-2024T17:56:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+17-07-2024T17:56:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Login' is clicked on
+
+17-07-2024T17:56:29 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Healthcare/Login/input_Username_username'
+
+17-07-2024T17:56:29 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Healthcare/Login/input_Password_password'
+
+17-07-2024T17:56:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Login/button_Login' is clicked on
+
+17-07-2024T17:56:31 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+17-07-2024T17:56:31 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+17-07-2024T17:56:31 - [MESSAGE][PASSED] - store.Authentication.HC_Login_Burger_menu.Login_via_Burger_menu is PASSED
+
+17-07-2024T17:56:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Burger menu/a_Burger_menu")): Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+17-07-2024T17:56:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+17-07-2024T17:56:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Burger menu/Slidebar_opened"), 3): Object 'Object Repository/Healthcare/Burger menu/Slidebar_opened' is present
+
+17-07-2024T17:56:32 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Burger menu/Slidebar_opened' is present
+
+17-07-2024T17:56:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Burger menu/a_History")): Object: 'Object Repository/Healthcare/Burger menu/a_History' is clicked on
+
+17-07-2024T17:56:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_History' is clicked on
+
+17-07-2024T17:56:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/History/History_page"), 3): Object 'Object Repository/Healthcare/History/History_page' is present
+
+17-07-2024T17:56:33 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/History/History_page' is present
+
+17-07-2024T17:56:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-07-2024T17:56:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Healthcare/Buger Menu/TC11_Check_navigation_Profile" time="12.715" classname="Test Cases/Healthcare/Buger Menu/TC11_Check_navigation_Profile" status="PASSED">
+         <system-out><![CDATA[17-07-2024T17:56:33 - [TEST_CASE][PASSED] - Test Cases/Healthcare/Buger Menu/TC11_Check_navigation_Profile: Test Cases/Healthcare/Buger Menu/TC11_Check_navigation_Profile
+
+17-07-2024T17:56:33 - [TEST_STEP][PASSED] - store.Authentication.HC_Login_Burger_menu.Login_via_Burger_menu(): store.Authentication.HC_Login_Burger_menu.Login_via_Burger_menu is PASSED
+
+17-07-2024T17:56:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-07-2024T17:56:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-07-2024T17:56:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+17-07-2024T17:56:38 - [MESSAGE][PASSED] - Current window maximized
+
+17-07-2024T17:56:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+17-07-2024T17:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Login' is clicked on
+
+17-07-2024T17:56:40 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Healthcare/Login/input_Username_username'
+
+17-07-2024T17:56:41 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Healthcare/Login/input_Password_password'
+
+17-07-2024T17:56:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Login/button_Login' is clicked on
+
+17-07-2024T17:56:42 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+17-07-2024T17:56:43 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+17-07-2024T17:56:43 - [MESSAGE][PASSED] - store.Authentication.HC_Login_Burger_menu.Login_via_Burger_menu is PASSED
+
+17-07-2024T17:56:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Burger menu/a_Burger_menu")): Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+17-07-2024T17:56:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+17-07-2024T17:56:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Burger menu/Slidebar_opened"), 3): Object 'Object Repository/Healthcare/Burger menu/Slidebar_opened' is present
+
+17-07-2024T17:56:43 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Burger menu/Slidebar_opened' is present
+
+17-07-2024T17:56:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Burger menu/a_Profile")): Object: 'Object Repository/Healthcare/Burger menu/a_Profile' is clicked on
+
+17-07-2024T17:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Profile' is clicked on
+
+17-07-2024T17:56:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Profile/Profile_page"), 3): Object 'Object Repository/Healthcare/Profile/Profile_page' is present
+
+17-07-2024T17:56:45 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Profile/Profile_page' is present
+
+17-07-2024T17:56:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-07-2024T17:56:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Healthcare/Buger Menu/TC12_Access_Homepage_via_History_page" time="12.428" classname="Test Cases/Healthcare/Buger Menu/TC12_Access_Homepage_via_History_page" status="PASSED">
+         <system-out><![CDATA[17-07-2024T17:56:46 - [TEST_CASE][PASSED] - Test Cases/Healthcare/Buger Menu/TC12_Access_Homepage_via_History_page: Test Cases/Healthcare/Buger Menu/TC12_Access_Homepage_via_History_page
+
+17-07-2024T17:56:46 - [TEST_STEP][PASSED] - store.Function.Access_HC_History.Access_History(): store.Function.Access_HC_History.Access_History is PASSED
+
+17-07-2024T17:56:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-07-2024T17:56:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-07-2024T17:56:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+17-07-2024T17:56:50 - [MESSAGE][PASSED] - Current window maximized
+
+17-07-2024T17:56:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+17-07-2024T17:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Login' is clicked on
+
+17-07-2024T17:56:53 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Healthcare/Login/input_Username_username'
+
+17-07-2024T17:56:53 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Healthcare/Login/input_Password_password'
+
+17-07-2024T17:56:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Login/button_Login' is clicked on
+
+17-07-2024T17:56:55 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+17-07-2024T17:56:55 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+17-07-2024T17:56:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+17-07-2024T17:56:56 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Burger menu/Slidebar_opened' is present
+
+17-07-2024T17:56:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_History' is clicked on
+
+17-07-2024T17:56:57 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/History/History_page' is present
+
+17-07-2024T17:56:57 - [MESSAGE][PASSED] - store.Function.Access_HC_History.Access_History is PASSED
+
+17-07-2024T17:56:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/History/Go_to_HP_btn")): Object: 'Object Repository/Healthcare/History/Go_to_HP_btn' is clicked on
+
+17-07-2024T17:56:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/History/Go_to_HP_btn' is clicked on
+
+17-07-2024T17:56:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Appointment/form_Healthcare"), 3): Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+17-07-2024T17:56:58 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+17-07-2024T17:56:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-07-2024T17:56:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-07-2024T17:55:47 - [TEST_SUITE][PASSED] - Burger_menu_log_in: Test Cases/Healthcare/Buger Menu/TC12_Access_Homepage_via_History_page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Burger_menu_log_out" tests="1" failures="0" errors="0" time="20.924" skipped="0" timestamp="17-07-2024T17:55:52" hostname="quochuy.lu - VN-HCM-D-W-0011.globalservs.com" id="Test Suites/Burger Menu/Burger_menu_log_out">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\quochuy.lu\\git\\Katalon-certification\\Reports\\20240717_175523\\Burger Menu\\Burger_menu_log_out\\20240717_175526"/>
+         <property name="logFiles" value="C:\\Users\\quochuy.lu\\git\\Katalon-certification\\Reports\\20240717_175523\\Burger Menu\\Burger_menu_log_out\\20240717_175526\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="quochuy.lu - VN-HCM-D-W-0011.globalservs.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="10.161.207.102"/>
+         <property name="sessionId" value="c1ea5c1a645d45a0bd8fb1137e9908fb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Healthcare/Buger Menu/TC04_Logged_out_Check_display" time="20.214" classname="Test Cases/Healthcare/Buger Menu/TC04_Logged_out_Check_display" status="PASSED">
+         <system-out><![CDATA[17-07-2024T17:55:53 - [TEST_CASE][PASSED] - Test Cases/Healthcare/Buger Menu/TC04_Logged_out_Check_display: Test Cases/Healthcare/Buger Menu/TC04_Logged_out_Check_display
+
+17-07-2024T17:55:53 - [TEST_STEP][PASSED] - openBrowser(HC_Dashborad_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+17-07-2024T17:55:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-07-2024T17:55:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-07-2024T17:56:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+17-07-2024T17:56:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+17-07-2024T17:56:03 - [MESSAGE][PASSED] - Current window maximized
+
+17-07-2024T17:56:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Burger menu/a_Burger_menu")): Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+17-07-2024T17:56:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+17-07-2024T17:56:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+17-07-2024T17:56:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+17-07-2024T17:56:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Burger menu/Slidebar_opened"), 3): Object 'Object Repository/Healthcare/Burger menu/Slidebar_opened' is present
+
+17-07-2024T17:56:09 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Burger menu/Slidebar_opened' is present
+
+17-07-2024T17:56:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Burger menu/a_Home"), 3): Object 'Object Repository/Healthcare/Burger menu/a_Home' is present
+
+17-07-2024T17:56:10 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Burger menu/a_Home' is present
+
+17-07-2024T17:56:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Burger menu/a_Login"), 3): Object 'Object Repository/Healthcare/Burger menu/a_Login' is present
+
+17-07-2024T17:56:10 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Burger menu/a_Login' is present
+
+17-07-2024T17:56:10 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Healthcare/Burger menu/a_History"), 3): Web element with id: 'Object Repository/Healthcare/Burger menu/a_History' located by 'By.xpath: //a[@href = 'history.php#history' and (text() = 'History' or . = 'History')]' is not present after '3' second(s)
+
+17-07-2024T17:56:12 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Healthcare/Burger menu/a_History' located by 'By.xpath: //a[@href = 'history.php#history' and (text() = 'History' or . = 'History')]' is not present after '3' second(s)
+
+17-07-2024T17:56:12 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Healthcare/Burger menu/a_Profile"), 3): Web element with id: 'Object Repository/Healthcare/Burger menu/a_Profile' located by 'By.xpath: //a[@href = 'profile.php#profile' and (text() = 'Profile' or . = 'Profile')]' is not present after '3' second(s)
+
+17-07-2024T17:56:12 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Healthcare/Burger menu/a_Profile' located by 'By.xpath: //a[@href = 'profile.php#profile' and (text() = 'Profile' or . = 'Profile')]' is not present after '3' second(s)
+
+17-07-2024T17:56:12 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Healthcare/Burger menu/a_Logout"), 3): Web element with id: 'Object Repository/Healthcare/Burger menu/a_Logout' located by 'By.xpath: //a[@href = 'authenticate.php?logout' and (text() = 'Logout' or . = 'Logout')]' is not present after '3' second(s)
+
+17-07-2024T17:56:12 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Healthcare/Burger menu/a_Logout' located by 'By.xpath: //a[@href = 'authenticate.php?logout' and (text() = 'Logout' or . = 'Logout')]' is not present after '3' second(s)
+
+17-07-2024T17:56:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-07-2024T17:56:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-07-2024T17:55:52 - [TEST_SUITE][PASSED] - Burger_menu_log_out: Test Cases/Healthcare/Buger Menu/TC04_Logged_out_Check_display]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
