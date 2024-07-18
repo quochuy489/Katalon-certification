@@ -23,6 +23,7 @@ import internal.GlobalVariable
 public class Login {
 	@Keyword
 	public static void Login_successed (String username, String password) {
+		
 		WebUI.openBrowser(GlobalVariable.Login_URL)
 
 		WebUI.maximizeWindow()

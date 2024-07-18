@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Burger_menu_log_out" time="13.994" tests="1" failures="0" errors="0">
+   <testsuite name="Burger_menu_log_out" tests="1" failures="0" errors="0" time="13.994" skipped="0" timestamp="18-07-2024T21:16:47" hostname="Admin - DESKTOP-26G4KH6" id="Test Suites/Burger Menu/Burger_menu_log_out">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240718_211527\\Burger Menu\\Burger_menu_log_out\\20240718_211530"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240718_211527\\Burger Menu\\Burger_menu_log_out\\20240718_211530\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - DESKTOP-26G4KH6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="172.16.0.122"/>
+         <property name="sessionId" value="0f465e3454fec4454219fdccbf3ff3b5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Healthcare/Buger Menu/TC04_Logged_out_Check_display" time="13.779" classname="Test Cases/Healthcare/Buger Menu/TC04_Logged_out_Check_display" status="PASSED">
+         <system-out><![CDATA[18-07-2024T21:16:48 - [TEST_CASE][PASSED] - Test Cases/Healthcare/Buger Menu/TC04_Logged_out_Check_display: Test Cases/Healthcare/Buger Menu/TC04_Logged_out_Check_display
+
+18-07-2024T21:16:48 - [TEST_STEP][PASSED] - openBrowser(HC_Dashborad_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+18-07-2024T21:16:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T21:16:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T21:16:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+18-07-2024T21:16:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2024T21:16:53 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T21:16:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Burger menu/a_Burger_menu")): Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+18-07-2024T21:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+18-07-2024T21:16:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+18-07-2024T21:16:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+18-07-2024T21:16:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Burger menu/Slidebar_opened"), 3): Object 'Object Repository/Healthcare/Burger menu/Slidebar_opened' is present
+
+18-07-2024T21:16:59 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Burger menu/Slidebar_opened' is present
+
+18-07-2024T21:16:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Burger menu/a_Home"), 3): Object 'Object Repository/Healthcare/Burger menu/a_Home' is present
+
+18-07-2024T21:16:59 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Burger menu/a_Home' is present
+
+18-07-2024T21:16:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Burger menu/a_Login"), 3): Object 'Object Repository/Healthcare/Burger menu/a_Login' is present
+
+18-07-2024T21:16:59 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Burger menu/a_Login' is present
+
+18-07-2024T21:16:59 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Healthcare/Burger menu/a_History"), 3): Web element with id: 'Object Repository/Healthcare/Burger menu/a_History' located by 'By.xpath: //a[@href = 'history.php#history' and (text() = 'History' or . = 'History')]' is not present after '3' second(s)
+
+18-07-2024T21:17:00 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Healthcare/Burger menu/a_History' located by 'By.xpath: //a[@href = 'history.php#history' and (text() = 'History' or . = 'History')]' is not present after '3' second(s)
+
+18-07-2024T21:17:00 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Healthcare/Burger menu/a_Profile"), 3): Web element with id: 'Object Repository/Healthcare/Burger menu/a_Profile' located by 'By.xpath: //a[@href = 'profile.php#profile' and (text() = 'Profile' or . = 'Profile')]' is not present after '3' second(s)
+
+18-07-2024T21:17:00 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Healthcare/Burger menu/a_Profile' located by 'By.xpath: //a[@href = 'profile.php#profile' and (text() = 'Profile' or . = 'Profile')]' is not present after '3' second(s)
+
+18-07-2024T21:17:00 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Healthcare/Burger menu/a_Logout"), 3): Web element with id: 'Object Repository/Healthcare/Burger menu/a_Logout' located by 'By.xpath: //a[@href = 'authenticate.php?logout' and (text() = 'Logout' or . = 'Logout')]' is not present after '3' second(s)
+
+18-07-2024T21:17:00 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Healthcare/Burger menu/a_Logout' located by 'By.xpath: //a[@href = 'authenticate.php?logout' and (text() = 'Logout' or . = 'Logout')]' is not present after '3' second(s)
+
+18-07-2024T21:17:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-07-2024T21:17:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-07-2024T21:16:47 - [TEST_SUITE][PASSED] - Burger_menu_log_out: Test Cases/Healthcare/Buger Menu/TC04_Logged_out_Check_display]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
