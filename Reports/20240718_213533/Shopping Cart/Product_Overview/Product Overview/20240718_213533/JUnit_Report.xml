@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Product Overview" time="194.602" tests="12" failures="1" errors="0">
+   <testsuite name="Authen Product Overview" tests="2" failures="1" errors="0" time="54.718" skipped="0" timestamp="18-07-2024T21:35:45" hostname="Admin - DESKTOP-26G4KH6" id="Test Suites/Shopping Cart/Product_Overview/Authen Product Overview">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240718_213533\\Shopping Cart\\Product_Overview\\Authen Product Overview\\20240718_213534"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240718_213533\\Shopping Cart\\Product_Overview\\Authen Product Overview\\20240718_213534\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240718_213533\\Shopping Cart\\Product_Overview\\Authen Product Overview\\20240718_213534\\1721313366114.png, C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240718_213533\\Shopping Cart\\Product_Overview\\Authen Product Overview\\20240718_213534\\1721313366240.png, C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240718_213533\\Shopping Cart\\Product_Overview\\Authen Product Overview\\20240718_213534\\1721313387060.png, C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240718_213533\\Shopping Cart\\Product_Overview\\Authen Product Overview\\20240718_213534\\1721313387179.png"/>
+         <property name="hostName" value="Admin - DESKTOP-26G4KH6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="172.16.0.122"/>
+         <property name="sessionId" value="dc13117bef51f6b752dfbaef38740534"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC06_Logged_in_Access_Overview_page" time="2.108" classname="Test Cases/Shopping Cart/Product Overview/TC06_Logged_in_Access_Overview_page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Shopping Cart/Product Overview/TC06_Logged_in_Access_Overview_page FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://demo-store.katalon.com./signin'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)&#xa;	at store.Authentication.Login.Login_successed(Login.groovy:26)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)&#xa;	at TC06_Logged_in_Access_Overview_page.run(TC06_Logged_in_Access_Overview_page:20)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1721313334571.run(TempTestSuite1721313334571.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_RESET&#xa;  (Session info: chrome=126.0.6478.128)&#xa;Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'&#xa;System info: host: 'DESKTOP-26G4KH6', ip: '172.16.0.122', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: b902ce27927a8064cb7a5f96ece5c250&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy23.get(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:78)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 28 more&#xa;"/>
+         <system-out><![CDATA[18-07-2024T21:36:27 - [TEST_CASE][FAILED] - Test Cases/Shopping Cart/Product Overview/TC06_Logged_in_Access_Overview_page: Test Cases/Shopping Cart/Product Overview/TC06_Logged_in_Access_Overview_page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://demo-store.katalon.com./signin'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at store.Authentication.Login.Login_successed(Login.groovy:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at TC06_Logged_in_Access_Overview_page.run(TC06_Logged_in_Access_Overview_page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1721313334571.run(TempTestSuite1721313334571.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=126.0.6478.128)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-26G4KH6', ip: '172.16.0.122', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b902ce27927a8064cb7a5f96ece5c250
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 28 more
+
+
+18-07-2024T21:36:27 - [TEST_STEP][FAILED] - store.Authentication.Login.Login_successed(username, password): Unable to open browser with url: 'https://demo-store.katalon.com./signin'
+
+18-07-2024T21:36:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+18-07-2024T21:36:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T21:36:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T21:36:29 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://demo-store.katalon.com./signin' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://demo-store.katalon.com./signin'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at store.Authentication.Login.Login_successed(Login.groovy:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at TC06_Logged_in_Access_Overview_page.run(TC06_Logged_in_Access_Overview_page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1721313334571.run(TempTestSuite1721313334571.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=126.0.6478.128)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-26G4KH6', ip: '172.16.0.122', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b902ce27927a8064cb7a5f96ece5c250
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at store.Authentication.Login.Login_successed(Login.groovy:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1720688422563.run(Script1720688422563.groovy:20)
+	... 18 more
+)
+
+18-07-2024T21:36:29 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://demo-store.katalon.com./signin']]></system-out>
+         <system-err><![CDATA[18-07-2024T21:36:27 - [TEST_CASE][FAILED] - Test Cases/Shopping Cart/Product Overview/TC06_Logged_in_Access_Overview_page: Test Cases/Shopping Cart/Product Overview/TC06_Logged_in_Access_Overview_page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://demo-store.katalon.com./signin'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at store.Authentication.Login.Login_successed(Login.groovy:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at TC06_Logged_in_Access_Overview_page.run(TC06_Logged_in_Access_Overview_page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1721313334571.run(TempTestSuite1721313334571.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=126.0.6478.128)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-26G4KH6', ip: '172.16.0.122', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b902ce27927a8064cb7a5f96ece5c250
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 28 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC07_Logged_out_Access_Overview_page" time="10.562" classname="Test Cases/Shopping Cart/Product Overview/TC07_Logged_out_Access_Overview_page" status="PASSED">
+         <system-out><![CDATA[18-07-2024T21:36:29 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC07_Logged_out_Access_Overview_page: Test Cases/Shopping Cart/Product Overview/TC07_Logged_out_Access_Overview_page
+
+18-07-2024T21:36:29 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T21:36:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+18-07-2024T21:36:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T21:36:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T21:36:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T21:36:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":"Basic Top"]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T21:36:37 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T21:36:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":"Basic Top"])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T21:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T21:36:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:36:39 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:36:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:36:39 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:36:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-07-2024T21:36:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-07-2024T21:35:45 - [TEST_SUITE][FAILED] - Authen Product Overview: Test Cases/Shopping Cart/Product Overview/TC06_Logged_in_Access_Overview_page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Shopping Cart/Sign in/Sign_in_page' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at store.Authentication.Login.Login_successed(Login.groovy:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at TC06_Logged_in_Access_Overview_page.run(TC06_Logged_in_Access_Overview_page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1721313334571.run(TempTestSuite1721313334571.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopping Cart/Sign in/Sign_in_page' located by '//*[contains(@class,'signin')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 25 more]]></system-out>
+      <system-err><![CDATA[18-07-2024T21:35:45 - [TEST_SUITE][FAILED] - Authen Product Overview: Test Cases/Shopping Cart/Product Overview/TC06_Logged_in_Access_Overview_page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Shopping Cart/Sign in/Sign_in_page' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at store.Authentication.Login.Login_successed(Login.groovy:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at TC06_Logged_in_Access_Overview_page.run(TC06_Logged_in_Access_Overview_page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1721313334571.run(TempTestSuite1721313334571.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopping Cart/Sign in/Sign_in_page' located by '//*[contains(@class,'signin')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 25 more]]></system-err>
+   </testsuite>
+   <testsuite name="All Products" tests="10" failures="0" errors="0" time="117.394" skipped="0" timestamp="18-07-2024T21:36:52" hostname="Admin - DESKTOP-26G4KH6" id="Test Suites/Shopping Cart/Product_Overview/All Products">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240718_213533\\Shopping Cart\\Product_Overview\\All Products\\20240718_213536"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240718_213533\\Shopping Cart\\Product_Overview\\All Products\\20240718_213536\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - DESKTOP-26G4KH6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="172.16.0.122"/>
+         <property name="sessionId" value="baaf52fea75a3dbd3a383dfeda4ea11a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC08_Check_display_info_product_01" time="13.964" classname="Test Cases/Shopping Cart/Product Overview/TC08_Check_display_info_product_01" status="PASSED">
+         <system-out><![CDATA[18-07-2024T21:36:53 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC08_Check_display_info_product_01: Test Cases/Shopping Cart/Product Overview/TC08_Check_display_info_product_01
+
+18-07-2024T21:36:53 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T21:36:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T21:36:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T21:36:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T21:36:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2024T21:36:59 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T21:36:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T21:37:03 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T21:37:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T21:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T21:37:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:37:04 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:37:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_title", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T21:37:05 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T21:37:05 - [TEST_STEP][PASSED] - price_web = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_price")): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$25.99 CAD'
+
+18-07-2024T21:37:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$25.99 CAD'
+
+18-07-2024T21:37:05 - [TEST_STEP][PASSED] - get_price = price_web.contains(price): null
+
+18-07-2024T21:37:05 - [TEST_STEP][PASSED] - verifyEqual(get_price, true): Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T21:37:05 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T21:37:05 - [TEST_STEP][PASSED] - actual_color = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_color")).toLowerCase(): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'White'
+
+18-07-2024T21:37:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'White'
+
+18-07-2024T21:37:05 - [TEST_STEP][PASSED] - verifyMatch(actual_color, color, true): Actual text 'white' and expected text 'white' are matched  using regular expression
+
+18-07-2024T21:37:05 - [MESSAGE][PASSED] - Actual text 'white' and expected text 'white' are matched  using regular expression
+
+18-07-2024T21:37:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-07-2024T21:37:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC09_Check_display_info_product_02" time="12.483" classname="Test Cases/Shopping Cart/Product Overview/TC09_Check_display_info_product_02" status="PASSED">
+         <system-out><![CDATA[18-07-2024T21:37:07 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC09_Check_display_info_product_02: Test Cases/Shopping Cart/Product Overview/TC09_Check_display_info_product_02
+
+18-07-2024T21:37:07 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T21:37:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T21:37:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T21:37:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T21:37:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2024T21:37:13 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T21:37:13 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T21:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T21:37:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T21:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T21:37:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:37:17 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:37:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_title", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T21:37:17 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T21:37:17 - [TEST_STEP][PASSED] - price_web = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_price")): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$79.99 CAD'
+
+18-07-2024T21:37:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$79.99 CAD'
+
+18-07-2024T21:37:18 - [TEST_STEP][PASSED] - get_price = price_web.contains(price): null
+
+18-07-2024T21:37:18 - [TEST_STEP][PASSED] - verifyEqual(get_price, true): Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T21:37:18 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T21:37:18 - [TEST_STEP][PASSED] - actual_color = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_color")).toLowerCase(): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Orange'
+
+18-07-2024T21:37:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Orange'
+
+18-07-2024T21:37:18 - [TEST_STEP][PASSED] - verifyMatch(actual_color, color, true): Actual text 'orange' and expected text 'orange' are matched  using regular expression
+
+18-07-2024T21:37:18 - [MESSAGE][PASSED] - Actual text 'orange' and expected text 'orange' are matched  using regular expression
+
+18-07-2024T21:37:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-07-2024T21:37:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC10_Check_display_info_product_03" time="12.512" classname="Test Cases/Shopping Cart/Product Overview/TC10_Check_display_info_product_03" status="PASSED">
+         <system-out><![CDATA[18-07-2024T21:37:19 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC10_Check_display_info_product_03: Test Cases/Shopping Cart/Product Overview/TC10_Check_display_info_product_03
+
+18-07-2024T21:37:19 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T21:37:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T21:37:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T21:37:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T21:37:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2024T21:37:25 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T21:37:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T21:37:28 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T21:37:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T21:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T21:37:28 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:37:30 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:37:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_title", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T21:37:30 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T21:37:30 - [TEST_STEP][PASSED] - price_web = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_price")): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$79.99 CAD'
+
+18-07-2024T21:37:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$79.99 CAD'
+
+18-07-2024T21:37:30 - [TEST_STEP][PASSED] - get_price = price_web.contains(price): null
+
+18-07-2024T21:37:30 - [TEST_STEP][PASSED] - verifyEqual(get_price, true): Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T21:37:30 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T21:37:30 - [TEST_STEP][PASSED] - actual_color = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_color")).toLowerCase(): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Dark Blue'
+
+18-07-2024T21:37:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Dark Blue'
+
+18-07-2024T21:37:30 - [TEST_STEP][PASSED] - verifyMatch(actual_color, color, true): Actual text 'dark blue' and expected text 'dark blue' are matched  using regular expression
+
+18-07-2024T21:37:30 - [MESSAGE][PASSED] - Actual text 'dark blue' and expected text 'dark blue' are matched  using regular expression
+
+18-07-2024T21:37:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-07-2024T21:37:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC11_Check_display_info_product_04" time="12.054" classname="Test Cases/Shopping Cart/Product Overview/TC11_Check_display_info_product_04" status="PASSED">
+         <system-out><![CDATA[18-07-2024T21:37:32 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC11_Check_display_info_product_04: Test Cases/Shopping Cart/Product Overview/TC11_Check_display_info_product_04
+
+18-07-2024T21:37:32 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T21:37:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T21:37:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T21:37:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T21:37:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2024T21:37:37 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T21:37:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T21:37:40 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T21:37:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T21:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T21:37:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:37:42 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:37:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_title", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T21:37:42 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T21:37:42 - [TEST_STEP][PASSED] - price_web = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_price")): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$45.99 CAD'
+
+18-07-2024T21:37:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$45.99 CAD'
+
+18-07-2024T21:37:42 - [TEST_STEP][PASSED] - get_price = price_web.contains(price): null
+
+18-07-2024T21:37:42 - [TEST_STEP][PASSED] - verifyEqual(get_price, true): Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T21:37:42 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T21:37:42 - [TEST_STEP][PASSED] - actual_color = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_color")).toLowerCase(): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Light Blue'
+
+18-07-2024T21:37:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Light Blue'
+
+18-07-2024T21:37:43 - [TEST_STEP][PASSED] - verifyMatch(actual_color, color, true): Actual text 'light blue' and expected text 'light blue' are matched  using regular expression
+
+18-07-2024T21:37:43 - [MESSAGE][PASSED] - Actual text 'light blue' and expected text 'light blue' are matched  using regular expression
+
+18-07-2024T21:37:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-07-2024T21:37:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC12_Check_display_info_product_05" time="10.549" classname="Test Cases/Shopping Cart/Product Overview/TC12_Check_display_info_product_05" status="PASSED">
+         <system-out><![CDATA[18-07-2024T21:37:44 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC12_Check_display_info_product_05: Test Cases/Shopping Cart/Product Overview/TC12_Check_display_info_product_05
+
+18-07-2024T21:37:44 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T21:37:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T21:37:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T21:37:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T21:37:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2024T21:37:49 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T21:37:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T21:37:52 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T21:37:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T21:37:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T21:37:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:37:53 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:37:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_title", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T21:37:54 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T21:37:54 - [TEST_STEP][PASSED] - price_web = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_price")): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$45.9 CAD'
+
+18-07-2024T21:37:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$45.9 CAD'
+
+18-07-2024T21:37:54 - [TEST_STEP][PASSED] - get_price = price_web.contains(price): null
+
+18-07-2024T21:37:54 - [TEST_STEP][PASSED] - verifyEqual(get_price, true): Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T21:37:54 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T21:37:54 - [TEST_STEP][PASSED] - actual_color = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_color")).toLowerCase(): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'BLACK'
+
+18-07-2024T21:37:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'BLACK'
+
+18-07-2024T21:37:54 - [TEST_STEP][PASSED] - verifyMatch(actual_color, color, true): Actual text 'black' and expected text 'black' are matched  using regular expression
+
+18-07-2024T21:37:54 - [MESSAGE][PASSED] - Actual text 'black' and expected text 'black' are matched  using regular expression
+
+18-07-2024T21:37:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-07-2024T21:37:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC13_Check_display_info_product_06" time="10.868" classname="Test Cases/Shopping Cart/Product Overview/TC13_Check_display_info_product_06" status="PASSED">
+         <system-out><![CDATA[18-07-2024T21:37:54 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC13_Check_display_info_product_06: Test Cases/Shopping Cart/Product Overview/TC13_Check_display_info_product_06
+
+18-07-2024T21:37:54 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T21:37:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T21:37:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T21:37:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T21:37:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2024T21:37:59 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T21:37:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T21:38:00 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T21:38:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T21:38:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T21:38:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:38:04 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:38:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_title", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T21:38:05 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T21:38:05 - [TEST_STEP][PASSED] - price_web = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_price")): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$16.9 CAD'
+
+18-07-2024T21:38:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$16.9 CAD'
+
+18-07-2024T21:38:05 - [TEST_STEP][PASSED] - get_price = price_web.contains(price): null
+
+18-07-2024T21:38:05 - [TEST_STEP][PASSED] - verifyEqual(get_price, true): Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T21:38:05 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T21:38:05 - [TEST_STEP][PASSED] - actual_color = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_color")).toLowerCase(): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'OYSTER WHITE'
+
+18-07-2024T21:38:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'OYSTER WHITE'
+
+18-07-2024T21:38:05 - [TEST_STEP][PASSED] - verifyMatch(actual_color, color, true): Actual text 'oyster white' and expected text 'oyster white' are matched  using regular expression
+
+18-07-2024T21:38:05 - [MESSAGE][PASSED] - Actual text 'oyster white' and expected text 'oyster white' are matched  using regular expression
+
+18-07-2024T21:38:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-07-2024T21:38:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC14_Check_display_info_product_07" time="10.385" classname="Test Cases/Shopping Cart/Product Overview/TC14_Check_display_info_product_07" status="PASSED">
+         <system-out><![CDATA[18-07-2024T21:38:05 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC14_Check_display_info_product_07: Test Cases/Shopping Cart/Product Overview/TC14_Check_display_info_product_07
+
+18-07-2024T21:38:05 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T21:38:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T21:38:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T21:38:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T21:38:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2024T21:38:10 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T21:38:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T21:38:10 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T21:38:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T21:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T21:38:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:38:15 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:38:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_title", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T21:38:15 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T21:38:15 - [TEST_STEP][PASSED] - price_web = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_price")): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$45.9 CAD'
+
+18-07-2024T21:38:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$45.9 CAD'
+
+18-07-2024T21:38:15 - [TEST_STEP][PASSED] - get_price = price_web.contains(price): null
+
+18-07-2024T21:38:15 - [TEST_STEP][PASSED] - verifyEqual(get_price, true): Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T21:38:15 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T21:38:15 - [TEST_STEP][PASSED] - actual_color = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_color")).toLowerCase(): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'BLACK'
+
+18-07-2024T21:38:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'BLACK'
+
+18-07-2024T21:38:16 - [TEST_STEP][PASSED] - verifyMatch(actual_color, color, true): Actual text 'black' and expected text 'black' are matched  using regular expression
+
+18-07-2024T21:38:16 - [MESSAGE][PASSED] - Actual text 'black' and expected text 'black' are matched  using regular expression
+
+18-07-2024T21:38:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-07-2024T21:38:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC15_Check_display_info_product_08" time="11.03" classname="Test Cases/Shopping Cart/Product Overview/TC15_Check_display_info_product_08" status="PASSED">
+         <system-out><![CDATA[18-07-2024T21:38:16 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC15_Check_display_info_product_08: Test Cases/Shopping Cart/Product Overview/TC15_Check_display_info_product_08
+
+18-07-2024T21:38:16 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T21:38:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T21:38:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T21:38:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T21:38:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2024T21:38:21 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T21:38:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T21:38:21 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T21:38:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T21:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T21:38:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:38:26 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:38:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_title", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T21:38:26 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T21:38:26 - [TEST_STEP][PASSED] - price_web = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_price")): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$35.95 CAD'
+
+18-07-2024T21:38:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$35.95 CAD'
+
+18-07-2024T21:38:26 - [TEST_STEP][PASSED] - get_price = price_web.contains(price): null
+
+18-07-2024T21:38:26 - [TEST_STEP][PASSED] - verifyEqual(get_price, true): Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T21:38:26 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T21:38:26 - [TEST_STEP][PASSED] - actual_color = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_color")).toLowerCase(): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Gray'
+
+18-07-2024T21:38:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Gray'
+
+18-07-2024T21:38:27 - [TEST_STEP][PASSED] - verifyMatch(actual_color, color, true): Actual text 'gray' and expected text 'gray' are matched  using regular expression
+
+18-07-2024T21:38:27 - [MESSAGE][PASSED] - Actual text 'gray' and expected text 'gray' are matched  using regular expression
+
+18-07-2024T21:38:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-07-2024T21:38:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC16_Check_display_info_product_09" time="11.799" classname="Test Cases/Shopping Cart/Product Overview/TC16_Check_display_info_product_09" status="PASSED">
+         <system-out><![CDATA[18-07-2024T21:38:27 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC16_Check_display_info_product_09: Test Cases/Shopping Cart/Product Overview/TC16_Check_display_info_product_09
+
+18-07-2024T21:38:27 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T21:38:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T21:38:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T21:38:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T21:38:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2024T21:38:32 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T21:38:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T21:38:33 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T21:38:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T21:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T21:38:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:38:38 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:38:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_title", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T21:38:38 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T21:38:38 - [TEST_STEP][PASSED] - price_web = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_price")): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$29.99 CAD'
+
+18-07-2024T21:38:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$29.99 CAD'
+
+18-07-2024T21:38:38 - [TEST_STEP][PASSED] - get_price = price_web.contains(price): null
+
+18-07-2024T21:38:38 - [TEST_STEP][PASSED] - verifyEqual(get_price, true): Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T21:38:38 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T21:38:38 - [TEST_STEP][PASSED] - actual_color = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_color")).toLowerCase(): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Black'
+
+18-07-2024T21:38:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Black'
+
+18-07-2024T21:38:38 - [TEST_STEP][PASSED] - verifyMatch(actual_color, color, true): Actual text 'black' and expected text 'black' are matched  using regular expression
+
+18-07-2024T21:38:38 - [MESSAGE][PASSED] - Actual text 'black' and expected text 'black' are matched  using regular expression
+
+18-07-2024T21:38:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-07-2024T21:38:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC17_Check_display_info_product_10" time="11.189" classname="Test Cases/Shopping Cart/Product Overview/TC17_Check_display_info_product_10" status="PASSED">
+         <system-out><![CDATA[18-07-2024T21:38:39 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC17_Check_display_info_product_10: Test Cases/Shopping Cart/Product Overview/TC17_Check_display_info_product_10
+
+18-07-2024T21:38:39 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T21:38:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T21:38:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T21:38:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T21:38:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2024T21:38:44 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T21:38:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T21:38:47 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T21:38:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T21:38:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T21:38:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:38:49 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T21:38:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_title", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T21:38:49 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T21:38:49 - [TEST_STEP][PASSED] - price_web = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_price")): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$79.99 CAD'
+
+18-07-2024T21:38:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$79.99 CAD'
+
+18-07-2024T21:38:49 - [TEST_STEP][PASSED] - get_price = price_web.contains(price): null
+
+18-07-2024T21:38:49 - [TEST_STEP][PASSED] - verifyEqual(get_price, true): Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T21:38:49 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T21:38:49 - [TEST_STEP][PASSED] - actual_color = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_color")).toLowerCase(): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Black'
+
+18-07-2024T21:38:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Black'
+
+18-07-2024T21:38:50 - [TEST_STEP][PASSED] - verifyMatch(actual_color, color, true): Actual text 'black' and expected text 'black' are matched  using regular expression
+
+18-07-2024T21:38:50 - [MESSAGE][PASSED] - Actual text 'black' and expected text 'black' are matched  using regular expression
+
+18-07-2024T21:38:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-07-2024T21:38:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-07-2024T21:36:52 - [TEST_SUITE][PASSED] - All Products: Test Cases/Shopping Cart/Product Overview/TC17_Check_display_info_product_10]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

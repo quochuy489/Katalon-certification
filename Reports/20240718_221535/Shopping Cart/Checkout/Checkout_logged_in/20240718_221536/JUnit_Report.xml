@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Checkout_logged_in" time="222.838" tests="1" failures="0" errors="0">
+   <testsuite name="Checkout_logged_in" tests="1" failures="0" errors="0" time="222.838" skipped="0" timestamp="18-07-2024T22:15:43" hostname="Admin - DESKTOP-26G4KH6" id="Test Suites/Shopping Cart/Checkout/Checkout_logged_in">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240718_221535\\Shopping Cart\\Checkout\\Checkout_logged_in\\20240718_221536"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240718_221535\\Shopping Cart\\Checkout\\Checkout_logged_in\\20240718_221536\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - DESKTOP-26G4KH6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="172.16.0.122"/>
+         <property name="sessionId" value="5bb9e3b1960454e1afd7be6ed936f108"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Shopping Cart/Check out/TC50_Logged_in_Checkout" time="222.615" classname="Test Cases/Shopping Cart/Check out/TC50_Logged_in_Checkout" status="PASSED">
+         <system-out><![CDATA[18-07-2024T22:15:44 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Check out/TC50_Logged_in_Checkout: Test Cases/Shopping Cart/Check out/TC50_Logged_in_Checkout
+
+18-07-2024T22:15:44 - [TEST_STEP][PASSED] - store.Authentication.Login.Login_successed(username, password): store.Authentication.Login.Login_successed is PASSED
+
+18-07-2024T22:15:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T22:15:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T22:15:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/signin'
+
+18-07-2024T22:15:50 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T22:15:50 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign in/Sign_in_page' is present
+
+18-07-2024T22:15:52 - [MESSAGE][PASSED] - Text 'quoc.huy.lu8960@gmail.com' is set on object 'Object Repository/Shopping Cart/Sign in/Email_input'
+
+18-07-2024T22:15:53 - [MESSAGE][PASSED] - Text 'KatalonCerti123' is set on object 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+18-07-2024T22:15:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Sign in/Signin_button' is clicked on
+
+18-07-2024T22:15:55 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+18-07-2024T22:15:55 - [MESSAGE][PASSED] - store.Authentication.Login.Login_successed is PASSED
+
+18-07-2024T22:15:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2024T22:15:55 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T22:15:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 3): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T22:15:55 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T22:15:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T22:15:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T22:15:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 3): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T22:16:26 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T22:16:26 - [TEST_STEP][PASSED] - store.Function.Check_out_product.Check_out_a_product(): store.Function.Check_out_product.Check_out_a_product is PASSED
+
+18-07-2024T22:16:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Product Overview/Add_to_cart_button' is clicked on
+
+18-07-2024T22:17:26 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Cart/Cart_page' is present
+
+18-07-2024T22:17:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Cart/Check_out_button' is clicked on
+
+18-07-2024T22:18:26 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Check out/Checkout_page' is present
+
+18-07-2024T22:18:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Check out/Confirm_checkout_button' is clicked on
+
+18-07-2024T22:18:56 - [MESSAGE][PASSED] - store.Function.Check_out_product.Check_out_a_product is PASSED
+
+18-07-2024T22:18:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Check out/Success page/Checkout_success_page"), 5): Object 'Object Repository/Shopping Cart/Check out/Success page/Checkout_success_page' is present
+
+18-07-2024T22:19:26 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Check out/Success page/Checkout_success_page' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-07-2024T22:15:43 - [TEST_SUITE][PASSED] - Checkout_logged_in: Test Cases/Shopping Cart/Check out/TC50_Logged_in_Checkout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

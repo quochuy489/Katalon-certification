@@ -26,3 +26,5 @@ WebUI.click(findTestObject('Object Repository/Healthcare/Dashboard/a_Make Appoin
 CustomKeywords.'store.Authentication.HC_Login.HC_Login_with_URL'('John Doe', 'ThisIsNotAPassword')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Healthcare/Appointment/form_Healthcare'), 3)
+
+WebUI.closeBrowser()

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="All Products" time="115.755" tests="10" failures="0" errors="0">
+   <testsuite name="All Products" tests="10" failures="0" errors="0" time="115.755" skipped="0" timestamp="18-07-2024T22:01:03" hostname="Admin - DESKTOP-26G4KH6" id="Test Suites/Shopping Cart/Product_Overview/All Products">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240718_215914\\Shopping Cart\\Product_Overview\\All Products\\20240718_215917"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240718_215914\\Shopping Cart\\Product_Overview\\All Products\\20240718_215917\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - DESKTOP-26G4KH6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="172.16.0.122"/>
+         <property name="sessionId" value="3e1be10b92b6c745c6d67208dcd47e5a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC08_Check_display_info_product_01" time="12.651" classname="Test Cases/Shopping Cart/Product Overview/TC08_Check_display_info_product_01" status="PASSED">
+         <system-out><![CDATA[18-07-2024T22:01:04 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC08_Check_display_info_product_01: Test Cases/Shopping Cart/Product Overview/TC08_Check_display_info_product_01
+
+18-07-2024T22:01:04 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T22:01:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T22:01:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T22:01:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T22:01:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2024T22:01:11 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T22:01:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T22:01:13 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T22:01:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T22:01:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T22:01:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T22:01:15 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T22:01:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_title", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T22:01:15 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T22:01:15 - [TEST_STEP][PASSED] - price_web = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_price")): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$25.99 CAD'
+
+18-07-2024T22:01:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$25.99 CAD'
+
+18-07-2024T22:01:16 - [TEST_STEP][PASSED] - get_price = price_web.contains(price): null
+
+18-07-2024T22:01:16 - [TEST_STEP][PASSED] - verifyEqual(get_price, true): Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T22:01:16 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T22:01:16 - [TEST_STEP][PASSED] - actual_color = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_color")).toLowerCase(): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'White'
+
+18-07-2024T22:01:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'White'
+
+18-07-2024T22:01:16 - [TEST_STEP][PASSED] - verifyMatch(actual_color, color, true): Actual text 'white' and expected text 'white' are matched  using regular expression
+
+18-07-2024T22:01:16 - [MESSAGE][PASSED] - Actual text 'white' and expected text 'white' are matched  using regular expression
+
+18-07-2024T22:01:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-07-2024T22:01:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC09_Check_display_info_product_02" time="11.374" classname="Test Cases/Shopping Cart/Product Overview/TC09_Check_display_info_product_02" status="PASSED">
+         <system-out><![CDATA[18-07-2024T22:01:16 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC09_Check_display_info_product_02: Test Cases/Shopping Cart/Product Overview/TC09_Check_display_info_product_02
+
+18-07-2024T22:01:16 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T22:01:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T22:01:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T22:01:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T22:01:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2024T22:01:23 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T22:01:23 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T22:01:25 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T22:01:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T22:01:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T22:01:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T22:01:27 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T22:01:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_title", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T22:01:27 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T22:01:27 - [TEST_STEP][PASSED] - price_web = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_price")): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$79.99 CAD'
+
+18-07-2024T22:01:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$79.99 CAD'
+
+18-07-2024T22:01:27 - [TEST_STEP][PASSED] - get_price = price_web.contains(price): null
+
+18-07-2024T22:01:27 - [TEST_STEP][PASSED] - verifyEqual(get_price, true): Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T22:01:27 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T22:01:27 - [TEST_STEP][PASSED] - actual_color = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_color")).toLowerCase(): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Orange'
+
+18-07-2024T22:01:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Orange'
+
+18-07-2024T22:01:28 - [TEST_STEP][PASSED] - verifyMatch(actual_color, color, true): Actual text 'orange' and expected text 'orange' are matched  using regular expression
+
+18-07-2024T22:01:28 - [MESSAGE][PASSED] - Actual text 'orange' and expected text 'orange' are matched  using regular expression
+
+18-07-2024T22:01:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-07-2024T22:01:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC10_Check_display_info_product_03" time="13.095" classname="Test Cases/Shopping Cart/Product Overview/TC10_Check_display_info_product_03" status="PASSED">
+         <system-out><![CDATA[18-07-2024T22:01:28 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC10_Check_display_info_product_03: Test Cases/Shopping Cart/Product Overview/TC10_Check_display_info_product_03
+
+18-07-2024T22:01:28 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T22:01:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T22:01:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T22:01:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T22:01:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2024T22:01:38 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T22:01:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T22:01:38 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T22:01:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T22:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T22:01:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T22:01:39 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T22:01:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_title", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T22:01:40 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T22:01:40 - [TEST_STEP][PASSED] - price_web = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_price")): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$79.99 CAD'
+
+18-07-2024T22:01:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$79.99 CAD'
+
+18-07-2024T22:01:40 - [TEST_STEP][PASSED] - get_price = price_web.contains(price): null
+
+18-07-2024T22:01:40 - [TEST_STEP][PASSED] - verifyEqual(get_price, true): Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T22:01:40 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T22:01:40 - [TEST_STEP][PASSED] - actual_color = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_color")).toLowerCase(): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Dark Blue'
+
+18-07-2024T22:01:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Dark Blue'
+
+18-07-2024T22:01:41 - [TEST_STEP][PASSED] - verifyMatch(actual_color, color, true): Actual text 'dark blue' and expected text 'dark blue' are matched  using regular expression
+
+18-07-2024T22:01:41 - [MESSAGE][PASSED] - Actual text 'dark blue' and expected text 'dark blue' are matched  using regular expression
+
+18-07-2024T22:01:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-07-2024T22:01:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC11_Check_display_info_product_04" time="11.172" classname="Test Cases/Shopping Cart/Product Overview/TC11_Check_display_info_product_04" status="PASSED">
+         <system-out><![CDATA[18-07-2024T22:01:41 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC11_Check_display_info_product_04: Test Cases/Shopping Cart/Product Overview/TC11_Check_display_info_product_04
+
+18-07-2024T22:01:41 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T22:01:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T22:01:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T22:01:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T22:01:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2024T22:01:46 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T22:01:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T22:01:49 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T22:01:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T22:01:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T22:01:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T22:01:51 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T22:01:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_title", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T22:01:51 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T22:01:51 - [TEST_STEP][PASSED] - price_web = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_price")): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$45.99 CAD'
+
+18-07-2024T22:01:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$45.99 CAD'
+
+18-07-2024T22:01:52 - [TEST_STEP][PASSED] - get_price = price_web.contains(price): null
+
+18-07-2024T22:01:52 - [TEST_STEP][PASSED] - verifyEqual(get_price, true): Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T22:01:52 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T22:01:52 - [TEST_STEP][PASSED] - actual_color = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_color")).toLowerCase(): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Light Blue'
+
+18-07-2024T22:01:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Light Blue'
+
+18-07-2024T22:01:52 - [TEST_STEP][PASSED] - verifyMatch(actual_color, color, true): Actual text 'light blue' and expected text 'light blue' are matched  using regular expression
+
+18-07-2024T22:01:52 - [MESSAGE][PASSED] - Actual text 'light blue' and expected text 'light blue' are matched  using regular expression
+
+18-07-2024T22:01:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-07-2024T22:01:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC12_Check_display_info_product_05" time="11.272" classname="Test Cases/Shopping Cart/Product Overview/TC12_Check_display_info_product_05" status="PASSED">
+         <system-out><![CDATA[18-07-2024T22:01:52 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC12_Check_display_info_product_05: Test Cases/Shopping Cart/Product Overview/TC12_Check_display_info_product_05
+
+18-07-2024T22:01:52 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T22:01:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T22:01:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T22:01:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T22:01:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2024T22:01:57 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T22:01:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T22:02:01 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T22:02:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T22:02:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T22:02:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T22:02:02 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T22:02:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_title", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T22:02:03 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T22:02:03 - [TEST_STEP][PASSED] - price_web = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_price")): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$45.9 CAD'
+
+18-07-2024T22:02:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$45.9 CAD'
+
+18-07-2024T22:02:03 - [TEST_STEP][PASSED] - get_price = price_web.contains(price): null
+
+18-07-2024T22:02:03 - [TEST_STEP][PASSED] - verifyEqual(get_price, true): Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T22:02:03 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T22:02:03 - [TEST_STEP][PASSED] - actual_color = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_color")).toLowerCase(): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'BLACK'
+
+18-07-2024T22:02:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'BLACK'
+
+18-07-2024T22:02:03 - [TEST_STEP][PASSED] - verifyMatch(actual_color, color, true): Actual text 'black' and expected text 'black' are matched  using regular expression
+
+18-07-2024T22:02:03 - [MESSAGE][PASSED] - Actual text 'black' and expected text 'black' are matched  using regular expression
+
+18-07-2024T22:02:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-07-2024T22:02:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC13_Check_display_info_product_06" time="12.064" classname="Test Cases/Shopping Cart/Product Overview/TC13_Check_display_info_product_06" status="PASSED">
+         <system-out><![CDATA[18-07-2024T22:02:03 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC13_Check_display_info_product_06: Test Cases/Shopping Cart/Product Overview/TC13_Check_display_info_product_06
+
+18-07-2024T22:02:03 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T22:02:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T22:02:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T22:02:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T22:02:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2024T22:02:09 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T22:02:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T22:02:13 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T22:02:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T22:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T22:02:13 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T22:02:14 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T22:02:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_title", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T22:02:15 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T22:02:15 - [TEST_STEP][PASSED] - price_web = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_price")): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$16.9 CAD'
+
+18-07-2024T22:02:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$16.9 CAD'
+
+18-07-2024T22:02:15 - [TEST_STEP][PASSED] - get_price = price_web.contains(price): null
+
+18-07-2024T22:02:15 - [TEST_STEP][PASSED] - verifyEqual(get_price, true): Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T22:02:15 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T22:02:15 - [TEST_STEP][PASSED] - actual_color = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_color")).toLowerCase(): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'OYSTER WHITE'
+
+18-07-2024T22:02:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'OYSTER WHITE'
+
+18-07-2024T22:02:15 - [TEST_STEP][PASSED] - verifyMatch(actual_color, color, true): Actual text 'oyster white' and expected text 'oyster white' are matched  using regular expression
+
+18-07-2024T22:02:15 - [MESSAGE][PASSED] - Actual text 'oyster white' and expected text 'oyster white' are matched  using regular expression
+
+18-07-2024T22:02:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-07-2024T22:02:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC14_Check_display_info_product_07" time="11.25" classname="Test Cases/Shopping Cart/Product Overview/TC14_Check_display_info_product_07" status="PASSED">
+         <system-out><![CDATA[18-07-2024T22:02:15 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC14_Check_display_info_product_07: Test Cases/Shopping Cart/Product Overview/TC14_Check_display_info_product_07
+
+18-07-2024T22:02:15 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T22:02:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T22:02:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T22:02:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T22:02:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2024T22:02:22 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T22:02:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T22:02:24 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T22:02:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T22:02:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T22:02:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T22:02:26 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T22:02:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_title", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T22:02:26 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T22:02:26 - [TEST_STEP][PASSED] - price_web = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_price")): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$45.9 CAD'
+
+18-07-2024T22:02:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$45.9 CAD'
+
+18-07-2024T22:02:26 - [TEST_STEP][PASSED] - get_price = price_web.contains(price): null
+
+18-07-2024T22:02:26 - [TEST_STEP][PASSED] - verifyEqual(get_price, true): Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T22:02:26 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T22:02:26 - [TEST_STEP][PASSED] - actual_color = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_color")).toLowerCase(): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'BLACK'
+
+18-07-2024T22:02:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'BLACK'
+
+18-07-2024T22:02:27 - [TEST_STEP][PASSED] - verifyMatch(actual_color, color, true): Actual text 'black' and expected text 'black' are matched  using regular expression
+
+18-07-2024T22:02:27 - [MESSAGE][PASSED] - Actual text 'black' and expected text 'black' are matched  using regular expression
+
+18-07-2024T22:02:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-07-2024T22:02:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC15_Check_display_info_product_08" time="10.432" classname="Test Cases/Shopping Cart/Product Overview/TC15_Check_display_info_product_08" status="PASSED">
+         <system-out><![CDATA[18-07-2024T22:02:27 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC15_Check_display_info_product_08: Test Cases/Shopping Cart/Product Overview/TC15_Check_display_info_product_08
+
+18-07-2024T22:02:27 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T22:02:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T22:02:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T22:02:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T22:02:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2024T22:02:31 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T22:02:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T22:02:32 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T22:02:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T22:02:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T22:02:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T22:02:36 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T22:02:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_title", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T22:02:36 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T22:02:36 - [TEST_STEP][PASSED] - price_web = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_price")): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$35.95 CAD'
+
+18-07-2024T22:02:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$35.95 CAD'
+
+18-07-2024T22:02:37 - [TEST_STEP][PASSED] - get_price = price_web.contains(price): null
+
+18-07-2024T22:02:37 - [TEST_STEP][PASSED] - verifyEqual(get_price, true): Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T22:02:37 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T22:02:37 - [TEST_STEP][PASSED] - actual_color = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_color")).toLowerCase(): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Gray'
+
+18-07-2024T22:02:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Gray'
+
+18-07-2024T22:02:37 - [TEST_STEP][PASSED] - verifyMatch(actual_color, color, true): Actual text 'gray' and expected text 'gray' are matched  using regular expression
+
+18-07-2024T22:02:37 - [MESSAGE][PASSED] - Actual text 'gray' and expected text 'gray' are matched  using regular expression
+
+18-07-2024T22:02:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-07-2024T22:02:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC16_Check_display_info_product_09" time="11.246" classname="Test Cases/Shopping Cart/Product Overview/TC16_Check_display_info_product_09" status="PASSED">
+         <system-out><![CDATA[18-07-2024T22:02:37 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC16_Check_display_info_product_09: Test Cases/Shopping Cart/Product Overview/TC16_Check_display_info_product_09
+
+18-07-2024T22:02:37 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T22:02:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T22:02:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T22:02:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T22:02:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2024T22:02:43 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T22:02:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T22:02:46 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T22:02:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T22:02:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T22:02:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T22:02:47 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T22:02:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_title", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T22:02:48 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T22:02:48 - [TEST_STEP][PASSED] - price_web = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_price")): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$29.99 CAD'
+
+18-07-2024T22:02:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$29.99 CAD'
+
+18-07-2024T22:02:48 - [TEST_STEP][PASSED] - get_price = price_web.contains(price): null
+
+18-07-2024T22:02:48 - [TEST_STEP][PASSED] - verifyEqual(get_price, true): Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T22:02:48 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T22:02:48 - [TEST_STEP][PASSED] - actual_color = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_color")).toLowerCase(): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Black'
+
+18-07-2024T22:02:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Black'
+
+18-07-2024T22:02:48 - [TEST_STEP][PASSED] - verifyMatch(actual_color, color, true): Actual text 'black' and expected text 'black' are matched  using regular expression
+
+18-07-2024T22:02:48 - [MESSAGE][PASSED] - Actual text 'black' and expected text 'black' are matched  using regular expression
+
+18-07-2024T22:02:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-07-2024T22:02:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC17_Check_display_info_product_10" time="10.677" classname="Test Cases/Shopping Cart/Product Overview/TC17_Check_display_info_product_10" status="PASSED">
+         <system-out><![CDATA[18-07-2024T22:02:48 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC17_Check_display_info_product_10: Test Cases/Shopping Cart/Product Overview/TC17_Check_display_info_product_10
+
+18-07-2024T22:02:48 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T22:02:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-07-2024T22:02:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2024T22:02:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+18-07-2024T22:02:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2024T22:02:53 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2024T22:02:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T22:02:54 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+18-07-2024T22:02:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T22:02:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+18-07-2024T22:02:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T22:02:58 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+18-07-2024T22:02:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_title", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T22:02:58 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_title' is present
+
+18-07-2024T22:02:58 - [TEST_STEP][PASSED] - price_web = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_price")): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$79.99 CAD'
+
+18-07-2024T22:02:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_price' is: '$79.99 CAD'
+
+18-07-2024T22:02:59 - [TEST_STEP][PASSED] - get_price = price_web.contains(price): null
+
+18-07-2024T22:02:59 - [TEST_STEP][PASSED] - verifyEqual(get_price, true): Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T22:02:59 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+18-07-2024T22:02:59 - [TEST_STEP][PASSED] - actual_color = getText(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_color")).toLowerCase(): Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Black'
+
+18-07-2024T22:02:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Product Overview/Product_color' is: 'Black'
+
+18-07-2024T22:02:59 - [TEST_STEP][PASSED] - verifyMatch(actual_color, color, true): Actual text 'black' and expected text 'black' are matched  using regular expression
+
+18-07-2024T22:02:59 - [MESSAGE][PASSED] - Actual text 'black' and expected text 'black' are matched  using regular expression
+
+18-07-2024T22:02:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-07-2024T22:02:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-07-2024T22:01:03 - [TEST_SUITE][PASSED] - All Products: Test Cases/Shopping Cart/Product Overview/TC17_Check_display_info_product_10]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
