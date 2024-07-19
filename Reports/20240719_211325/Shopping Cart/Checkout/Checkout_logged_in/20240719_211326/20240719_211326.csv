@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Checkout_logged_in,Chrome 126.0.0.0,,,19-07-2024 21:13:40,19-07-2024 21:14:06,25.988s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Check out/TC50_Logged_in_Checkout,Chrome 126.0.0.0,,,19-07-2024 21:13:40,19-07-2024 21:14:06,25.779s,PASSED
+"store.Authentication.Login.Login_successed(username, password)",Chrome 126.0.0.0,,,19-07-2024 21:13:41,19-07-2024 21:14:00,18.769s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,19-07-2024 21:14:00,19-07-2024 21:14:00,0.098s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]), 3)",Chrome 126.0.0.0,,,19-07-2024 21:14:00,19-07-2024 21:14:00,0.451s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]))",Chrome 126.0.0.0,,,19-07-2024 21:14:00,19-07-2024 21:14:01,0.463s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_Overview_page""), 3)",Chrome 126.0.0.0,,,19-07-2024 21:14:01,19-07-2024 21:14:02,1.098s,PASSED
+store.Function.Check_out_product.Check_out_a_product(),Chrome 126.0.0.0,,,19-07-2024 21:14:02,19-07-2024 21:14:05,3.815s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Check out/Success page/Checkout_success_page""), 5)",Chrome 126.0.0.0,,,19-07-2024 21:14:05,19-07-2024 21:14:06,0.706s,PASSED

@@ -1,0 +1,114 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sign up,Chrome 126.0.0.0,,,19-07-2024 20:44:29,19-07-2024 20:53:18,8m - 49.007s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Sign up/TC18_Fill_wrong_email_format,Chrome 126.0.0.0,,,19-07-2024 20:44:29,19-07-2024 20:44:53,24.304s,PASSED
+openBrowser(Signup_URL),Chrome 126.0.0.0,,,19-07-2024 20:44:29,19-07-2024 20:44:49,19.708s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,19-07-2024 20:44:49,19-07-2024 20:44:49,0.061s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign up/Sign_up_page""), 5)",Chrome 126.0.0.0,,,19-07-2024 20:44:49,19-07-2024 20:44:51,2.050s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign up/Email_input""), username)",Chrome 126.0.0.0,,,19-07-2024 20:44:51,19-07-2024 20:44:52,0.636s,PASSED
+"sendKeys(findTestObject(""Object Repository/Shopping Cart/Sign up/Email_input""), Keys.chord(TAB))",Chrome 126.0.0.0,,,19-07-2024 20:44:52,19-07-2024 20:44:52,0.436s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign up/Email_error_message_lb""), 5)",Chrome 126.0.0.0,,,19-07-2024 20:44:52,19-07-2024 20:44:53,0.490s,PASSED
+"Actual_email_error = getText(findTestObject(""Object Repository/Shopping Cart/Sign up/Email_error_message_lb""))",Chrome 126.0.0.0,,,19-07-2024 20:44:53,19-07-2024 20:44:53,0.292s,PASSED
+"verifyEqual(Actual_email_error, expec_email_error)",Chrome 126.0.0.0,,,19-07-2024 20:44:53,19-07-2024 20:44:53,0.037s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,19-07-2024 20:44:53,19-07-2024 20:44:53,0.218s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Sign up/TC18_Fill_wrong_email_format,Chrome 126.0.0.0,,,19-07-2024 20:44:53,19-07-2024 20:45:09,15.283s,PASSED
+openBrowser(Signup_URL),Chrome 126.0.0.0,,,19-07-2024 20:44:53,19-07-2024 20:45:02,8.397s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,19-07-2024 20:45:02,19-07-2024 20:45:02,0.045s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign up/Sign_up_page""), 5)",Chrome 126.0.0.0,,,19-07-2024 20:45:02,19-07-2024 20:45:07,4.671s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign up/Email_input""), username)",Chrome 126.0.0.0,,,19-07-2024 20:45:07,19-07-2024 20:45:07,0.622s,PASSED
+"sendKeys(findTestObject(""Object Repository/Shopping Cart/Sign up/Email_input""), Keys.chord(TAB))",Chrome 126.0.0.0,,,19-07-2024 20:45:07,19-07-2024 20:45:08,0.617s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign up/Email_error_message_lb""), 5)",Chrome 126.0.0.0,,,19-07-2024 20:45:08,19-07-2024 20:45:08,0.489s,PASSED
+"Actual_email_error = getText(findTestObject(""Object Repository/Shopping Cart/Sign up/Email_error_message_lb""))",Chrome 126.0.0.0,,,19-07-2024 20:45:08,19-07-2024 20:45:09,0.272s,PASSED
+"verifyEqual(Actual_email_error, expec_email_error)",Chrome 126.0.0.0,,,19-07-2024 20:45:09,19-07-2024 20:45:09,0.001s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,19-07-2024 20:45:09,19-07-2024 20:45:09,0.148s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Sign up/TC18_Fill_wrong_email_format,Chrome 126.0.0.0,,,19-07-2024 20:45:09,19-07-2024 20:45:25,16.521s,PASSED
+openBrowser(Signup_URL),Chrome 126.0.0.0,,,19-07-2024 20:45:09,19-07-2024 20:45:20,11.022s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,19-07-2024 20:45:20,19-07-2024 20:45:20,0.044s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign up/Sign_up_page""), 5)",Chrome 126.0.0.0,,,19-07-2024 20:45:20,19-07-2024 20:45:23,3.450s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign up/Email_input""), username)",Chrome 126.0.0.0,,,19-07-2024 20:45:23,19-07-2024 20:45:24,0.615s,PASSED
+"sendKeys(findTestObject(""Object Repository/Shopping Cart/Sign up/Email_input""), Keys.chord(TAB))",Chrome 126.0.0.0,,,19-07-2024 20:45:24,19-07-2024 20:45:24,0.504s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign up/Email_error_message_lb""), 5)",Chrome 126.0.0.0,,,19-07-2024 20:45:24,19-07-2024 20:45:25,0.472s,PASSED
+"Actual_email_error = getText(findTestObject(""Object Repository/Shopping Cart/Sign up/Email_error_message_lb""))",Chrome 126.0.0.0,,,19-07-2024 20:45:25,19-07-2024 20:45:25,0.272s,PASSED
+"verifyEqual(Actual_email_error, expec_email_error)",Chrome 126.0.0.0,,,19-07-2024 20:45:25,19-07-2024 20:45:25,0.001s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,19-07-2024 20:45:25,19-07-2024 20:45:25,0.118s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Sign up/TC19_Fill_wrong_password_rule,Chrome 126.0.0.0,,,19-07-2024 20:45:25,19-07-2024 20:45:41,15.757s,PASSED
+openBrowser(Signup_URL),Chrome 126.0.0.0,,,19-07-2024 20:45:25,19-07-2024 20:45:33,7.778s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,19-07-2024 20:45:33,19-07-2024 20:45:33,0.045s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign up/Sign_up_page""), 5)",Chrome 126.0.0.0,,,19-07-2024 20:45:33,19-07-2024 20:45:39,5.733s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign up/Password_input""), password)",Chrome 126.0.0.0,,,19-07-2024 20:45:39,19-07-2024 20:45:40,0.618s,PASSED
+"sendKeys(findTestObject(""Object Repository/Shopping Cart/Sign up/Password_input""), Keys.chord(TAB))",Chrome 126.0.0.0,,,19-07-2024 20:45:40,19-07-2024 20:45:40,0.513s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign up/Password_error_message_lb""), 5)",Chrome 126.0.0.0,,,19-07-2024 20:45:40,19-07-2024 20:45:41,0.488s,PASSED
+"Actual_password_error = getText(findTestObject(""Object Repository/Shopping Cart/Sign up/Password_error_message_lb""))",Chrome 126.0.0.0,,,19-07-2024 20:45:41,19-07-2024 20:45:41,0.279s,PASSED
+"verifyEqual(Actual_password_error, expec_password_error)",Chrome 126.0.0.0,,,19-07-2024 20:45:41,19-07-2024 20:45:41,0.004s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,19-07-2024 20:45:41,19-07-2024 20:45:41,0.153s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Sign up/TC19_Fill_wrong_password_rule,Chrome 126.0.0.0,,,19-07-2024 20:45:41,19-07-2024 20:45:58,17.405s,PASSED
+openBrowser(Signup_URL),Chrome 126.0.0.0,,,19-07-2024 20:45:41,19-07-2024 20:45:53,12.021s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,19-07-2024 20:45:53,19-07-2024 20:45:53,0.039s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign up/Sign_up_page""), 5)",Chrome 126.0.0.0,,,19-07-2024 20:45:53,19-07-2024 20:45:56,2.444s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign up/Password_input""), password)",Chrome 126.0.0.0,,,19-07-2024 20:45:56,19-07-2024 20:45:56,0.620s,PASSED
+"sendKeys(findTestObject(""Object Repository/Shopping Cart/Sign up/Password_input""), Keys.chord(TAB))",Chrome 126.0.0.0,,,19-07-2024 20:45:56,19-07-2024 20:45:57,0.398s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign up/Password_error_message_lb""), 5)",Chrome 126.0.0.0,,,19-07-2024 20:45:57,19-07-2024 20:45:57,0.482s,PASSED
+"Actual_password_error = getText(findTestObject(""Object Repository/Shopping Cart/Sign up/Password_error_message_lb""))",Chrome 126.0.0.0,,,19-07-2024 20:45:57,19-07-2024 20:45:57,0.258s,PASSED
+"verifyEqual(Actual_password_error, expec_password_error)",Chrome 126.0.0.0,,,19-07-2024 20:45:57,19-07-2024 20:45:57,0.002s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,19-07-2024 20:45:57,19-07-2024 20:45:58,1.124s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Sign up/TC19_Fill_wrong_password_rule,Chrome 126.0.0.0,,,19-07-2024 20:45:58,19-07-2024 20:46:19,20.161s,PASSED
+openBrowser(Signup_URL),Chrome 126.0.0.0,,,19-07-2024 20:45:59,19-07-2024 20:46:13,14.412s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,19-07-2024 20:46:13,19-07-2024 20:46:13,0.032s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign up/Sign_up_page""), 5)",Chrome 126.0.0.0,,,19-07-2024 20:46:13,19-07-2024 20:46:17,3.681s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign up/Password_input""), password)",Chrome 126.0.0.0,,,19-07-2024 20:46:17,19-07-2024 20:46:17,0.607s,PASSED
+"sendKeys(findTestObject(""Object Repository/Shopping Cart/Sign up/Password_input""), Keys.chord(TAB))",Chrome 126.0.0.0,,,19-07-2024 20:46:17,19-07-2024 20:46:18,0.508s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign up/Password_error_message_lb""), 5)",Chrome 126.0.0.0,,,19-07-2024 20:46:18,19-07-2024 20:46:18,0.481s,PASSED
+"Actual_password_error = getText(findTestObject(""Object Repository/Shopping Cart/Sign up/Password_error_message_lb""))",Chrome 126.0.0.0,,,19-07-2024 20:46:18,19-07-2024 20:46:19,0.273s,PASSED
+"verifyEqual(Actual_password_error, expec_password_error)",Chrome 126.0.0.0,,,19-07-2024 20:46:19,19-07-2024 20:46:19,0.002s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,19-07-2024 20:46:19,19-07-2024 20:46:19,0.147s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Sign up/TC20_Fill_wrong_verify_password_rule,Chrome 126.0.0.0,,,19-07-2024 20:46:19,19-07-2024 20:52:30,6m - 11.719s,PASSED
+openBrowser(Signup_URL),Chrome 126.0.0.0,,,19-07-2024 20:46:19,19-07-2024 20:49:34,3m - 15.379s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,19-07-2024 20:49:34,19-07-2024 20:49:34,0.045s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign up/Sign_up_page""), 5)",Chrome 126.0.0.0,,,19-07-2024 20:49:34,19-07-2024 20:50:04,30.054s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign up/Verify_password_input""), password)",Chrome 126.0.0.0,,,19-07-2024 20:50:04,19-07-2024 20:51:04,1m - 0.183s,PASSED
+"sendKeys(findTestObject(""Object Repository/Shopping Cart/Sign up/Verify_password_input""), Keys.chord(TAB))",Chrome 126.0.0.0,,,19-07-2024 20:51:04,19-07-2024 20:51:35,30.076s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb""), 5)",Chrome 126.0.0.0,,,19-07-2024 20:51:35,19-07-2024 20:52:05,30.040s,PASSED
+"Actual_verify_password_error = getText(findTestObject(""Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb""))",Chrome 126.0.0.0,,,19-07-2024 20:52:05,19-07-2024 20:52:30,25.656s,PASSED
+"verifyEqual(Actual_verify_password_error, expec_verify_password_error)",Chrome 126.0.0.0,,,19-07-2024 20:52:30,19-07-2024 20:52:30,0.003s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,19-07-2024 20:52:30,19-07-2024 20:52:30,0.162s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Sign up/TC20_Fill_wrong_verify_password_rule,Chrome 126.0.0.0,,,19-07-2024 20:52:30,19-07-2024 20:52:44,13.696s,PASSED
+openBrowser(Signup_URL),Chrome 126.0.0.0,,,19-07-2024 20:52:30,19-07-2024 20:52:41,10.958s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,19-07-2024 20:52:41,19-07-2024 20:52:41,0.033s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign up/Sign_up_page""), 5)",Chrome 126.0.0.0,,,19-07-2024 20:52:41,19-07-2024 20:52:42,0.263s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign up/Verify_password_input""), password)",Chrome 126.0.0.0,,,19-07-2024 20:52:42,19-07-2024 20:52:43,0.933s,PASSED
+"sendKeys(findTestObject(""Object Repository/Shopping Cart/Sign up/Verify_password_input""), Keys.chord(TAB))",Chrome 126.0.0.0,,,19-07-2024 20:52:43,19-07-2024 20:52:43,0.290s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb""), 5)",Chrome 126.0.0.0,,,19-07-2024 20:52:43,19-07-2024 20:52:43,0.480s,PASSED
+"Actual_verify_password_error = getText(findTestObject(""Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb""))",Chrome 126.0.0.0,,,19-07-2024 20:52:43,19-07-2024 20:52:44,0.591s,PASSED
+"verifyEqual(Actual_verify_password_error, expec_verify_password_error)",Chrome 126.0.0.0,,,19-07-2024 20:52:44,19-07-2024 20:52:44,0.001s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,19-07-2024 20:52:44,19-07-2024 20:52:44,0.132s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Sign up/TC20_Fill_wrong_verify_password_rule,Chrome 126.0.0.0,,,19-07-2024 20:52:44,19-07-2024 20:52:57,13.241s,PASSED
+openBrowser(Signup_URL),Chrome 126.0.0.0,,,19-07-2024 20:52:44,19-07-2024 20:52:55,10.894s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,19-07-2024 20:52:55,19-07-2024 20:52:55,0.038s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign up/Sign_up_page""), 5)",Chrome 126.0.0.0,,,19-07-2024 20:52:55,19-07-2024 20:52:55,0.266s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign up/Verify_password_input""), password)",Chrome 126.0.0.0,,,19-07-2024 20:52:55,19-07-2024 20:52:56,0.617s,PASSED
+"sendKeys(findTestObject(""Object Repository/Shopping Cart/Sign up/Verify_password_input""), Keys.chord(TAB))",Chrome 126.0.0.0,,,19-07-2024 20:52:56,19-07-2024 20:52:56,0.510s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb""), 5)",Chrome 126.0.0.0,,,19-07-2024 20:52:56,19-07-2024 20:52:57,0.478s,PASSED
+"Actual_verify_password_error = getText(findTestObject(""Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb""))",Chrome 126.0.0.0,,,19-07-2024 20:52:57,19-07-2024 20:52:57,0.274s,PASSED
+"verifyEqual(Actual_verify_password_error, expec_verify_password_error)",Chrome 126.0.0.0,,,19-07-2024 20:52:57,19-07-2024 20:52:57,0.001s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,19-07-2024 20:52:57,19-07-2024 20:52:57,0.149s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Sign up/TC21_Leave_all_empty_info,Chrome 126.0.0.0,,,19-07-2024 20:52:57,19-07-2024 20:53:18,20.586s,PASSED
+openBrowser(Signup_URL),Chrome 126.0.0.0,,,19-07-2024 20:52:57,19-07-2024 20:53:09,11.149s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,19-07-2024 20:53:09,19-07-2024 20:53:09,0.042s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign up/Sign_up_page""), 5)",Chrome 126.0.0.0,,,19-07-2024 20:53:09,19-07-2024 20:53:14,5.430s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign up/Email_input""), """")",Chrome 126.0.0.0,,,19-07-2024 20:53:14,19-07-2024 20:53:15,0.592s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign up/Password_input""), """")",Chrome 126.0.0.0,,,19-07-2024 20:53:15,19-07-2024 20:53:15,0.805s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign up/Verify_password_input""), """")",Chrome 126.0.0.0,,,19-07-2024 20:53:15,19-07-2024 20:53:16,0.794s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Sign up/Sign_up_button""))",Chrome 126.0.0.0,,,19-07-2024 20:53:16,19-07-2024 20:53:17,0.519s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Shopping Cart/Sign up/Email_error_message_lb""), ""Required"")",Chrome 126.0.0.0,,,19-07-2024 20:53:17,19-07-2024 20:53:17,0.504s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Shopping Cart/Sign up/Password_error_message_lb""), ""Required"")",Chrome 126.0.0.0,,,19-07-2024 20:53:17,19-07-2024 20:53:18,0.274s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb""), ""Required"")",Chrome 126.0.0.0,,,19-07-2024 20:53:18,19-07-2024 20:53:18,0.253s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,19-07-2024 20:53:18,19-07-2024 20:53:18,0.148s,PASSED

@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Authen Product Overview,Chrome 126.0.0.0,,,19-07-2024 21:13:48,19-07-2024 21:14:20,32.086s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Product Overview/TC06_Logged_in_Access_Overview_page,Chrome 126.0.0.0,,,19-07-2024 21:13:48,19-07-2024 21:14:08,20.389s,PASSED
+"store.Authentication.Login.Login_successed(username, password)",Chrome 126.0.0.0,,,19-07-2024 21:13:48,19-07-2024 21:14:07,18.387s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":""Basic Top""]))",Chrome 126.0.0.0,,,19-07-2024 21:14:07,19-07-2024 21:14:07,0.452s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_Overview_page""), 5)",Chrome 126.0.0.0,,,19-07-2024 21:14:07,19-07-2024 21:14:08,0.757s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_Overview_page""), 5)",Chrome 126.0.0.0,,,19-07-2024 21:14:08,19-07-2024 21:14:08,0.262s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,19-07-2024 21:14:08,19-07-2024 21:14:08,0.155s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Product Overview/TC07_Logged_out_Access_Overview_page,Chrome 126.0.0.0,,,19-07-2024 21:14:08,19-07-2024 21:14:20,11.381s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,19-07-2024 21:14:09,19-07-2024 21:14:14,5.832s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":""Basic Top""]), 5)",Chrome 126.0.0.0,,,19-07-2024 21:14:14,19-07-2024 21:14:15,0.262s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":""Basic Top""]))",Chrome 126.0.0.0,,,19-07-2024 21:14:15,19-07-2024 21:14:18,3.704s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_Overview_page""), 5)",Chrome 126.0.0.0,,,19-07-2024 21:14:18,19-07-2024 21:14:19,1.079s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_Overview_page""), 5)",Chrome 126.0.0.0,,,19-07-2024 21:14:19,19-07-2024 21:14:20,0.256s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,19-07-2024 21:14:20,19-07-2024 21:14:20,0.131s,PASSED

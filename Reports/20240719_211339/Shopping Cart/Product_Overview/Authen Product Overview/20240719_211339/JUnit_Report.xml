@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Authen Product Overview" time="32.086" tests="2" failures="0" errors="0">
+   <testsuite name="Authen Product Overview" tests="2" failures="0" errors="0" time="32.086" skipped="0" timestamp="19-07-2024T21:13:48" hostname="Admin - DESKTOP-26G4KH6" id="Test Suites/Shopping Cart/Product_Overview/Authen Product Overview">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240719_211339\\Shopping Cart\\Product_Overview\\Authen Product Overview\\20240719_211339"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240719_211339\\Shopping Cart\\Product_Overview\\Authen Product Overview\\20240719_211339\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - DESKTOP-26G4KH6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.191"/>
+         <property name="sessionId" value="02ee02539a909d6e2b2f15e503f686ae"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC06_Logged_in_Access_Overview_page" time="20.389" classname="Test Cases/Shopping Cart/Product Overview/TC06_Logged_in_Access_Overview_page" status="PASSED">
+         <system-out><![CDATA[19-07-2024T21:13:48 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC06_Logged_in_Access_Overview_page: Test Cases/Shopping Cart/Product Overview/TC06_Logged_in_Access_Overview_page
+
+19-07-2024T21:13:48 - [TEST_STEP][PASSED] - store.Authentication.Login.Login_successed(username, password): store.Authentication.Login.Login_successed is PASSED
+
+19-07-2024T21:13:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-07-2024T21:13:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-07-2024T21:14:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/signin'
+
+19-07-2024T21:14:01 - [MESSAGE][PASSED] - Current window maximized
+
+19-07-2024T21:14:03 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign in/Sign_in_page' is present
+
+19-07-2024T21:14:04 - [MESSAGE][PASSED] - Text 'quoc.huy.lu8960@gmail.com' is set on object 'Object Repository/Shopping Cart/Sign in/Email_input'
+
+19-07-2024T21:14:05 - [MESSAGE][PASSED] - Text 'KatalonCerti123' is set on object 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+19-07-2024T21:14:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Sign in/Signin_button' is clicked on
+
+19-07-2024T21:14:07 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+19-07-2024T21:14:07 - [MESSAGE][PASSED] - store.Authentication.Login.Login_successed is PASSED
+
+19-07-2024T21:14:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":"Basic Top"])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+19-07-2024T21:14:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+19-07-2024T21:14:07 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+19-07-2024T21:14:08 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+19-07-2024T21:14:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+19-07-2024T21:14:08 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+19-07-2024T21:14:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-07-2024T21:14:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Product Overview/TC07_Logged_out_Access_Overview_page" time="11.381" classname="Test Cases/Shopping Cart/Product Overview/TC07_Logged_out_Access_Overview_page" status="PASSED">
+         <system-out><![CDATA[19-07-2024T21:14:08 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Product Overview/TC07_Logged_out_Access_Overview_page: Test Cases/Shopping Cart/Product Overview/TC07_Logged_out_Access_Overview_page
+
+19-07-2024T21:14:09 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+19-07-2024T21:14:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-07-2024T21:14:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-07-2024T21:14:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+19-07-2024T21:14:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":"Basic Top"]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+19-07-2024T21:14:15 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+19-07-2024T21:14:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":"Basic Top"])): Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+19-07-2024T21:14:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Dashboard/Product_item' is clicked on
+
+19-07-2024T21:14:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+19-07-2024T21:14:19 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+19-07-2024T21:14:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Product Overview/Product_Overview_page"), 5): Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+19-07-2024T21:14:20 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Product Overview/Product_Overview_page' is present
+
+19-07-2024T21:14:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-07-2024T21:14:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-07-2024T21:13:48 - [TEST_SUITE][PASSED] - Authen Product Overview: Test Cases/Shopping Cart/Product Overview/TC07_Logged_out_Access_Overview_page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

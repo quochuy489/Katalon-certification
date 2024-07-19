@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Make appointment,Chrome 126.0.0.0,,,19-07-2024 20:20:16,19-07-2024 20:21:30,1m - 14.018s,PASSED
+,,,,,,,
+Test Cases/Healthcare/Appointment/TC13_Make_apointment_Tokyo,Chrome 126.0.0.0,,,19-07-2024 20:20:16,19-07-2024 20:20:52,36.431s,PASSED
+store.Authentication.HC_Login_Make_Appointment.Login_Appointment(),Chrome 126.0.0.0,,,19-07-2024 20:20:16,19-07-2024 20:20:48,32.256s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/Facility_dropdownlist""))",Chrome 126.0.0.0,,,19-07-2024 20:20:48,19-07-2024 20:20:49,0.315s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/Facility_Tokyo_option""))",Chrome 126.0.0.0,,,19-07-2024 20:20:49,19-07-2024 20:20:49,0.326s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/VisitDate_Calendar_icon""))",Chrome 126.0.0.0,,,19-07-2024 20:20:49,19-07-2024 20:20:49,0.411s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/VisitDate_Calendar_Date_option""))",Chrome 126.0.0.0,,,19-07-2024 20:20:49,19-07-2024 20:20:50,0.434s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/Book_appointment_button""))",Chrome 126.0.0.0,,,19-07-2024 20:20:50,19-07-2024 20:20:51,0.856s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Summary/Appointment_Confirmation_label""), 3)",Chrome 126.0.0.0,,,19-07-2024 20:20:51,19-07-2024 20:20:51,0.836s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Summary/Facility_Tokyo_label""), 3)",Chrome 126.0.0.0,,,19-07-2024 20:20:51,19-07-2024 20:20:52,0.330s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,19-07-2024 20:20:52,19-07-2024 20:20:52,0.375s,PASSED
+,,,,,,,
+Test Cases/Healthcare/Appointment/TC14_Make_appointment_Seoul,Chrome 126.0.0.0,,,19-07-2024 20:20:52,19-07-2024 20:21:05,12.596s,PASSED
+store.Authentication.HC_Login_Make_Appointment.Login_Appointment(),Chrome 126.0.0.0,,,19-07-2024 20:20:52,19-07-2024 20:21:01,8.566s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/Facility_dropdownlist""))",Chrome 126.0.0.0,,,19-07-2024 20:21:01,19-07-2024 20:21:01,0.295s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/Facility_Seoul_option""))",Chrome 126.0.0.0,,,19-07-2024 20:21:01,19-07-2024 20:21:01,0.295s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/VisitDate_Calendar_icon""))",Chrome 126.0.0.0,,,19-07-2024 20:21:01,19-07-2024 20:21:02,0.381s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/VisitDate_Calendar_Date_option""))",Chrome 126.0.0.0,,,19-07-2024 20:21:02,19-07-2024 20:21:02,0.416s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/Book_appointment_button""))",Chrome 126.0.0.0,,,19-07-2024 20:21:02,19-07-2024 20:21:04,1.730s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Summary/Appointment_Confirmation_label""), 3)",Chrome 126.0.0.0,,,19-07-2024 20:21:04,19-07-2024 20:21:04,0.425s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Summary/Facility_Seoul_label""), 3)",Chrome 126.0.0.0,,,19-07-2024 20:21:04,19-07-2024 20:21:05,0.262s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,19-07-2024 20:21:05,19-07-2024 20:21:05,0.125s,PASSED
+,,,,,,,
+Test Cases/Healthcare/Appointment/TC15_Make_appointment_Hongkong,Chrome 126.0.0.0,,,19-07-2024 20:21:05,19-07-2024 20:21:17,12.255s,PASSED
+store.Authentication.HC_Login_Make_Appointment.Login_Appointment(),Chrome 126.0.0.0,,,19-07-2024 20:21:05,19-07-2024 20:21:14,8.986s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/Facility_dropdownlist""))",Chrome 126.0.0.0,,,19-07-2024 20:21:14,19-07-2024 20:21:14,0.308s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/Facility_HongKong_option""))",Chrome 126.0.0.0,,,19-07-2024 20:21:14,19-07-2024 20:21:14,0.291s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/VisitDate_Calendar_icon""))",Chrome 126.0.0.0,,,19-07-2024 20:21:14,19-07-2024 20:21:15,0.387s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/VisitDate_Calendar_Date_option""))",Chrome 126.0.0.0,,,19-07-2024 20:21:15,19-07-2024 20:21:15,0.403s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/Book_appointment_button""))",Chrome 126.0.0.0,,,19-07-2024 20:21:15,19-07-2024 20:21:16,0.850s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Summary/Appointment_Confirmation_label""), 3)",Chrome 126.0.0.0,,,19-07-2024 20:21:16,19-07-2024 20:21:17,0.500s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Summary/Facility_HongKong_label""), 3)",Chrome 126.0.0.0,,,19-07-2024 20:21:17,19-07-2024 20:21:17,0.266s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,19-07-2024 20:21:17,19-07-2024 20:21:17,0.140s,PASSED
+,,,,,,,
+Test Cases/Healthcare/Appointment/TC16_Appointment_Go_to_HP,Chrome 126.0.0.0,,,19-07-2024 20:21:17,19-07-2024 20:21:30,12.560s,PASSED
+"store.Function.HC_Make_Appointment.Make_Appointment(""HongKong"")",Chrome 126.0.0.0,,,19-07-2024 20:21:17,19-07-2024 20:21:28,10.587s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Summary/Go_to_HP_btn""))",Chrome 126.0.0.0,,,19-07-2024 20:21:28,19-07-2024 20:21:29,1.398s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Appointment/form_Healthcare""), 3)",Chrome 126.0.0.0,,,19-07-2024 20:21:29,19-07-2024 20:21:29,0.262s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,19-07-2024 20:21:29,19-07-2024 20:21:30,0.204s,PASSED
