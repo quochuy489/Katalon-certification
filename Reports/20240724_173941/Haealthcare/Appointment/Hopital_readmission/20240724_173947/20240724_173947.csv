@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Hopital_readmission,Chrome 126.0.0.0,,,24-07-2024 17:40:01,24-07-2024 17:40:38,37.035s,PASSED
+,,,,,,,
+Test Cases/Healthcare/Appointment/TC17_Apply_hopital_readmission,Chrome 126.0.0.0,,,24-07-2024 17:40:01,24-07-2024 17:40:24,23.168s,PASSED
+store.Authentication.HC_Login_Make_Appointment.Login_Appointment(),Chrome 126.0.0.0,,,24-07-2024 17:40:01,24-07-2024 17:40:19,17.432s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/Facility_dropdownlist""))",Chrome 126.0.0.0,,,24-07-2024 17:40:19,24-07-2024 17:40:19,0.418s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/Facility_Seoul_option""))",Chrome 126.0.0.0,,,24-07-2024 17:40:19,24-07-2024 17:40:20,0.368s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/Facility_Seoul_option""))",Chrome 126.0.0.0,,,24-07-2024 17:40:20,24-07-2024 17:40:20,0.327s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/VisitDate_Calendar_icon""))",Chrome 126.0.0.0,,,24-07-2024 17:40:20,24-07-2024 17:40:20,0.422s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/VisitDate_Calendar_Date_option""))",Chrome 126.0.0.0,,,24-07-2024 17:40:20,24-07-2024 17:40:21,0.429s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/Comment_textarea""))",Chrome 126.0.0.0,,,24-07-2024 17:40:21,24-07-2024 17:40:21,0.546s,PASSED
+"check(findTestObject(""Object Repository/Healthcare/Appointment/Apply_hopital_readmission_checkbox""))",Chrome 126.0.0.0,,,24-07-2024 17:40:21,24-07-2024 17:40:22,0.345s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/Book_appointment_button""))",Chrome 126.0.0.0,,,24-07-2024 17:40:22,24-07-2024 17:40:22,0.631s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Summary/Appointment_Confirmation_label""), 3)",Chrome 126.0.0.0,,,24-07-2024 17:40:22,24-07-2024 17:40:23,0.380s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Summary/Apply_hopital_readmission_Yes""), 3)",Chrome 126.0.0.0,,,24-07-2024 17:40:23,24-07-2024 17:40:23,0.289s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,24-07-2024 17:40:23,24-07-2024 17:40:24,1.283s,PASSED
+,,,,,,,
+Test Cases/Healthcare/Appointment/TC18_Not_Apply_hopital_readmission,Chrome 126.0.0.0,,,24-07-2024 17:40:24,24-07-2024 17:40:38,13.451s,PASSED
+store.Authentication.HC_Login_Make_Appointment.Login_Appointment(),Chrome 126.0.0.0,,,24-07-2024 17:40:24,24-07-2024 17:40:33,8.899s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/Facility_dropdownlist""))",Chrome 126.0.0.0,,,24-07-2024 17:40:33,24-07-2024 17:40:34,0.332s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/Facility_Seoul_option""))",Chrome 126.0.0.0,,,24-07-2024 17:40:34,24-07-2024 17:40:34,0.318s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/Facility_Seoul_option""))",Chrome 126.0.0.0,,,24-07-2024 17:40:34,24-07-2024 17:40:34,0.299s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/VisitDate_Calendar_icon""))",Chrome 126.0.0.0,,,24-07-2024 17:40:34,24-07-2024 17:40:35,0.445s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/VisitDate_Calendar_Date_option""))",Chrome 126.0.0.0,,,24-07-2024 17:40:35,24-07-2024 17:40:35,0.426s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/Comment_textarea""))",Chrome 126.0.0.0,,,24-07-2024 17:40:35,24-07-2024 17:40:36,0.585s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Appointment/Book_appointment_button""))",Chrome 126.0.0.0,,,24-07-2024 17:40:36,24-07-2024 17:40:36,0.627s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Summary/Appointment_Confirmation_label""), 3)",Chrome 126.0.0.0,,,24-07-2024 17:40:36,24-07-2024 17:40:37,0.452s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Summary/Apply_hopital_readmission_No""), 3)",Chrome 126.0.0.0,,,24-07-2024 17:40:37,24-07-2024 17:40:37,0.262s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,24-07-2024 17:40:37,24-07-2024 17:40:38,0.673s,PASSED

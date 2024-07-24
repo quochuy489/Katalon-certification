@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Hopital_readmission" time="37.035" tests="2" failures="0" errors="0">
+   <testsuite name="Hopital_readmission" tests="2" failures="0" errors="0" time="37.035" skipped="0" timestamp="24-07-2024T17:40:01" hostname="quochuy.lu - VN-HCM-D-W-0011.globalservs.com" id="Test Suites/Haealthcare/Appointment/Hopital_readmission">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\quochuy.lu\\git\\Katalon-certification\\Reports\\20240724_173941\\Haealthcare\\Appointment\\Hopital_readmission\\20240724_173947"/>
+         <property name="logFiles" value="C:\\Users\\quochuy.lu\\git\\Katalon-certification\\Reports\\20240724_173941\\Haealthcare\\Appointment\\Hopital_readmission\\20240724_173947\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="quochuy.lu - VN-HCM-D-W-0011.globalservs.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="10.161.207.102"/>
+         <property name="sessionId" value="a875fcf63fc4836db4352f831a08da5f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Healthcare/Appointment/TC17_Apply_hopital_readmission" time="23.168" classname="Test Cases/Healthcare/Appointment/TC17_Apply_hopital_readmission" status="PASSED">
+         <system-out><![CDATA[24-07-2024T17:40:01 - [TEST_CASE][PASSED] - Test Cases/Healthcare/Appointment/TC17_Apply_hopital_readmission: Test Cases/Healthcare/Appointment/TC17_Apply_hopital_readmission
+
+24-07-2024T17:40:01 - [TEST_STEP][PASSED] - store.Authentication.HC_Login_Make_Appointment.Login_Appointment(): store.Authentication.HC_Login_Make_Appointment.Login_Appointment is PASSED
+
+24-07-2024T17:40:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T17:40:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T17:40:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+24-07-2024T17:40:14 - [MESSAGE][PASSED] - Current window maximized
+
+24-07-2024T17:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Dashboard/a_Make Appointment' is clicked on
+
+24-07-2024T17:40:16 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Healthcare/Login/input_Username_username'
+
+24-07-2024T17:40:17 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Healthcare/Login/input_Password_password'
+
+24-07-2024T17:40:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Login/button_Login' is clicked on
+
+24-07-2024T17:40:19 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+24-07-2024T17:40:19 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+24-07-2024T17:40:19 - [MESSAGE][PASSED] - store.Authentication.HC_Login_Make_Appointment.Login_Appointment is PASSED
+
+24-07-2024T17:40:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Appointment/Facility_dropdownlist")): Object: 'Object Repository/Healthcare/Appointment/Facility_dropdownlist' is clicked on
+
+24-07-2024T17:40:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Appointment/Facility_dropdownlist' is clicked on
+
+24-07-2024T17:40:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Appointment/Facility_Seoul_option")): Object: 'Object Repository/Healthcare/Appointment/Facility_Seoul_option' is clicked on
+
+24-07-2024T17:40:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Appointment/Facility_Seoul_option' is clicked on
+
+24-07-2024T17:40:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Appointment/Facility_Seoul_option")): Object: 'Object Repository/Healthcare/Appointment/Facility_Seoul_option' is clicked on
+
+24-07-2024T17:40:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Appointment/Facility_Seoul_option' is clicked on
+
+24-07-2024T17:40:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Appointment/VisitDate_Calendar_icon")): Object: 'Object Repository/Healthcare/Appointment/VisitDate_Calendar_icon' is clicked on
+
+24-07-2024T17:40:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Appointment/VisitDate_Calendar_icon' is clicked on
+
+24-07-2024T17:40:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Appointment/VisitDate_Calendar_Date_option")): Object: 'Object Repository/Healthcare/Appointment/VisitDate_Calendar_Date_option' is clicked on
+
+24-07-2024T17:40:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Appointment/VisitDate_Calendar_Date_option' is clicked on
+
+24-07-2024T17:40:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Appointment/Comment_textarea")): Object: 'Object Repository/Healthcare/Appointment/Comment_textarea' is clicked on
+
+24-07-2024T17:40:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Appointment/Comment_textarea' is clicked on
+
+24-07-2024T17:40:21 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Healthcare/Appointment/Apply_hopital_readmission_checkbox")): Object 'Object Repository/Healthcare/Appointment/Apply_hopital_readmission_checkbox' is checked
+
+24-07-2024T17:40:22 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/Apply_hopital_readmission_checkbox' is checked
+
+24-07-2024T17:40:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Appointment/Book_appointment_button")): Object: 'Object Repository/Healthcare/Appointment/Book_appointment_button' is clicked on
+
+24-07-2024T17:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Appointment/Book_appointment_button' is clicked on
+
+24-07-2024T17:40:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Summary/Appointment_Confirmation_label"), 3): Object 'Object Repository/Healthcare/Summary/Appointment_Confirmation_label' is present
+
+24-07-2024T17:40:23 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Summary/Appointment_Confirmation_label' is present
+
+24-07-2024T17:40:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Summary/Apply_hopital_readmission_Yes"), 3): Object 'Object Repository/Healthcare/Summary/Apply_hopital_readmission_Yes' is present
+
+24-07-2024T17:40:23 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Summary/Apply_hopital_readmission_Yes' is present
+
+24-07-2024T17:40:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-07-2024T17:40:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Healthcare/Appointment/TC18_Not_Apply_hopital_readmission" time="13.451" classname="Test Cases/Healthcare/Appointment/TC18_Not_Apply_hopital_readmission" status="PASSED">
+         <system-out><![CDATA[24-07-2024T17:40:24 - [TEST_CASE][PASSED] - Test Cases/Healthcare/Appointment/TC18_Not_Apply_hopital_readmission: Test Cases/Healthcare/Appointment/TC18_Not_Apply_hopital_readmission
+
+24-07-2024T17:40:24 - [TEST_STEP][PASSED] - store.Authentication.HC_Login_Make_Appointment.Login_Appointment(): store.Authentication.HC_Login_Make_Appointment.Login_Appointment is PASSED
+
+24-07-2024T17:40:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T17:40:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T17:40:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+24-07-2024T17:40:29 - [MESSAGE][PASSED] - Current window maximized
+
+24-07-2024T17:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Dashboard/a_Make Appointment' is clicked on
+
+24-07-2024T17:40:31 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Healthcare/Login/input_Username_username'
+
+24-07-2024T17:40:32 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Healthcare/Login/input_Password_password'
+
+24-07-2024T17:40:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Login/button_Login' is clicked on
+
+24-07-2024T17:40:33 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+24-07-2024T17:40:33 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+24-07-2024T17:40:33 - [MESSAGE][PASSED] - store.Authentication.HC_Login_Make_Appointment.Login_Appointment is PASSED
+
+24-07-2024T17:40:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Appointment/Facility_dropdownlist")): Object: 'Object Repository/Healthcare/Appointment/Facility_dropdownlist' is clicked on
+
+24-07-2024T17:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Appointment/Facility_dropdownlist' is clicked on
+
+24-07-2024T17:40:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Appointment/Facility_Seoul_option")): Object: 'Object Repository/Healthcare/Appointment/Facility_Seoul_option' is clicked on
+
+24-07-2024T17:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Appointment/Facility_Seoul_option' is clicked on
+
+24-07-2024T17:40:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Appointment/Facility_Seoul_option")): Object: 'Object Repository/Healthcare/Appointment/Facility_Seoul_option' is clicked on
+
+24-07-2024T17:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Appointment/Facility_Seoul_option' is clicked on
+
+24-07-2024T17:40:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Appointment/VisitDate_Calendar_icon")): Object: 'Object Repository/Healthcare/Appointment/VisitDate_Calendar_icon' is clicked on
+
+24-07-2024T17:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Appointment/VisitDate_Calendar_icon' is clicked on
+
+24-07-2024T17:40:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Appointment/VisitDate_Calendar_Date_option")): Object: 'Object Repository/Healthcare/Appointment/VisitDate_Calendar_Date_option' is clicked on
+
+24-07-2024T17:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Appointment/VisitDate_Calendar_Date_option' is clicked on
+
+24-07-2024T17:40:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Appointment/Comment_textarea")): Object: 'Object Repository/Healthcare/Appointment/Comment_textarea' is clicked on
+
+24-07-2024T17:40:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Appointment/Comment_textarea' is clicked on
+
+24-07-2024T17:40:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Appointment/Book_appointment_button")): Object: 'Object Repository/Healthcare/Appointment/Book_appointment_button' is clicked on
+
+24-07-2024T17:40:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Appointment/Book_appointment_button' is clicked on
+
+24-07-2024T17:40:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Summary/Appointment_Confirmation_label"), 3): Object 'Object Repository/Healthcare/Summary/Appointment_Confirmation_label' is present
+
+24-07-2024T17:40:37 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Summary/Appointment_Confirmation_label' is present
+
+24-07-2024T17:40:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Summary/Apply_hopital_readmission_No"), 3): Object 'Object Repository/Healthcare/Summary/Apply_hopital_readmission_No' is present
+
+24-07-2024T17:40:37 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Summary/Apply_hopital_readmission_No' is present
+
+24-07-2024T17:40:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-07-2024T17:40:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-07-2024T17:40:01 - [TEST_SUITE][PASSED] - Hopital_readmission: Test Cases/Healthcare/Appointment/TC18_Not_Apply_hopital_readmission]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
