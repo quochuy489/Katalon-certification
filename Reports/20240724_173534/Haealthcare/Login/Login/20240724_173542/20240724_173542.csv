@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 126.0.0.0,,,24-07-2024 17:35:55,24-07-2024 17:36:39,43.644s,PASSED
+,,,,,,,
+Test Cases/Healthcare/Login/TC01_Login_success_with_valid_info,Chrome 126.0.0.0,,,24-07-2024 17:35:55,24-07-2024 17:36:09,13.986s,PASSED
+openBrowser(HC_Login_URL),Chrome 126.0.0.0,,,24-07-2024 17:35:56,24-07-2024 17:36:05,9.581s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,24-07-2024 17:36:05,24-07-2024 17:36:05,0.109s,PASSED
+"setText(findTestObject(""Object Repository/Healthcare/Login/input_Username_username""), ""John Doe"")",Chrome 126.0.0.0,,,24-07-2024 17:36:05,24-07-2024 17:36:06,0.902s,PASSED
+"setText(findTestObject(""Object Repository/Healthcare/Login/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 126.0.0.0,,,24-07-2024 17:36:06,24-07-2024 17:36:07,0.741s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Login/button_Login""))",Chrome 126.0.0.0,,,24-07-2024 17:36:07,24-07-2024 17:36:08,0.971s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Appointment/form_Healthcare""), 3)",Chrome 126.0.0.0,,,24-07-2024 17:36:08,24-07-2024 17:36:08,0.336s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,24-07-2024 17:36:08,24-07-2024 17:36:09,0.992s,PASSED
+,,,,,,,
+Test Cases/Healthcare/Login/TC02_Login_via_make_appointment,Chrome 126.0.0.0,,,24-07-2024 17:36:09,24-07-2024 17:36:21,11.259s,PASSED
+openBrowser(HC_Dashborad_URL),Chrome 126.0.0.0,,,24-07-2024 17:36:10,24-07-2024 17:36:14,4.633s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,24-07-2024 17:36:14,24-07-2024 17:36:14,0.056s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Dashboard/a_Make Appointment""))",Chrome 126.0.0.0,,,24-07-2024 17:36:14,24-07-2024 17:36:15,0.768s,PASSED
+"store.Authentication.HC_Login.HC_Login_with_URL(""John Doe"", ""ThisIsNotAPassword"")",Chrome 126.0.0.0,,,24-07-2024 17:36:15,24-07-2024 17:36:18,3.090s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Appointment/form_Healthcare""), 3)",Chrome 126.0.0.0,,,24-07-2024 17:36:18,24-07-2024 17:36:18,0.270s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,24-07-2024 17:36:18,24-07-2024 17:36:21,2.313s,PASSED
+,,,,,,,
+Test Cases/Healthcare/Login/TC03_Login_via_burger_menu,Chrome 126.0.0.0,,,24-07-2024 17:36:21,24-07-2024 17:36:30,9.195s,PASSED
+openBrowser(HC_Dashborad_URL),Chrome 126.0.0.0,,,24-07-2024 17:36:21,24-07-2024 17:36:25,4.256s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,24-07-2024 17:36:25,24-07-2024 17:36:25,0.196s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Burger menu/a_Burger_menu""))",Chrome 126.0.0.0,,,24-07-2024 17:36:25,24-07-2024 17:36:26,0.387s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Burger menu/a_Login""))",Chrome 126.0.0.0,,,24-07-2024 17:36:26,24-07-2024 17:36:26,0.748s,PASSED
+"store.Authentication.HC_Login.HC_Login_with_URL(""John Doe"", ""ThisIsNotAPassword"")",Chrome 126.0.0.0,,,24-07-2024 17:36:26,24-07-2024 17:36:29,2.629s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Appointment/form_Healthcare""), 3)",Chrome 126.0.0.0,,,24-07-2024 17:36:29,24-07-2024 17:36:29,0.267s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,24-07-2024 17:36:29,24-07-2024 17:36:30,0.613s,PASSED
+,,,,,,,
+Test Cases/Healthcare/Login/TC06_Login_with_invalid_info,Chrome 126.0.0.0,,,24-07-2024 17:36:30,24-07-2024 17:36:39,8.836s,PASSED
+openBrowser(HC_Login_URL),Chrome 126.0.0.0,,,24-07-2024 17:36:30,24-07-2024 17:36:35,4.680s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,24-07-2024 17:36:35,24-07-2024 17:36:35,0.084s,PASSED
+"setText(findTestObject(""Object Repository/Healthcare/Login/input_Username_username""), ""John"")",Chrome 126.0.0.0,,,24-07-2024 17:36:35,24-07-2024 17:36:35,0.679s,PASSED
+"setText(findTestObject(""Object Repository/Healthcare/Login/input_Password_password""), ""ThisIsAPassword"")",Chrome 126.0.0.0,,,24-07-2024 17:36:35,24-07-2024 17:36:36,0.690s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Login/button_Login""))",Chrome 126.0.0.0,,,24-07-2024 17:36:36,24-07-2024 17:36:37,1.001s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Login/label_Error_message""), 3)",Chrome 126.0.0.0,,,24-07-2024 17:36:37,24-07-2024 17:36:37,0.282s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,24-07-2024 17:36:37,24-07-2024 17:36:39,1.323s,PASSED
