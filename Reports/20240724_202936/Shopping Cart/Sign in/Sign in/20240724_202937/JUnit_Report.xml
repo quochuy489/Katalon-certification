@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign in" time="685.904" tests="7" failures="0" errors="0">
+   <testsuite name="Sign in" tests="7" failures="0" errors="0" time="685.904" skipped="0" timestamp="24-07-2024T20:29:46" hostname="Admin - DESKTOP-26G4KH6" id="Test Suites/Shopping Cart/Sign in/Sign in">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240724_202936\\Shopping Cart\\Sign in\\Sign in\\20240724_202937"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240724_202936\\Shopping Cart\\Sign in\\Sign in\\20240724_202937\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - DESKTOP-26G4KH6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.191"/>
+         <property name="sessionId" value="8f8fc589789acaf1d2e50e3a394e5119"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Shopping Cart/Sign in/TC01_Fill_wrong_username_password_format" time="237.292" classname="Test Cases/Shopping Cart/Sign in/TC01_Fill_wrong_username_password_format" status="PASSED">
+         <system-out><![CDATA[24-07-2024T20:29:47 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Sign in/TC01_Fill_wrong_username_password_format: Test Cases/Shopping Cart/Sign in/TC01_Fill_wrong_username_password_format
+
+24-07-2024T20:29:47 - [TEST_STEP][PASSED] - openBrowser(Login_URL): Browser is opened with url: 'https://demo-store.katalon.com/signin'
+
+24-07-2024T20:29:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T20:29:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T20:29:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/signin'
+
+24-07-2024T20:29:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-07-2024T20:30:13 - [MESSAGE][PASSED] - Current window maximized
+
+24-07-2024T20:30:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign in/Sign_in_page"), 10): Object 'Object Repository/Shopping Cart/Sign in/Sign_in_page' is present
+
+24-07-2024T20:30:43 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign in/Sign_in_page' is present
+
+24-07-2024T20:30:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign in/Email_input"), username): Text 'abc' is set on object 'Object Repository/Shopping Cart/Sign in/Email_input'
+
+24-07-2024T20:31:43 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Shopping Cart/Sign in/Email_input'
+
+24-07-2024T20:31:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign in/Password_input"), password): Text 'def' is set on object 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+24-07-2024T20:32:14 - [MESSAGE][PASSED] - Text 'def' is set on object 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+24-07-2024T20:32:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Shopping Cart/Sign in/Password_input"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+24-07-2024T20:32:44 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+24-07-2024T20:32:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign in/Email_error_message_lb"), 10): Object 'Object Repository/Shopping Cart/Sign in/Email_error_message_lb' is present
+
+24-07-2024T20:33:14 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign in/Email_error_message_lb' is present
+
+24-07-2024T20:33:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign in/Password_error_message_lb"), 10): Object 'Object Repository/Shopping Cart/Sign in/Password_error_message_lb' is present
+
+24-07-2024T20:33:44 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign in/Password_error_message_lb' is present
+
+24-07-2024T20:33:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-07-2024T20:33:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Sign in/TC01_Fill_wrong_username_password_format" time="15.139" classname="Test Cases/Shopping Cart/Sign in/TC01_Fill_wrong_username_password_format" status="PASSED">
+         <system-out><![CDATA[24-07-2024T20:33:44 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Sign in/TC01_Fill_wrong_username_password_format: Test Cases/Shopping Cart/Sign in/TC01_Fill_wrong_username_password_format
+
+24-07-2024T20:33:44 - [TEST_STEP][PASSED] - openBrowser(Login_URL): Browser is opened with url: 'https://demo-store.katalon.com/signin'
+
+24-07-2024T20:33:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T20:33:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T20:33:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/signin'
+
+24-07-2024T20:33:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-07-2024T20:33:55 - [MESSAGE][PASSED] - Current window maximized
+
+24-07-2024T20:33:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign in/Sign_in_page"), 10): Object 'Object Repository/Shopping Cart/Sign in/Sign_in_page' is present
+
+24-07-2024T20:33:56 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign in/Sign_in_page' is present
+
+24-07-2024T20:33:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign in/Email_input"), username): Text 'avgff@' is set on object 'Object Repository/Shopping Cart/Sign in/Email_input'
+
+24-07-2024T20:33:57 - [MESSAGE][PASSED] - Text 'avgff@' is set on object 'Object Repository/Shopping Cart/Sign in/Email_input'
+
+24-07-2024T20:33:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign in/Password_input"), password): Text 'abcdef' is set on object 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+24-07-2024T20:33:58 - [MESSAGE][PASSED] - Text 'abcdef' is set on object 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+24-07-2024T20:33:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Shopping Cart/Sign in/Password_input"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+24-07-2024T20:33:58 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+24-07-2024T20:33:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign in/Email_error_message_lb"), 10): Object 'Object Repository/Shopping Cart/Sign in/Email_error_message_lb' is present
+
+24-07-2024T20:33:59 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign in/Email_error_message_lb' is present
+
+24-07-2024T20:33:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign in/Password_error_message_lb"), 10): Object 'Object Repository/Shopping Cart/Sign in/Password_error_message_lb' is present
+
+24-07-2024T20:33:59 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign in/Password_error_message_lb' is present
+
+24-07-2024T20:33:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-07-2024T20:33:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Sign in/TC01_Fill_wrong_username_password_format" time="16.388" classname="Test Cases/Shopping Cart/Sign in/TC01_Fill_wrong_username_password_format" status="PASSED">
+         <system-out><![CDATA[24-07-2024T20:33:59 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Sign in/TC01_Fill_wrong_username_password_format: Test Cases/Shopping Cart/Sign in/TC01_Fill_wrong_username_password_format
+
+24-07-2024T20:33:59 - [TEST_STEP][PASSED] - openBrowser(Login_URL): Browser is opened with url: 'https://demo-store.katalon.com/signin'
+
+24-07-2024T20:33:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T20:33:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T20:34:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/signin'
+
+24-07-2024T20:34:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-07-2024T20:34:07 - [MESSAGE][PASSED] - Current window maximized
+
+24-07-2024T20:34:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign in/Sign_in_page"), 10): Object 'Object Repository/Shopping Cart/Sign in/Sign_in_page' is present
+
+24-07-2024T20:34:13 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign in/Sign_in_page' is present
+
+24-07-2024T20:34:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign in/Email_input"), username): Text 'avgff@com' is set on object 'Object Repository/Shopping Cart/Sign in/Email_input'
+
+24-07-2024T20:34:13 - [MESSAGE][PASSED] - Text 'avgff@com' is set on object 'Object Repository/Shopping Cart/Sign in/Email_input'
+
+24-07-2024T20:34:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign in/Password_input"), password): Text 'ABC123' is set on object 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+24-07-2024T20:34:14 - [MESSAGE][PASSED] - Text 'ABC123' is set on object 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+24-07-2024T20:34:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Shopping Cart/Sign in/Password_input"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+24-07-2024T20:34:15 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+24-07-2024T20:34:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign in/Email_error_message_lb"), 10): Object 'Object Repository/Shopping Cart/Sign in/Email_error_message_lb' is present
+
+24-07-2024T20:34:15 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign in/Email_error_message_lb' is present
+
+24-07-2024T20:34:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign in/Password_error_message_lb"), 10): Object 'Object Repository/Shopping Cart/Sign in/Password_error_message_lb' is present
+
+24-07-2024T20:34:15 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign in/Password_error_message_lb' is present
+
+24-07-2024T20:34:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-07-2024T20:34:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Sign in/TC02_Login_with_blank_username_password" time="43.11" classname="Test Cases/Shopping Cart/Sign in/TC02_Login_with_blank_username_password" status="PASSED">
+         <system-out><![CDATA[24-07-2024T20:34:16 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Sign in/TC02_Login_with_blank_username_password: Test Cases/Shopping Cart/Sign in/TC02_Login_with_blank_username_password
+
+24-07-2024T20:34:16 - [TEST_STEP][PASSED] - openBrowser(Login_URL): Browser is opened with url: 'https://demo-store.katalon.com/signin'
+
+24-07-2024T20:34:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T20:34:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T20:34:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/signin'
+
+24-07-2024T20:34:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-07-2024T20:34:25 - [MESSAGE][PASSED] - Current window maximized
+
+24-07-2024T20:34:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign in/Sign_in_page"), 10): Object 'Object Repository/Shopping Cart/Sign in/Sign_in_page' is present
+
+24-07-2024T20:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign in/Sign_in_page' is present
+
+24-07-2024T20:34:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign in/Email_input"), ""): Text '' is set on object 'Object Repository/Shopping Cart/Sign in/Email_input'
+
+24-07-2024T20:34:27 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Shopping Cart/Sign in/Email_input'
+
+24-07-2024T20:34:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign in/Password_input"), ""): Text '' is set on object 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+24-07-2024T20:34:27 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+24-07-2024T20:34:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Sign in/Signin_button")): Object: 'Object Repository/Shopping Cart/Sign in/Signin_button' is clicked on
+
+24-07-2024T20:34:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Sign in/Signin_button' is clicked on
+
+24-07-2024T20:34:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign in/Email_error_message_lb"), 10): Object 'Object Repository/Shopping Cart/Sign in/Email_error_message_lb' is present
+
+24-07-2024T20:34:29 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign in/Email_error_message_lb' is present
+
+24-07-2024T20:34:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign in/Password_error_message_lb"), 10): Object 'Object Repository/Shopping Cart/Sign in/Password_error_message_lb' is present
+
+24-07-2024T20:34:59 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign in/Password_error_message_lb' is present
+
+24-07-2024T20:34:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-07-2024T20:34:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Sign in/TC03_Login_with_incorrect_username_password" time="15.184" classname="Test Cases/Shopping Cart/Sign in/TC03_Login_with_incorrect_username_password" status="PASSED">
+         <system-out><![CDATA[24-07-2024T20:34:59 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Sign in/TC03_Login_with_incorrect_username_password: Test Cases/Shopping Cart/Sign in/TC03_Login_with_incorrect_username_password
+
+24-07-2024T20:34:59 - [TEST_STEP][PASSED] - openBrowser(Login_URL): Browser is opened with url: 'https://demo-store.katalon.com/signin'
+
+24-07-2024T20:34:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T20:34:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T20:35:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/signin'
+
+24-07-2024T20:35:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-07-2024T20:35:06 - [MESSAGE][PASSED] - Current window maximized
+
+24-07-2024T20:35:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign in/Sign_in_page"), 10): Object 'Object Repository/Shopping Cart/Sign in/Sign_in_page' is present
+
+24-07-2024T20:35:07 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign in/Sign_in_page' is present
+
+24-07-2024T20:35:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign in/Email_input"), username): Text 'abc@gmail.com' is set on object 'Object Repository/Shopping Cart/Sign in/Email_input'
+
+24-07-2024T20:35:12 - [MESSAGE][PASSED] - Text 'abc@gmail.com' is set on object 'Object Repository/Shopping Cart/Sign in/Email_input'
+
+24-07-2024T20:35:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign in/Password_input"), password): Text 'Abcdef123' is set on object 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+24-07-2024T20:35:13 - [MESSAGE][PASSED] - Text 'Abcdef123' is set on object 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+24-07-2024T20:35:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Sign in/Signin_button")): Object: 'Object Repository/Shopping Cart/Sign in/Signin_button' is clicked on
+
+24-07-2024T20:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Sign in/Signin_button' is clicked on
+
+24-07-2024T20:35:13 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Dashboard_page"), 5): Web element with id: 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' located by 'By.xpath: //*[contains(@class,'dashboard_box')]' is not present after '5' second(s)
+
+24-07-2024T20:35:14 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' located by 'By.xpath: //*[contains(@class,'dashboard_box')]' is not present after '5' second(s)
+
+24-07-2024T20:35:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-07-2024T20:35:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Sign in/TC04_Login_with_correct_username_password" time="42.539" classname="Test Cases/Shopping Cart/Sign in/TC04_Login_with_correct_username_password" status="PASSED">
+         <system-out><![CDATA[24-07-2024T20:40:15 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Sign in/TC04_Login_with_correct_username_password: Test Cases/Shopping Cart/Sign in/TC04_Login_with_correct_username_password
+
+24-07-2024T20:40:15 - [TEST_STEP][PASSED] - openBrowser(Login_URL): Browser is opened with url: 'https://demo-store.katalon.com/signin'
+
+24-07-2024T20:40:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+24-07-2024T20:40:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T20:40:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T20:40:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/signin'
+
+24-07-2024T20:40:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-07-2024T20:40:23 - [MESSAGE][PASSED] - Current window maximized
+
+24-07-2024T20:40:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign in/Sign_in_page"), 10): Object 'Object Repository/Shopping Cart/Sign in/Sign_in_page' is present
+
+24-07-2024T20:40:24 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign in/Sign_in_page' is present
+
+24-07-2024T20:40:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign in/Email_input"), username): Text 'quoc.huy.lu8960@gmail.com' is set on object 'Object Repository/Shopping Cart/Sign in/Email_input'
+
+24-07-2024T20:40:24 - [MESSAGE][PASSED] - Text 'quoc.huy.lu8960@gmail.com' is set on object 'Object Repository/Shopping Cart/Sign in/Email_input'
+
+24-07-2024T20:40:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign in/Password_input"), password): Text 'KatalonCerti123' is set on object 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+24-07-2024T20:40:25 - [MESSAGE][PASSED] - Text 'KatalonCerti123' is set on object 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+24-07-2024T20:40:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Sign in/Signin_button")): Object: 'Object Repository/Shopping Cart/Sign in/Signin_button' is clicked on
+
+24-07-2024T20:40:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Sign in/Signin_button' is clicked on
+
+24-07-2024T20:40:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Dashboard_page"), 10): Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T20:40:27 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T20:40:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Dashboard_page"), 10): Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T20:40:57 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T20:40:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-07-2024T20:40:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Sign in/TC05_Login_page_success_via_Account_button" time="15.059" classname="Test Cases/Shopping Cart/Sign in/TC05_Login_page_success_via_Account_button" status="PASSED">
+         <system-out><![CDATA[24-07-2024T20:40:57 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Sign in/TC05_Login_page_success_via_Account_button: Test Cases/Shopping Cart/Sign in/TC05_Login_page_success_via_Account_button
+
+24-07-2024T20:40:57 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+24-07-2024T20:40:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T20:40:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T20:41:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+24-07-2024T20:41:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-07-2024T20:41:04 - [MESSAGE][PASSED] - Current window maximized
+
+24-07-2024T20:41:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Dashboard_page"), 10): Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T20:41:04 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T20:41:04 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Header/User_icon_logged_out"), 10): Object 'Object Repository/Shopping Cart/Header/User_icon_logged_out' is present
+
+24-07-2024T20:41:07 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Header/User_icon_logged_out' is present
+
+24-07-2024T20:41:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Header/User_icon_logged_out")): Object: 'Object Repository/Shopping Cart/Header/User_icon_logged_out' is clicked on
+
+24-07-2024T20:41:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Header/User_icon_logged_out' is clicked on
+
+24-07-2024T20:41:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign in/Sign_in_page"), 10): Object 'Object Repository/Shopping Cart/Sign in/Sign_in_page' is present
+
+24-07-2024T20:41:09 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign in/Sign_in_page' is present
+
+24-07-2024T20:41:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign in/Email_input"), username): Text 'quoc.huy.lu8960@gmail.com' is set on object 'Object Repository/Shopping Cart/Sign in/Email_input'
+
+24-07-2024T20:41:09 - [MESSAGE][PASSED] - Text 'quoc.huy.lu8960@gmail.com' is set on object 'Object Repository/Shopping Cart/Sign in/Email_input'
+
+24-07-2024T20:41:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign in/Password_input"), password): Text 'KatalonCerti123' is set on object 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+24-07-2024T20:41:10 - [MESSAGE][PASSED] - Text 'KatalonCerti123' is set on object 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+24-07-2024T20:41:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Sign in/Signin_button")): Object: 'Object Repository/Shopping Cart/Sign in/Signin_button' is clicked on
+
+24-07-2024T20:41:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Sign in/Signin_button' is clicked on
+
+24-07-2024T20:41:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Dashboard_page"), 10): Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T20:41:12 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T20:41:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Dashboard_page"), 10): Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T20:41:12 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T20:41:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-07-2024T20:41:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-07-2024T20:29:46 - [TEST_SUITE][FAILED] - Sign in: Test Cases/Shopping Cart/Sign in/TC04_Login_with_correct_username_password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://demo-store.katalon.com/signin'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TC04_Login_with_correct_username_password.run(TC04_Login_with_correct_username_password:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1721827777734.run(TempTestSuite1721827777734.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 299.115
+  (Session info: chrome=126.0.6478.183)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-26G4KH6', ip: '192.168.0.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52125}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dba2cc5dfad00df64176216cfeff16d3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[24-07-2024T20:29:46 - [TEST_SUITE][FAILED] - Sign in: Test Cases/Shopping Cart/Sign in/TC04_Login_with_correct_username_password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://demo-store.katalon.com/signin'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TC04_Login_with_correct_username_password.run(TC04_Login_with_correct_username_password:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1721827777734.run(TempTestSuite1721827777734.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 299.115
+  (Session info: chrome=126.0.6478.183)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-26G4KH6', ip: '192.168.0.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52125}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dba2cc5dfad00df64176216cfeff16d3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

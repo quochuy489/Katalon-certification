@@ -29,4 +29,4 @@ WebUI.click(findTestObject('Object Repository/Sauce/Login/Login_button'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Sauce/Login/Error_message'), 3)
 
-WebUI.closeBrowser()
+WebUI.closeBrowser() 

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign in_success" time="31.969" tests="1" failures="0" errors="0">
+   <testsuite name="Sign in_success" tests="1" failures="0" errors="0" time="31.969" skipped="0" timestamp="24-07-2024T19:30:24" hostname="Admin - DESKTOP-26G4KH6" id="Test Suites/Shopping Cart/Sign in/Sign in_success">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240724_193014\\Shopping Cart\\Sign in\\Sign in_success\\20240724_193014"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240724_193014\\Shopping Cart\\Sign in\\Sign in_success\\20240724_193014\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - DESKTOP-26G4KH6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.191"/>
+         <property name="sessionId" value="3a9d4356dea7db69a8a7237ceb70d78b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Shopping Cart/Sign in/TC04_Login_with_correct_username_password" time="31.649" classname="Test Cases/Shopping Cart/Sign in/TC04_Login_with_correct_username_password" status="PASSED">
+         <system-out><![CDATA[24-07-2024T19:30:24 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Sign in/TC04_Login_with_correct_username_password: Test Cases/Shopping Cart/Sign in/TC04_Login_with_correct_username_password
+
+24-07-2024T19:30:25 - [TEST_STEP][PASSED] - openBrowser(Login_URL): Browser is opened with url: 'https://demo-store.katalon.com/signin'
+
+24-07-2024T19:30:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T19:30:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T19:30:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/signin'
+
+24-07-2024T19:30:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-07-2024T19:30:50 - [MESSAGE][PASSED] - Current window maximized
+
+24-07-2024T19:30:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign in/Sign_in_page"), 10): Object 'Object Repository/Shopping Cart/Sign in/Sign_in_page' is present
+
+24-07-2024T19:30:52 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign in/Sign_in_page' is present
+
+24-07-2024T19:30:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign in/Email_input"), username): Text 'quoc.huy.lu8960@gmail.com' is set on object 'Object Repository/Shopping Cart/Sign in/Email_input'
+
+24-07-2024T19:30:53 - [MESSAGE][PASSED] - Text 'quoc.huy.lu8960@gmail.com' is set on object 'Object Repository/Shopping Cart/Sign in/Email_input'
+
+24-07-2024T19:30:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign in/Password_input"), password): Text 'KatalonCerti123' is set on object 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+24-07-2024T19:30:54 - [MESSAGE][PASSED] - Text 'KatalonCerti123' is set on object 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+24-07-2024T19:30:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Sign in/Signin_button")): Object: 'Object Repository/Shopping Cart/Sign in/Signin_button' is clicked on
+
+24-07-2024T19:30:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Sign in/Signin_button' is clicked on
+
+24-07-2024T19:30:54 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Dashboard_page"), 10): Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:30:55 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:30:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Dashboard_page"), 10): Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:30:56 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:30:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-07-2024T19:30:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-07-2024T19:30:24 - [TEST_SUITE][PASSED] - Sign in_success: Test Cases/Shopping Cart/Sign in/TC04_Login_with_correct_username_password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

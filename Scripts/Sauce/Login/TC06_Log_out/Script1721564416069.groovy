@@ -17,3 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser(GlobalVariable.Sauce_URL)
+
+WebUI.maximizeWindow()
+
+WebUI.setText(findTestObject('Object Repository/Sauce/Login/input_User-name'), 'standard_user')
+
+WebUI.setText(findTestObject('Object Repository/Sauce/Login/input_Password'),'secret_sauce')
+
+WebUI.click(findTestObject('Object Repository/Sauce/Login/Login_button'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sauce/Inventory/Inventory_page'), 3)
+
+
+
+WebUI.closeBrowser()

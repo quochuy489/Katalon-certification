@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Header_menu_All" time="130.402" tests="10" failures="0" errors="0">
+   <testsuite name="Header_menu_All" tests="10" failures="0" errors="0" time="130.402" skipped="0" timestamp="24-07-2024T19:00:13" hostname="Admin - DESKTOP-26G4KH6" id="Test Suites/Shopping Cart/Filter/Header_menu_All">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240724_190003\\Shopping Cart\\Filter\\Header_menu_All\\20240724_190003"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240724_190003\\Shopping Cart\\Filter\\Header_menu_All\\20240724_190003\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - DESKTOP-26G4KH6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.191"/>
+         <property name="sessionId" value="240e294d326f26896ded484cea11bd07"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Shopping Cart/Filter/TC30_HeaderMenu_All_products_01" time="14.042" classname="Test Cases/Shopping Cart/Filter/TC30_HeaderMenu_All_products_01" status="PASSED">
+         <system-out><![CDATA[24-07-2024T19:00:14 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Filter/TC30_HeaderMenu_All_products_01: Test Cases/Shopping Cart/Filter/TC30_HeaderMenu_All_products_01
+
+24-07-2024T19:00:14 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+24-07-2024T19:00:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T19:00:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T19:00:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+24-07-2024T19:00:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-07-2024T19:00:23 - [MESSAGE][PASSED] - Current window maximized
+
+24-07-2024T19:00:23 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Dashboard_page"), 5): Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:00:26 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:00:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Header/Header_menu_All_products")): Object: 'Object Repository/Shopping Cart/Header/Header_menu_All_products' is clicked on
+
+24-07-2024T19:00:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Header/Header_menu_All_products' is clicked on
+
+24-07-2024T19:00:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+24-07-2024T19:00:28 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+24-07-2024T19:00:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-07-2024T19:00:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Filter/TC31_HeaderMenu_All_products_02" time="12.357" classname="Test Cases/Shopping Cart/Filter/TC31_HeaderMenu_All_products_02" status="PASSED">
+         <system-out><![CDATA[24-07-2024T19:00:28 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Filter/TC31_HeaderMenu_All_products_02: Test Cases/Shopping Cart/Filter/TC31_HeaderMenu_All_products_02
+
+24-07-2024T19:00:28 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+24-07-2024T19:00:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T19:00:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T19:00:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+24-07-2024T19:00:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-07-2024T19:00:35 - [MESSAGE][PASSED] - Current window maximized
+
+24-07-2024T19:00:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Dashboard_page"), 5): Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:00:35 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:00:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Header/Header_menu_All_products")): Object: 'Object Repository/Shopping Cart/Header/Header_menu_All_products' is clicked on
+
+24-07-2024T19:00:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Header/Header_menu_All_products' is clicked on
+
+24-07-2024T19:00:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+24-07-2024T19:00:40 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+24-07-2024T19:00:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-07-2024T19:00:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Filter/TC32_HeaderMenu_All_products_03" time="11.227" classname="Test Cases/Shopping Cart/Filter/TC32_HeaderMenu_All_products_03" status="PASSED">
+         <system-out><![CDATA[24-07-2024T19:00:40 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Filter/TC32_HeaderMenu_All_products_03: Test Cases/Shopping Cart/Filter/TC32_HeaderMenu_All_products_03
+
+24-07-2024T19:00:40 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+24-07-2024T19:00:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T19:00:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T19:00:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+24-07-2024T19:00:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-07-2024T19:00:46 - [MESSAGE][PASSED] - Current window maximized
+
+24-07-2024T19:00:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Dashboard_page"), 5): Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:00:47 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:00:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Header/Header_menu_All_products")): Object: 'Object Repository/Shopping Cart/Header/Header_menu_All_products' is clicked on
+
+24-07-2024T19:00:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Header/Header_menu_All_products' is clicked on
+
+24-07-2024T19:00:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+24-07-2024T19:00:51 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+24-07-2024T19:00:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-07-2024T19:00:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Filter/TC33_HeaderMenu_All_products_04" time="11.555" classname="Test Cases/Shopping Cart/Filter/TC33_HeaderMenu_All_products_04" status="PASSED">
+         <system-out><![CDATA[24-07-2024T19:00:51 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Filter/TC33_HeaderMenu_All_products_04: Test Cases/Shopping Cart/Filter/TC33_HeaderMenu_All_products_04
+
+24-07-2024T19:00:51 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+24-07-2024T19:00:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T19:00:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T19:00:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+24-07-2024T19:00:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-07-2024T19:00:59 - [MESSAGE][PASSED] - Current window maximized
+
+24-07-2024T19:00:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Dashboard_page"), 5): Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:01:00 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:01:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Header/Header_menu_All_products")): Object: 'Object Repository/Shopping Cart/Header/Header_menu_All_products' is clicked on
+
+24-07-2024T19:01:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Header/Header_menu_All_products' is clicked on
+
+24-07-2024T19:01:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+24-07-2024T19:01:03 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+24-07-2024T19:01:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-07-2024T19:01:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Filter/TC34_HeaderMenu_All_products_05" time="16.464" classname="Test Cases/Shopping Cart/Filter/TC34_HeaderMenu_All_products_05" status="PASSED">
+         <system-out><![CDATA[24-07-2024T19:01:03 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Filter/TC34_HeaderMenu_All_products_05: Test Cases/Shopping Cart/Filter/TC34_HeaderMenu_All_products_05
+
+24-07-2024T19:01:03 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+24-07-2024T19:01:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T19:01:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T19:01:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+24-07-2024T19:01:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-07-2024T19:01:15 - [MESSAGE][PASSED] - Current window maximized
+
+24-07-2024T19:01:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Dashboard_page"), 5): Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:01:18 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:01:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Header/Header_menu_All_products")): Object: 'Object Repository/Shopping Cart/Header/Header_menu_All_products' is clicked on
+
+24-07-2024T19:01:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Header/Header_menu_All_products' is clicked on
+
+24-07-2024T19:01:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+24-07-2024T19:01:19 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+24-07-2024T19:01:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-07-2024T19:01:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Filter/TC35_HeaderMenu_All_products_06" time="13.441" classname="Test Cases/Shopping Cart/Filter/TC35_HeaderMenu_All_products_06" status="PASSED">
+         <system-out><![CDATA[24-07-2024T19:01:20 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Filter/TC35_HeaderMenu_All_products_06: Test Cases/Shopping Cart/Filter/TC35_HeaderMenu_All_products_06
+
+24-07-2024T19:01:20 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+24-07-2024T19:01:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T19:01:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T19:01:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+24-07-2024T19:01:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-07-2024T19:01:27 - [MESSAGE][PASSED] - Current window maximized
+
+24-07-2024T19:01:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Dashboard_page"), 5): Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:01:27 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:01:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Header/Header_menu_All_products")): Object: 'Object Repository/Shopping Cart/Header/Header_menu_All_products' is clicked on
+
+24-07-2024T19:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Header/Header_menu_All_products' is clicked on
+
+24-07-2024T19:01:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+24-07-2024T19:01:32 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+24-07-2024T19:01:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-07-2024T19:01:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Filter/TC36_HeaderMenu_All_products_07" time="18.75" classname="Test Cases/Shopping Cart/Filter/TC36_HeaderMenu_All_products_07" status="PASSED">
+         <system-out><![CDATA[24-07-2024T19:01:33 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Filter/TC36_HeaderMenu_All_products_07: Test Cases/Shopping Cart/Filter/TC36_HeaderMenu_All_products_07
+
+24-07-2024T19:01:33 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+24-07-2024T19:01:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T19:01:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T19:01:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+24-07-2024T19:01:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-07-2024T19:01:42 - [MESSAGE][PASSED] - Current window maximized
+
+24-07-2024T19:01:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Dashboard_page"), 5): Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:01:43 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:01:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Header/Header_menu_All_products")): Object: 'Object Repository/Shopping Cart/Header/Header_menu_All_products' is clicked on
+
+24-07-2024T19:01:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Header/Header_menu_All_products' is clicked on
+
+24-07-2024T19:01:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+24-07-2024T19:01:52 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+24-07-2024T19:01:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-07-2024T19:01:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Filter/TC37_HeaderMenu_All_products_08" time="11.938" classname="Test Cases/Shopping Cart/Filter/TC37_HeaderMenu_All_products_08" status="PASSED">
+         <system-out><![CDATA[24-07-2024T19:01:52 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Filter/TC37_HeaderMenu_All_products_08: Test Cases/Shopping Cart/Filter/TC37_HeaderMenu_All_products_08
+
+24-07-2024T19:01:52 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+24-07-2024T19:01:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T19:01:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T19:01:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+24-07-2024T19:01:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-07-2024T19:01:59 - [MESSAGE][PASSED] - Current window maximized
+
+24-07-2024T19:01:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Dashboard_page"), 5): Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:01:59 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:01:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Header/Header_menu_All_products")): Object: 'Object Repository/Shopping Cart/Header/Header_menu_All_products' is clicked on
+
+24-07-2024T19:02:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Header/Header_menu_All_products' is clicked on
+
+24-07-2024T19:02:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+24-07-2024T19:02:04 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+24-07-2024T19:02:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-07-2024T19:02:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Filter/TC38_HeaderMenu_All_products_09" time="11.064" classname="Test Cases/Shopping Cart/Filter/TC38_HeaderMenu_All_products_09" status="PASSED">
+         <system-out><![CDATA[24-07-2024T19:02:04 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Filter/TC38_HeaderMenu_All_products_09: Test Cases/Shopping Cart/Filter/TC38_HeaderMenu_All_products_09
+
+24-07-2024T19:02:04 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+24-07-2024T19:02:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T19:02:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T19:02:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+24-07-2024T19:02:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-07-2024T19:02:10 - [MESSAGE][PASSED] - Current window maximized
+
+24-07-2024T19:02:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Dashboard_page"), 5): Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:02:10 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:02:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Header/Header_menu_All_products")): Object: 'Object Repository/Shopping Cart/Header/Header_menu_All_products' is clicked on
+
+24-07-2024T19:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Header/Header_menu_All_products' is clicked on
+
+24-07-2024T19:02:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+24-07-2024T19:02:15 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+24-07-2024T19:02:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-07-2024T19:02:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Filter/TC39_HeaderMenu_All_products_10" time="9.044" classname="Test Cases/Shopping Cart/Filter/TC39_HeaderMenu_All_products_10" status="PASSED">
+         <system-out><![CDATA[24-07-2024T19:02:15 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Filter/TC39_HeaderMenu_All_products_10: Test Cases/Shopping Cart/Filter/TC39_HeaderMenu_All_products_10
+
+24-07-2024T19:02:15 - [TEST_STEP][PASSED] - openBrowser(Dashborad_URL): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+24-07-2024T19:02:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-07-2024T19:02:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-07-2024T19:02:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+24-07-2024T19:02:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-07-2024T19:02:21 - [MESSAGE][PASSED] - Current window maximized
+
+24-07-2024T19:02:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Dashboard_page"), 5): Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:02:22 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+24-07-2024T19:02:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Header/Header_menu_All_products")): Object: 'Object Repository/Shopping Cart/Header/Header_menu_All_products' is clicked on
+
+24-07-2024T19:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Header/Header_menu_All_products' is clicked on
+
+24-07-2024T19:02:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Product_item", ["product_name":product_name]), 5): Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+24-07-2024T19:02:23 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Product_item' is present
+
+24-07-2024T19:02:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-07-2024T19:02:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-07-2024T19:00:13 - [TEST_SUITE][PASSED] - Header_menu_All: Test Cases/Shopping Cart/Filter/TC39_HeaderMenu_All_products_10]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

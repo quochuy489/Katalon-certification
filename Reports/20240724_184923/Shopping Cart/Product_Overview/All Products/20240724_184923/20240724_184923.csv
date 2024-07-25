@@ -1,0 +1,142 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+All Products,Chrome 126.0.0.0,,,24-07-2024 18:49:37,24-07-2024 18:52:23,2m - 46.121s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Product Overview/TC08_Check_display_info_product_01,Chrome 126.0.0.0,,,24-07-2024 18:49:38,24-07-2024 18:49:52,14.299s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,24-07-2024 18:49:38,24-07-2024 18:49:45,7.000s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,24-07-2024 18:49:45,24-07-2024 18:49:45,0.118s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,24-07-2024 18:49:45,24-07-2024 18:49:49,3.524s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]))",Chrome 126.0.0.0,,,24-07-2024 18:49:49,24-07-2024 18:49:49,0.358s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_Overview_page""), 5)",Chrome 126.0.0.0,,,24-07-2024 18:49:49,24-07-2024 18:49:51,1.578s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_title"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,24-07-2024 18:49:51,24-07-2024 18:49:51,0.323s,PASSED
+"price_web = getText(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_price""))",Chrome 126.0.0.0,,,24-07-2024 18:49:51,24-07-2024 18:49:51,0.297s,PASSED
+get_price = price_web.contains(price),Chrome 126.0.0.0,,,24-07-2024 18:49:51,24-07-2024 18:49:51,0.002s,PASSED
+"verifyEqual(get_price, true)",Chrome 126.0.0.0,,,24-07-2024 18:49:51,24-07-2024 18:49:51,0.036s,PASSED
+"actual_color = getText(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_color"")).toLowerCase()",Chrome 126.0.0.0,,,24-07-2024 18:49:51,24-07-2024 18:49:52,0.283s,PASSED
+"verifyMatch(actual_color, color, true)",Chrome 126.0.0.0,,,24-07-2024 18:49:52,24-07-2024 18:49:52,0.023s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,24-07-2024 18:49:52,24-07-2024 18:49:52,0.258s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Product Overview/TC09_Check_display_info_product_02,Chrome 126.0.0.0,,,24-07-2024 18:49:52,24-07-2024 18:50:14,22.074s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,24-07-2024 18:49:52,24-07-2024 18:50:07,14.877s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,24-07-2024 18:50:07,24-07-2024 18:50:07,0.054s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,24-07-2024 18:50:07,24-07-2024 18:50:11,4.242s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]))",Chrome 126.0.0.0,,,24-07-2024 18:50:11,24-07-2024 18:50:12,0.315s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_Overview_page""), 5)",Chrome 126.0.0.0,,,24-07-2024 18:50:12,24-07-2024 18:50:13,1.369s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_title"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,24-07-2024 18:50:13,24-07-2024 18:50:13,0.276s,PASSED
+"price_web = getText(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_price""))",Chrome 126.0.0.0,,,24-07-2024 18:50:13,24-07-2024 18:50:14,0.261s,PASSED
+get_price = price_web.contains(price),Chrome 126.0.0.0,,,24-07-2024 18:50:14,24-07-2024 18:50:14,0.002s,PASSED
+"verifyEqual(get_price, true)",Chrome 126.0.0.0,,,24-07-2024 18:50:14,24-07-2024 18:50:14,0.003s,PASSED
+"actual_color = getText(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_color"")).toLowerCase()",Chrome 126.0.0.0,,,24-07-2024 18:50:14,24-07-2024 18:50:14,0.270s,PASSED
+"verifyMatch(actual_color, color, true)",Chrome 126.0.0.0,,,24-07-2024 18:50:14,24-07-2024 18:50:14,0.003s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,24-07-2024 18:50:14,24-07-2024 18:50:14,0.144s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Product Overview/TC10_Check_display_info_product_03,Chrome 126.0.0.0,,,24-07-2024 18:50:14,24-07-2024 18:50:33,19.226s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,24-07-2024 18:50:14,24-07-2024 18:50:24,10.220s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,24-07-2024 18:50:24,24-07-2024 18:50:24,0.082s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,24-07-2024 18:50:24,24-07-2024 18:50:25,0.290s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]))",Chrome 126.0.0.0,,,24-07-2024 18:50:25,24-07-2024 18:50:31,6.108s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_Overview_page""), 5)",Chrome 126.0.0.0,,,24-07-2024 18:50:31,24-07-2024 18:50:32,1.350s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_title"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,24-07-2024 18:50:32,24-07-2024 18:50:32,0.264s,PASSED
+"price_web = getText(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_price""))",Chrome 126.0.0.0,,,24-07-2024 18:50:32,24-07-2024 18:50:33,0.267s,PASSED
+get_price = price_web.contains(price),Chrome 126.0.0.0,,,24-07-2024 18:50:33,24-07-2024 18:50:33,0.002s,PASSED
+"verifyEqual(get_price, true)",Chrome 126.0.0.0,,,24-07-2024 18:50:33,24-07-2024 18:50:33,0.004s,PASSED
+"actual_color = getText(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_color"")).toLowerCase()",Chrome 126.0.0.0,,,24-07-2024 18:50:33,24-07-2024 18:50:33,0.281s,PASSED
+"verifyMatch(actual_color, color, true)",Chrome 126.0.0.0,,,24-07-2024 18:50:33,24-07-2024 18:50:33,0.002s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,24-07-2024 18:50:33,24-07-2024 18:50:33,0.219s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Product Overview/TC11_Check_display_info_product_04,Chrome 126.0.0.0,,,24-07-2024 18:50:33,24-07-2024 18:50:50,16.952s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,24-07-2024 18:50:33,24-07-2024 18:50:42,8.549s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,24-07-2024 18:50:42,24-07-2024 18:50:42,0.055s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,24-07-2024 18:50:42,24-07-2024 18:50:48,5.811s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]))",Chrome 126.0.0.0,,,24-07-2024 18:50:48,24-07-2024 18:50:48,0.316s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_Overview_page""), 5)",Chrome 126.0.0.0,,,24-07-2024 18:50:48,24-07-2024 18:50:49,1.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_title"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,24-07-2024 18:50:49,24-07-2024 18:50:49,0.269s,PASSED
+"price_web = getText(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_price""))",Chrome 126.0.0.0,,,24-07-2024 18:50:49,24-07-2024 18:50:50,0.265s,PASSED
+get_price = price_web.contains(price),Chrome 126.0.0.0,,,24-07-2024 18:50:50,24-07-2024 18:50:50,0.003s,PASSED
+"verifyEqual(get_price, true)",Chrome 126.0.0.0,,,24-07-2024 18:50:50,24-07-2024 18:50:50,0.004s,PASSED
+"actual_color = getText(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_color"")).toLowerCase()",Chrome 126.0.0.0,,,24-07-2024 18:50:50,24-07-2024 18:50:50,0.283s,PASSED
+"verifyMatch(actual_color, color, true)",Chrome 126.0.0.0,,,24-07-2024 18:50:50,24-07-2024 18:50:50,0.003s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,24-07-2024 18:50:50,24-07-2024 18:50:50,0.219s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Product Overview/TC12_Check_display_info_product_05,Chrome 126.0.0.0,,,24-07-2024 18:50:50,24-07-2024 18:51:10,19.471s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,24-07-2024 18:50:50,24-07-2024 18:51:01,10.841s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,24-07-2024 18:51:01,24-07-2024 18:51:01,0.048s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,24-07-2024 18:51:01,24-07-2024 18:51:07,5.857s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]))",Chrome 126.0.0.0,,,24-07-2024 18:51:07,24-07-2024 18:51:08,0.355s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_Overview_page""), 5)",Chrome 126.0.0.0,,,24-07-2024 18:51:08,24-07-2024 18:51:09,1.279s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_title"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,24-07-2024 18:51:09,24-07-2024 18:51:09,0.250s,PASSED
+"price_web = getText(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_price""))",Chrome 126.0.0.0,,,24-07-2024 18:51:09,24-07-2024 18:51:09,0.283s,PASSED
+get_price = price_web.contains(price),Chrome 126.0.0.0,,,24-07-2024 18:51:09,24-07-2024 18:51:09,0.001s,PASSED
+"verifyEqual(get_price, true)",Chrome 126.0.0.0,,,24-07-2024 18:51:09,24-07-2024 18:51:09,0.003s,PASSED
+"actual_color = getText(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_color"")).toLowerCase()",Chrome 126.0.0.0,,,24-07-2024 18:51:09,24-07-2024 18:51:10,0.269s,PASSED
+"verifyMatch(actual_color, color, true)",Chrome 126.0.0.0,,,24-07-2024 18:51:10,24-07-2024 18:51:10,0.003s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,24-07-2024 18:51:10,24-07-2024 18:51:10,0.148s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Product Overview/TC13_Check_display_info_product_06,Chrome 126.0.0.0,,,24-07-2024 18:51:10,24-07-2024 18:51:22,12.287s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,24-07-2024 18:51:10,24-07-2024 18:51:16,6.009s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,24-07-2024 18:51:16,24-07-2024 18:51:16,0.052s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,24-07-2024 18:51:16,24-07-2024 18:51:16,0.276s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]))",Chrome 126.0.0.0,,,24-07-2024 18:51:16,24-07-2024 18:51:20,3.527s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_Overview_page""), 5)",Chrome 126.0.0.0,,,24-07-2024 18:51:20,24-07-2024 18:51:21,1.055s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_title"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,24-07-2024 18:51:21,24-07-2024 18:51:21,0.266s,PASSED
+"price_web = getText(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_price""))",Chrome 126.0.0.0,,,24-07-2024 18:51:21,24-07-2024 18:51:21,0.277s,PASSED
+get_price = price_web.contains(price),Chrome 126.0.0.0,,,24-07-2024 18:51:21,24-07-2024 18:51:21,0.002s,PASSED
+"verifyEqual(get_price, true)",Chrome 126.0.0.0,,,24-07-2024 18:51:21,24-07-2024 18:51:21,0.004s,PASSED
+"actual_color = getText(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_color"")).toLowerCase()",Chrome 126.0.0.0,,,24-07-2024 18:51:21,24-07-2024 18:51:22,0.273s,PASSED
+"verifyMatch(actual_color, color, true)",Chrome 126.0.0.0,,,24-07-2024 18:51:22,24-07-2024 18:51:22,0.003s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,24-07-2024 18:51:22,24-07-2024 18:51:22,0.422s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Product Overview/TC14_Check_display_info_product_07,Chrome 126.0.0.0,,,24-07-2024 18:51:22,24-07-2024 18:51:38,15.990s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,24-07-2024 18:51:22,24-07-2024 18:51:25,2.465s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,24-07-2024 18:51:25,24-07-2024 18:51:29,4.481s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,24-07-2024 18:51:29,24-07-2024 18:51:33,3.836s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]))",Chrome 126.0.0.0,,,24-07-2024 18:51:33,24-07-2024 18:51:36,2.568s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_Overview_page""), 5)",Chrome 126.0.0.0,,,24-07-2024 18:51:36,24-07-2024 18:51:37,1.080s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_title"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,24-07-2024 18:51:37,24-07-2024 18:51:37,0.269s,PASSED
+"price_web = getText(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_price""))",Chrome 126.0.0.0,,,24-07-2024 18:51:37,24-07-2024 18:51:37,0.344s,PASSED
+get_price = price_web.contains(price),Chrome 126.0.0.0,,,24-07-2024 18:51:37,24-07-2024 18:51:37,0.001s,PASSED
+"verifyEqual(get_price, true)",Chrome 126.0.0.0,,,24-07-2024 18:51:37,24-07-2024 18:51:37,0.003s,PASSED
+"actual_color = getText(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_color"")).toLowerCase()",Chrome 126.0.0.0,,,24-07-2024 18:51:37,24-07-2024 18:51:38,0.367s,PASSED
+"verifyMatch(actual_color, color, true)",Chrome 126.0.0.0,,,24-07-2024 18:51:38,24-07-2024 18:51:38,0.014s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,24-07-2024 18:51:38,24-07-2024 18:51:38,0.493s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Product Overview/TC15_Check_display_info_product_08,Chrome 126.0.0.0,,,24-07-2024 18:51:38,24-07-2024 18:51:52,13.944s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,24-07-2024 18:51:38,24-07-2024 18:51:46,7.659s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,24-07-2024 18:51:46,24-07-2024 18:51:46,0.167s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,24-07-2024 18:51:46,24-07-2024 18:51:48,2.136s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]))",Chrome 126.0.0.0,,,24-07-2024 18:51:48,24-07-2024 18:51:49,0.368s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_Overview_page""), 5)",Chrome 126.0.0.0,,,24-07-2024 18:51:49,24-07-2024 18:51:50,1.030s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_title"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,24-07-2024 18:51:50,24-07-2024 18:51:50,0.788s,PASSED
+"price_web = getText(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_price""))",Chrome 126.0.0.0,,,24-07-2024 18:51:50,24-07-2024 18:51:51,0.270s,PASSED
+get_price = price_web.contains(price),Chrome 126.0.0.0,,,24-07-2024 18:51:51,24-07-2024 18:51:51,0.001s,PASSED
+"verifyEqual(get_price, true)",Chrome 126.0.0.0,,,24-07-2024 18:51:51,24-07-2024 18:51:51,0.002s,PASSED
+"actual_color = getText(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_color"")).toLowerCase()",Chrome 126.0.0.0,,,24-07-2024 18:51:51,24-07-2024 18:51:51,0.277s,PASSED
+"verifyMatch(actual_color, color, true)",Chrome 126.0.0.0,,,24-07-2024 18:51:51,24-07-2024 18:51:51,0.003s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,24-07-2024 18:51:51,24-07-2024 18:51:52,1.217s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Product Overview/TC16_Check_display_info_product_09,Chrome 126.0.0.0,,,24-07-2024 18:51:52,24-07-2024 18:52:12,19.822s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,24-07-2024 18:51:52,24-07-2024 18:52:05,12.839s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,24-07-2024 18:52:05,24-07-2024 18:52:05,0.050s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,24-07-2024 18:52:05,24-07-2024 18:52:05,0.258s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]))",Chrome 126.0.0.0,,,24-07-2024 18:52:05,24-07-2024 18:52:06,0.353s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_Overview_page""), 5)",Chrome 126.0.0.0,,,24-07-2024 18:52:06,24-07-2024 18:52:11,5.303s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_title"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,24-07-2024 18:52:11,24-07-2024 18:52:11,0.261s,PASSED
+"price_web = getText(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_price""))",Chrome 126.0.0.0,,,24-07-2024 18:52:11,24-07-2024 18:52:12,0.274s,PASSED
+get_price = price_web.contains(price),Chrome 126.0.0.0,,,24-07-2024 18:52:12,24-07-2024 18:52:12,0.000s,PASSED
+"verifyEqual(get_price, true)",Chrome 126.0.0.0,,,24-07-2024 18:52:12,24-07-2024 18:52:12,0.002s,PASSED
+"actual_color = getText(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_color"")).toLowerCase()",Chrome 126.0.0.0,,,24-07-2024 18:52:12,24-07-2024 18:52:12,0.266s,PASSED
+"verifyMatch(actual_color, color, true)",Chrome 126.0.0.0,,,24-07-2024 18:52:12,24-07-2024 18:52:12,0.002s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,24-07-2024 18:52:12,24-07-2024 18:52:12,0.196s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Product Overview/TC17_Check_display_info_product_10,Chrome 126.0.0.0,,,24-07-2024 18:52:12,24-07-2024 18:52:23,11.313s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,24-07-2024 18:52:12,24-07-2024 18:52:17,5.258s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,24-07-2024 18:52:17,24-07-2024 18:52:17,0.062s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,24-07-2024 18:52:17,24-07-2024 18:52:18,0.290s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]))",Chrome 126.0.0.0,,,24-07-2024 18:52:18,24-07-2024 18:52:21,3.642s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_Overview_page""), 5)",Chrome 126.0.0.0,,,24-07-2024 18:52:21,24-07-2024 18:52:22,1.031s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_title"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,24-07-2024 18:52:22,24-07-2024 18:52:23,0.259s,PASSED
+"price_web = getText(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_price""))",Chrome 126.0.0.0,,,24-07-2024 18:52:23,24-07-2024 18:52:23,0.283s,PASSED
+get_price = price_web.contains(price),Chrome 126.0.0.0,,,24-07-2024 18:52:23,24-07-2024 18:52:23,0.001s,PASSED
+"verifyEqual(get_price, true)",Chrome 126.0.0.0,,,24-07-2024 18:52:23,24-07-2024 18:52:23,0.002s,PASSED
+"actual_color = getText(findTestObject(""Object Repository/Shopping Cart/Product Overview/Product_color"")).toLowerCase()",Chrome 126.0.0.0,,,24-07-2024 18:52:23,24-07-2024 18:52:23,0.254s,PASSED
+"verifyMatch(actual_color, color, true)",Chrome 126.0.0.0,,,24-07-2024 18:52:23,24-07-2024 18:52:23,0.001s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,24-07-2024 18:52:23,24-07-2024 18:52:23,0.211s,PASSED
