@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Logout,TestCloud - macOS - Safari 17,,,26-07-2024 16:13:34,26-07-2024 16:15:07,1m - 33.482s,PASSED
+,,,,,,,
+Test Cases/Healthcare/Log out/TC09_Logout_via_Burger_menu,TestCloud - macOS - Safari 17,,,26-07-2024 16:13:34,26-07-2024 16:14:24,49.676s,PASSED
+store.Authentication.HC_Login_Burger_menu.Login_via_Burger_menu(),TestCloud - macOS - Safari 17,,,26-07-2024 16:13:35,26-07-2024 16:14:19,44.748s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Burger menu/a_Burger_menu""))",TestCloud - macOS - Safari 17,,,26-07-2024 16:14:19,26-07-2024 16:14:20,0.989s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Burger menu/Slidebar_opened""), 3)",TestCloud - macOS - Safari 17,,,26-07-2024 16:14:20,26-07-2024 16:14:21,0.662s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Burger menu/a_Logout""))",TestCloud - macOS - Safari 17,,,26-07-2024 16:14:21,26-07-2024 16:14:22,1.062s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Dashboard/Dashboard_page""), 3)",TestCloud - macOS - Safari 17,,,26-07-2024 16:14:22,26-07-2024 16:14:23,0.681s,PASSED
+closeBrowser(),TestCloud - macOS - Safari 17,,,26-07-2024 16:14:23,26-07-2024 16:14:24,1.019s,PASSED
+,,,,,,,
+Test Cases/Healthcare/Log out/TC10_Logout_via_Profile_page,TestCloud - macOS - Safari 17,,,26-07-2024 16:14:24,26-07-2024 16:15:07,43.430s,PASSED
+store.Function.Access_HC_Profile.Access_Profile(),TestCloud - macOS - Safari 17,,,26-07-2024 16:14:24,26-07-2024 16:15:04,40.190s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Profile/Logout_btn""))",TestCloud - macOS - Safari 17,,,26-07-2024 16:15:04,26-07-2024 16:15:05,1.019s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Dashboard/Dashboard_page""), 3)",TestCloud - macOS - Safari 17,,,26-07-2024 16:15:05,26-07-2024 16:15:06,0.652s,PASSED
+closeBrowser(),TestCloud - macOS - Safari 17,,,26-07-2024 16:15:06,26-07-2024 16:15:07,1.373s,PASSED

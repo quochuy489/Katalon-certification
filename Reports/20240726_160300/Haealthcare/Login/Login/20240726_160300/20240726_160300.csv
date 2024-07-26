@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:03:22,26-07-2024 16:07:20,3m - 58.198s,PASSED
+,,,,,,,
+Test Cases/Healthcare/Login/TC01_Login_success_with_valid_info,TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:03:23,26-07-2024 16:04:09,46.441s,PASSED
+openBrowser(HC_Login_URL),TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:03:23,26-07-2024 16:03:54,30.499s,PASSED
+maximizeWindow(),TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:03:54,26-07-2024 16:03:57,3.277s,PASSED
+"setText(findTestObject(""Object Repository/Healthcare/Login/input_Username_username""), ""John Doe"")",TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:03:57,26-07-2024 16:04:01,3.743s,PASSED
+"setText(findTestObject(""Object Repository/Healthcare/Login/input_Password_password""), ""ThisIsNotAPassword"")",TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:04:01,26-07-2024 16:04:04,3.405s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Login/button_Login""))",TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:04:04,26-07-2024 16:04:07,2.678s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Appointment/form_Healthcare""), 3)",TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:04:07,26-07-2024 16:04:08,1.205s,PASSED
+closeBrowser(),TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:04:08,26-07-2024 16:04:09,1.057s,PASSED
+,,,,,,,
+Test Cases/Healthcare/Login/TC02_Login_via_make_appointment,TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:04:50,26-07-2024 16:05:29,38.933s,PASSED
+openBrowser(HC_Dashborad_URL),TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:04:50,26-07-2024 16:05:14,23.523s,PASSED
+maximizeWindow(),TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:05:14,26-07-2024 16:05:14,0.361s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Dashboard/a_Make Appointment""))",TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:05:14,26-07-2024 16:05:16,1.682s,PASSED
+"store.Authentication.HC_Login.HC_Login_with_URL(""John Doe"", ""ThisIsNotAPassword"")",TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:05:16,26-07-2024 16:05:27,10.874s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Appointment/form_Healthcare""), 3)",TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:05:27,26-07-2024 16:05:28,1.188s,PASSED
+closeBrowser(),TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:05:28,26-07-2024 16:05:29,1.259s,PASSED
+,,,,,,,
+Test Cases/Healthcare/Login/TC03_Login_via_burger_menu,TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:05:29,26-07-2024 16:06:26,56.270s,PASSED
+openBrowser(HC_Dashborad_URL),TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:05:30,26-07-2024 16:06:09,39.135s,PASSED
+maximizeWindow(),TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:06:09,26-07-2024 16:06:09,0.396s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Burger menu/a_Burger_menu""))",TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:06:09,26-07-2024 16:06:11,1.644s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Burger menu/a_Login""))",TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:06:11,26-07-2024 16:06:13,1.874s,PASSED
+"store.Authentication.HC_Login.HC_Login_with_URL(""John Doe"", ""ThisIsNotAPassword"")",TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:06:13,26-07-2024 16:06:23,10.627s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Appointment/form_Healthcare""), 3)",TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:06:23,26-07-2024 16:06:24,1.242s,PASSED
+closeBrowser(),TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:06:24,26-07-2024 16:06:26,1.159s,PASSED
+,,,,,,,
+Test Cases/Healthcare/Login/TC06_Login_with_invalid_info,TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:06:26,26-07-2024 16:07:20,54.280s,PASSED
+openBrowser(HC_Login_URL),TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:06:26,26-07-2024 16:07:09,42.960s,PASSED
+maximizeWindow(),TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:07:09,26-07-2024 16:07:09,0.341s,PASSED
+"setText(findTestObject(""Object Repository/Healthcare/Login/input_Username_username""), ""John"")",TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:07:09,26-07-2024 16:07:13,3.363s,PASSED
+"setText(findTestObject(""Object Repository/Healthcare/Login/input_Password_password""), ""ThisIsAPassword"")",TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:07:13,26-07-2024 16:07:16,3.449s,PASSED
+"click(findTestObject(""Object Repository/Healthcare/Login/button_Login""))",TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:07:16,26-07-2024 16:07:18,1.696s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Healthcare/Login/label_Error_message""), 3)",TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:07:18,26-07-2024 16:07:19,1.145s,PASSED
+closeBrowser(),TestCloud - Windows - Chrome 127.0.0.0,,,26-07-2024 16:07:19,26-07-2024 16:07:20,1.016s,PASSED

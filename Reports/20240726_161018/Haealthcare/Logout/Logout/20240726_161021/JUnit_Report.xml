@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Logout" time="93.482" tests="2" failures="0" errors="0">
+   <testsuite name="Logout" tests="2" failures="0" errors="0" time="93.482" skipped="0" timestamp="26-07-2024T16:13:34" hostname="quochuy.lu - VN-HCM-D-W-0011.globalservs.com" id="Test Suites/Haealthcare/Logout/Logout">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="MAC"/>
+         <property name="logFolder" value="C:\\Users\\quochuy.lu\\git\\Katalon-certification\\Reports\\20240726_161018\\Haealthcare\\Logout\\Logout\\20240726_161021"/>
+         <property name="logFiles" value="C:\\Users\\quochuy.lu\\git\\Katalon-certification\\Reports\\20240726_161018\\Haealthcare\\Logout\\Logout\\20240726_161021\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="quochuy.lu - VN-HCM-D-W-0011.globalservs.com"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;safari:diagnose&quot;: false,&#xa;  &quot;kt:rid&quot;: &quot;f21137b7-94d6-49f2-b6f4-8794d47a795f&quot;,&#xa;  &quot;se:cdpEnabled&quot;: false,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;platform&quot;: &quot;MAC&quot;,&#xa;  &quot;se:bidiEnabled&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;DIRECT&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;safari:automaticProfiling&quot;: false,&#xa;  &quot;safari:platformBuildVersion&quot;: &quot;23E214&quot;,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;17&quot;,&#xa;  &quot;safari:useSimulator&quot;: false,&#xa;  &quot;webkit:WebRTC&quot;: {&#xa;    &quot;DisableICECandidateFiltering&quot;: false,&#xa;    &quot;DisableInsecureMediaCapture&quot;: false&#xa;  },&#xa;  &quot;kt:requestId&quot;: &quot;f21137b7-94d6-49f2-b6f4-8794d47a795f&quot;,&#xa;  &quot;safari:platformVersion&quot;: &quot;14.4&quot;,&#xa;  &quot;browserName&quot;: &quot;Safari&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;katalon:option&quot;: {&#xa;    &quot;userId&quot;: 1544065,&#xa;    &quot;organizationId&quot;: &quot;1576976&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;usingTunnel&quot;: false&#xa;  },&#xa;  &quot;safari:automaticInspection&quot;: false,&#xa;  &quot;platformName&quot;: &quot;MAC&quot;,&#xa;  &quot;setWindowRect&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="remoteOS" value="macOS"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Safari 17"/>
+         <property name="hostAddress" value="10.161.207.102"/>
+         <property name="sessionId" value="106CC466-8969-4D03-8AEE-E0A6E0B4D731"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Healthcare/Log out/TC09_Logout_via_Burger_menu" time="49.676" classname="Test Cases/Healthcare/Log out/TC09_Logout_via_Burger_menu" status="PASSED">
+         <system-out><![CDATA[26-07-2024T16:13:34 - [TEST_CASE][PASSED] - Test Cases/Healthcare/Log out/TC09_Logout_via_Burger_menu: Test Cases/Healthcare/Log out/TC09_Logout_via_Burger_menu
+
+26-07-2024T16:13:35 - [TEST_STEP][PASSED] - store.Authentication.HC_Login_Burger_menu.Login_via_Burger_menu(): store.Authentication.HC_Login_Burger_menu.Login_via_Burger_menu is PASSED
+
+26-07-2024T16:13:35 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+26-07-2024T16:13:35 - [MESSAGE][INFO] - User set preference: ['browserVersion', '17']
+
+26-07-2024T16:13:35 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+26-07-2024T16:13:35 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1576976, usingTunnel=false}']
+
+26-07-2024T16:13:35 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+26-07-2024T16:13:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-07-2024T16:14:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+26-07-2024T16:14:10 - [MESSAGE][PASSED] - Current window maximized
+
+26-07-2024T16:14:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+26-07-2024T16:14:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Login' is clicked on
+
+26-07-2024T16:14:15 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Healthcare/Login/input_Username_username'
+
+26-07-2024T16:14:17 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Healthcare/Login/input_Password_password'
+
+26-07-2024T16:14:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Login/button_Login' is clicked on
+
+26-07-2024T16:14:19 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+26-07-2024T16:14:19 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+26-07-2024T16:14:19 - [MESSAGE][PASSED] - store.Authentication.HC_Login_Burger_menu.Login_via_Burger_menu is PASSED
+
+26-07-2024T16:14:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Burger menu/a_Burger_menu")): Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+26-07-2024T16:14:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+26-07-2024T16:14:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Burger menu/Slidebar_opened"), 3): Object 'Object Repository/Healthcare/Burger menu/Slidebar_opened' is present
+
+26-07-2024T16:14:21 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Burger menu/Slidebar_opened' is present
+
+26-07-2024T16:14:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Burger menu/a_Logout")): Object: 'Object Repository/Healthcare/Burger menu/a_Logout' is clicked on
+
+26-07-2024T16:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Logout' is clicked on
+
+26-07-2024T16:14:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Dashboard/Dashboard_page"), 3): Object 'Object Repository/Healthcare/Dashboard/Dashboard_page' is present
+
+26-07-2024T16:14:23 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Dashboard/Dashboard_page' is present
+
+26-07-2024T16:14:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-07-2024T16:14:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Healthcare/Log out/TC10_Logout_via_Profile_page" time="43.43" classname="Test Cases/Healthcare/Log out/TC10_Logout_via_Profile_page" status="PASSED">
+         <system-out><![CDATA[26-07-2024T16:14:24 - [TEST_CASE][PASSED] - Test Cases/Healthcare/Log out/TC10_Logout_via_Profile_page: Test Cases/Healthcare/Log out/TC10_Logout_via_Profile_page
+
+26-07-2024T16:14:24 - [TEST_STEP][PASSED] - store.Function.Access_HC_Profile.Access_Profile(): store.Function.Access_HC_Profile.Access_Profile is PASSED
+
+26-07-2024T16:14:24 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+26-07-2024T16:14:24 - [MESSAGE][INFO] - User set preference: ['browserVersion', '17']
+
+26-07-2024T16:14:24 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+26-07-2024T16:14:24 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1576976, usingTunnel=false}']
+
+26-07-2024T16:14:24 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+26-07-2024T16:14:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-07-2024T16:14:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+26-07-2024T16:14:52 - [MESSAGE][PASSED] - Current window maximized
+
+26-07-2024T16:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+26-07-2024T16:14:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Login' is clicked on
+
+26-07-2024T16:14:56 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Healthcare/Login/input_Username_username'
+
+26-07-2024T16:14:58 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Healthcare/Login/input_Password_password'
+
+26-07-2024T16:14:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Login/button_Login' is clicked on
+
+26-07-2024T16:15:00 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+26-07-2024T16:15:01 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+26-07-2024T16:15:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+26-07-2024T16:15:02 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Burger menu/Slidebar_opened' is present
+
+26-07-2024T16:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Profile' is clicked on
+
+26-07-2024T16:15:04 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Profile/Profile_page' is present
+
+26-07-2024T16:15:04 - [MESSAGE][PASSED] - store.Function.Access_HC_Profile.Access_Profile is PASSED
+
+26-07-2024T16:15:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Profile/Logout_btn")): Object: 'Object Repository/Healthcare/Profile/Logout_btn' is clicked on
+
+26-07-2024T16:15:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Profile/Logout_btn' is clicked on
+
+26-07-2024T16:15:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Dashboard/Dashboard_page"), 3): Object 'Object Repository/Healthcare/Dashboard/Dashboard_page' is present
+
+26-07-2024T16:15:06 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Dashboard/Dashboard_page' is present
+
+26-07-2024T16:15:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-07-2024T16:15:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-07-2024T16:13:34 - [TEST_SUITE][PASSED] - Logout: Test Cases/Healthcare/Log out/TC10_Logout_via_Profile_page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
