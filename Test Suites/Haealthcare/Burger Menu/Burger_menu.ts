@@ -3,8 +3,8 @@
    <description></description>
    <name>Burger_menu</name>
    <tag></tag>
-   <delayBetweenInstances>0</delayBetweenInstances>
-   <executionMode>SEQUENTIAL</executionMode>
+   <delayBetweenInstances>10</delayBetweenInstances>
+   <executionMode>PARALLEL</executionMode>
    <maxConcurrentInstances>8</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
