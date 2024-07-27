@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign up" time="452.713" tests="10" failures="0" errors="0">
+   <testsuite name="Sign up" tests="10" failures="0" errors="0" time="452.713" skipped="0" timestamp="27-07-2024T10:18:32" hostname="Admin - DESKTOP-26G4KH6" id="Test Suites/Shopping Cart/Sign up/Sign up">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="MAC"/>
+         <property name="logFolder" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240727_093949\\Shopping Cart\\Sign up\\Sign up\\20240727_093952"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240727_093949\\Shopping Cart\\Sign up\\Sign up\\20240727_093952\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - DESKTOP-26G4KH6"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;safari:diagnose&quot;: false,&#xa;  &quot;kt:rid&quot;: &quot;e20144ca-6ff6-4f1f-9b75-5d123540dcf9&quot;,&#xa;  &quot;se:cdpEnabled&quot;: false,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;platform&quot;: &quot;MAC&quot;,&#xa;  &quot;se:bidiEnabled&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;PAC&quot;,&#xa;    &quot;autodetect&quot;: false,&#xa;    &quot;proxyAutoconfigUrl&quot;: &quot;http://tunnel-manager-internal.katalon.com/pac/a5b2e99c-302d-450f-9464-dd0b137fb229.pac&quot;&#xa;  },&#xa;  &quot;safari:automaticProfiling&quot;: false,&#xa;  &quot;safari:platformBuildVersion&quot;: &quot;23E214&quot;,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;17&quot;,&#xa;  &quot;safari:useSimulator&quot;: false,&#xa;  &quot;webkit:WebRTC&quot;: {&#xa;    &quot;DisableICECandidateFiltering&quot;: false,&#xa;    &quot;DisableInsecureMediaCapture&quot;: false&#xa;  },&#xa;  &quot;kt:requestId&quot;: &quot;e20144ca-6ff6-4f1f-9b75-5d123540dcf9&quot;,&#xa;  &quot;safari:platformVersion&quot;: &quot;14.4&quot;,&#xa;  &quot;browserName&quot;: &quot;Safari&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;katalon:option&quot;: {&#xa;    &quot;apiKey&quot;: &quot;4325c767-d65e-4f41-a4c1-bee4a86546dc&quot;,&#xa;    &quot;tunnelMetadataId&quot;: &quot;a5b2e99c-302d-450f-9464-dd0b137fb229&quot;,&#xa;    &quot;userId&quot;: 1544065,&#xa;    &quot;organizationId&quot;: &quot;1576976&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;tenant&quot;: &quot;TestOps&quot;,&#xa;    &quot;usingTunnel&quot;: true,&#xa;    &quot;group&quot;: &quot;59ab00fe-3356-4744-937b-0978994afb56&quot;&#xa;  },&#xa;  &quot;safari:automaticInspection&quot;: false,&#xa;  &quot;platformName&quot;: &quot;MAC&quot;,&#xa;  &quot;setWindowRect&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="macOS"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Safari 17"/>
+         <property name="hostAddress" value="192.168.0.191"/>
+         <property name="sessionId" value="49A2CE9B-7A13-4059-905F-9E8985A1AA78"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Shopping Cart/Sign up/TC18_Fill_wrong_email_format" time="56.931" classname="Test Cases/Shopping Cart/Sign up/TC18_Fill_wrong_email_format" status="PASSED">
+         <system-out><![CDATA[27-07-2024T10:18:32 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Sign up/TC18_Fill_wrong_email_format: Test Cases/Shopping Cart/Sign up/TC18_Fill_wrong_email_format
+
+27-07-2024T10:18:32 - [TEST_STEP][PASSED] - openBrowser(Signup_URL): Browser is opened with url: 'https://demo-store.katalon.com/signup'
+
+27-07-2024T10:18:33 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+27-07-2024T10:18:33 - [MESSAGE][INFO] - User set preference: ['browserVersion', '17']
+
+27-07-2024T10:18:33 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+27-07-2024T10:18:33 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1576976, usingTunnel=true}']
+
+27-07-2024T10:18:33 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+27-07-2024T10:18:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-07-2024T10:19:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/signup'
+
+27-07-2024T10:19:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-07-2024T10:19:22 - [MESSAGE][PASSED] - Current window maximized
+
+27-07-2024T10:19:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign up/Sign_up_page"), 5): Object 'Object Repository/Shopping Cart/Sign up/Sign_up_page' is present
+
+27-07-2024T10:19:23 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign up/Sign_up_page' is present
+
+27-07-2024T10:19:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign up/Email_input"), username): Text 'abc' is set on object 'Object Repository/Shopping Cart/Sign up/Email_input'
+
+27-07-2024T10:19:25 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Shopping Cart/Sign up/Email_input'
+
+27-07-2024T10:19:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Shopping Cart/Sign up/Email_input"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign up/Email_input'
+
+27-07-2024T10:19:26 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign up/Email_input'
+
+27-07-2024T10:19:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign up/Email_error_message_lb"), 5): Object 'Object Repository/Shopping Cart/Sign up/Email_error_message_lb' is present
+
+27-07-2024T10:19:27 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign up/Email_error_message_lb' is present
+
+27-07-2024T10:19:27 - [TEST_STEP][PASSED] - Actual_email_error = getText(findTestObject("Object Repository/Shopping Cart/Sign up/Email_error_message_lb")): Text of object 'Object Repository/Shopping Cart/Sign up/Email_error_message_lb' is: 'invalid email'
+
+27-07-2024T10:19:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Sign up/Email_error_message_lb' is: 'invalid email'
+
+27-07-2024T10:19:28 - [TEST_STEP][PASSED] - verifyEqual(Actual_email_error, expec_email_error): Actual object 'invalid email' and expected object 'invalid email' are equal
+
+27-07-2024T10:19:28 - [MESSAGE][PASSED] - Actual object 'invalid email' and expected object 'invalid email' are equal
+
+27-07-2024T10:19:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-07-2024T10:19:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Sign up/TC18_Fill_wrong_email_format" time="51.725" classname="Test Cases/Shopping Cart/Sign up/TC18_Fill_wrong_email_format" status="PASSED">
+         <system-out><![CDATA[27-07-2024T10:19:29 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Sign up/TC18_Fill_wrong_email_format: Test Cases/Shopping Cart/Sign up/TC18_Fill_wrong_email_format
+
+27-07-2024T10:19:29 - [TEST_STEP][PASSED] - openBrowser(Signup_URL): Browser is opened with url: 'https://demo-store.katalon.com/signup'
+
+27-07-2024T10:19:29 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+27-07-2024T10:19:29 - [MESSAGE][INFO] - User set preference: ['browserVersion', '17']
+
+27-07-2024T10:19:29 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+27-07-2024T10:19:29 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1576976, usingTunnel=true}']
+
+27-07-2024T10:19:29 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+27-07-2024T10:19:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-07-2024T10:20:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/signup'
+
+27-07-2024T10:20:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-07-2024T10:20:14 - [MESSAGE][PASSED] - Current window maximized
+
+27-07-2024T10:20:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign up/Sign_up_page"), 5): Object 'Object Repository/Shopping Cart/Sign up/Sign_up_page' is present
+
+27-07-2024T10:20:14 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign up/Sign_up_page' is present
+
+27-07-2024T10:20:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign up/Email_input"), username): Text 'avgff@' is set on object 'Object Repository/Shopping Cart/Sign up/Email_input'
+
+27-07-2024T10:20:17 - [MESSAGE][PASSED] - Text 'avgff@' is set on object 'Object Repository/Shopping Cart/Sign up/Email_input'
+
+27-07-2024T10:20:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Shopping Cart/Sign up/Email_input"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign up/Email_input'
+
+27-07-2024T10:20:18 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign up/Email_input'
+
+27-07-2024T10:20:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign up/Email_error_message_lb"), 5): Object 'Object Repository/Shopping Cart/Sign up/Email_error_message_lb' is present
+
+27-07-2024T10:20:18 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign up/Email_error_message_lb' is present
+
+27-07-2024T10:20:18 - [TEST_STEP][PASSED] - Actual_email_error = getText(findTestObject("Object Repository/Shopping Cart/Sign up/Email_error_message_lb")): Text of object 'Object Repository/Shopping Cart/Sign up/Email_error_message_lb' is: 'invalid email'
+
+27-07-2024T10:20:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Sign up/Email_error_message_lb' is: 'invalid email'
+
+27-07-2024T10:20:19 - [TEST_STEP][PASSED] - verifyEqual(Actual_email_error, expec_email_error): Actual object 'invalid email' and expected object 'invalid email' are equal
+
+27-07-2024T10:20:19 - [MESSAGE][PASSED] - Actual object 'invalid email' and expected object 'invalid email' are equal
+
+27-07-2024T10:20:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-07-2024T10:20:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Sign up/TC18_Fill_wrong_email_format" time="45.31" classname="Test Cases/Shopping Cart/Sign up/TC18_Fill_wrong_email_format" status="PASSED">
+         <system-out><![CDATA[27-07-2024T10:20:21 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Sign up/TC18_Fill_wrong_email_format: Test Cases/Shopping Cart/Sign up/TC18_Fill_wrong_email_format
+
+27-07-2024T10:20:21 - [TEST_STEP][PASSED] - openBrowser(Signup_URL): Browser is opened with url: 'https://demo-store.katalon.com/signup'
+
+27-07-2024T10:20:21 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+27-07-2024T10:20:21 - [MESSAGE][INFO] - User set preference: ['browserVersion', '17']
+
+27-07-2024T10:20:21 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+27-07-2024T10:20:21 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1576976, usingTunnel=true}']
+
+27-07-2024T10:20:21 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+27-07-2024T10:20:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-07-2024T10:20:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/signup'
+
+27-07-2024T10:20:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-07-2024T10:20:59 - [MESSAGE][PASSED] - Current window maximized
+
+27-07-2024T10:20:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign up/Sign_up_page"), 5): Object 'Object Repository/Shopping Cart/Sign up/Sign_up_page' is present
+
+27-07-2024T10:21:00 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign up/Sign_up_page' is present
+
+27-07-2024T10:21:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign up/Email_input"), username): Text 'avgff@com' is set on object 'Object Repository/Shopping Cart/Sign up/Email_input'
+
+27-07-2024T10:21:02 - [MESSAGE][PASSED] - Text 'avgff@com' is set on object 'Object Repository/Shopping Cart/Sign up/Email_input'
+
+27-07-2024T10:21:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Shopping Cart/Sign up/Email_input"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign up/Email_input'
+
+27-07-2024T10:21:03 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign up/Email_input'
+
+27-07-2024T10:21:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign up/Email_error_message_lb"), 5): Object 'Object Repository/Shopping Cart/Sign up/Email_error_message_lb' is present
+
+27-07-2024T10:21:04 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign up/Email_error_message_lb' is present
+
+27-07-2024T10:21:04 - [TEST_STEP][PASSED] - Actual_email_error = getText(findTestObject("Object Repository/Shopping Cart/Sign up/Email_error_message_lb")): Text of object 'Object Repository/Shopping Cart/Sign up/Email_error_message_lb' is: 'invalid email'
+
+27-07-2024T10:21:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Sign up/Email_error_message_lb' is: 'invalid email'
+
+27-07-2024T10:21:05 - [TEST_STEP][PASSED] - verifyEqual(Actual_email_error, expec_email_error): Actual object 'invalid email' and expected object 'invalid email' are equal
+
+27-07-2024T10:21:05 - [MESSAGE][PASSED] - Actual object 'invalid email' and expected object 'invalid email' are equal
+
+27-07-2024T10:21:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-07-2024T10:21:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Sign up/TC19_Fill_wrong_password_rule" time="34.117" classname="Test Cases/Shopping Cart/Sign up/TC19_Fill_wrong_password_rule" status="PASSED">
+         <system-out><![CDATA[27-07-2024T10:21:06 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Sign up/TC19_Fill_wrong_password_rule: Test Cases/Shopping Cart/Sign up/TC19_Fill_wrong_password_rule
+
+27-07-2024T10:21:06 - [TEST_STEP][PASSED] - openBrowser(Signup_URL): Browser is opened with url: 'https://demo-store.katalon.com/signup'
+
+27-07-2024T10:21:06 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+27-07-2024T10:21:06 - [MESSAGE][INFO] - User set preference: ['browserVersion', '17']
+
+27-07-2024T10:21:06 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+27-07-2024T10:21:06 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1576976, usingTunnel=true}']
+
+27-07-2024T10:21:06 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+27-07-2024T10:21:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-07-2024T10:21:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/signup'
+
+27-07-2024T10:21:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-07-2024T10:21:33 - [MESSAGE][PASSED] - Current window maximized
+
+27-07-2024T10:21:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign up/Sign_up_page"), 5): Object 'Object Repository/Shopping Cart/Sign up/Sign_up_page' is present
+
+27-07-2024T10:21:34 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign up/Sign_up_page' is present
+
+27-07-2024T10:21:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign up/Password_input"), password): Text 'def' is set on object 'Object Repository/Shopping Cart/Sign up/Password_input'
+
+27-07-2024T10:21:36 - [MESSAGE][PASSED] - Text 'def' is set on object 'Object Repository/Shopping Cart/Sign up/Password_input'
+
+27-07-2024T10:21:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Shopping Cart/Sign up/Password_input"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign up/Password_input'
+
+27-07-2024T10:21:38 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign up/Password_input'
+
+27-07-2024T10:21:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign up/Password_error_message_lb"), 5): Object 'Object Repository/Shopping Cart/Sign up/Password_error_message_lb' is present
+
+27-07-2024T10:21:38 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign up/Password_error_message_lb' is present
+
+27-07-2024T10:21:38 - [TEST_STEP][PASSED] - Actual_password_error = getText(findTestObject("Object Repository/Shopping Cart/Sign up/Password_error_message_lb")): Text of object 'Object Repository/Shopping Cart/Sign up/Password_error_message_lb' is: 'password has to be 6-15 letter'
+
+27-07-2024T10:21:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Sign up/Password_error_message_lb' is: 'password has to be 6-15 letter'
+
+27-07-2024T10:21:39 - [TEST_STEP][PASSED] - verifyEqual(Actual_password_error, expec_password_error): Actual object 'password has to be 6-15 letter' and expected object 'password has to be 6-15 letter' are equal
+
+27-07-2024T10:21:39 - [MESSAGE][PASSED] - Actual object 'password has to be 6-15 letter' and expected object 'password has to be 6-15 letter' are equal
+
+27-07-2024T10:21:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-07-2024T10:21:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Sign up/TC19_Fill_wrong_password_rule" time="49.27" classname="Test Cases/Shopping Cart/Sign up/TC19_Fill_wrong_password_rule" status="PASSED">
+         <system-out><![CDATA[27-07-2024T10:21:40 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Sign up/TC19_Fill_wrong_password_rule: Test Cases/Shopping Cart/Sign up/TC19_Fill_wrong_password_rule
+
+27-07-2024T10:21:40 - [TEST_STEP][PASSED] - openBrowser(Signup_URL): Browser is opened with url: 'https://demo-store.katalon.com/signup'
+
+27-07-2024T10:21:40 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+27-07-2024T10:21:40 - [MESSAGE][INFO] - User set preference: ['browserVersion', '17']
+
+27-07-2024T10:21:40 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+27-07-2024T10:21:40 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1576976, usingTunnel=true}']
+
+27-07-2024T10:21:40 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+27-07-2024T10:21:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-07-2024T10:22:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/signup'
+
+27-07-2024T10:22:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-07-2024T10:22:23 - [MESSAGE][PASSED] - Current window maximized
+
+27-07-2024T10:22:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign up/Sign_up_page"), 5): Object 'Object Repository/Shopping Cart/Sign up/Sign_up_page' is present
+
+27-07-2024T10:22:23 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign up/Sign_up_page' is present
+
+27-07-2024T10:22:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign up/Password_input"), password): Text 'abcdef' is set on object 'Object Repository/Shopping Cart/Sign up/Password_input'
+
+27-07-2024T10:22:26 - [MESSAGE][PASSED] - Text 'abcdef' is set on object 'Object Repository/Shopping Cart/Sign up/Password_input'
+
+27-07-2024T10:22:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Shopping Cart/Sign up/Password_input"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign up/Password_input'
+
+27-07-2024T10:22:27 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign up/Password_input'
+
+27-07-2024T10:22:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign up/Password_error_message_lb"), 5): Object 'Object Repository/Shopping Cart/Sign up/Password_error_message_lb' is present
+
+27-07-2024T10:22:27 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign up/Password_error_message_lb' is present
+
+27-07-2024T10:22:27 - [TEST_STEP][PASSED] - Actual_password_error = getText(findTestObject("Object Repository/Shopping Cart/Sign up/Password_error_message_lb")): Text of object 'Object Repository/Shopping Cart/Sign up/Password_error_message_lb' is: 'at least one upper case'
+
+27-07-2024T10:22:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Sign up/Password_error_message_lb' is: 'at least one upper case'
+
+27-07-2024T10:22:28 - [TEST_STEP][PASSED] - verifyEqual(Actual_password_error, expec_password_error): Actual object 'at least one upper case' and expected object 'at least one upper case' are equal
+
+27-07-2024T10:22:28 - [MESSAGE][PASSED] - Actual object 'at least one upper case' and expected object 'at least one upper case' are equal
+
+27-07-2024T10:22:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-07-2024T10:22:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Sign up/TC19_Fill_wrong_password_rule" time="47.14" classname="Test Cases/Shopping Cart/Sign up/TC19_Fill_wrong_password_rule" status="PASSED">
+         <system-out><![CDATA[27-07-2024T10:22:30 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Sign up/TC19_Fill_wrong_password_rule: Test Cases/Shopping Cart/Sign up/TC19_Fill_wrong_password_rule
+
+27-07-2024T10:22:30 - [TEST_STEP][PASSED] - openBrowser(Signup_URL): Browser is opened with url: 'https://demo-store.katalon.com/signup'
+
+27-07-2024T10:22:30 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+27-07-2024T10:22:30 - [MESSAGE][INFO] - User set preference: ['browserVersion', '17']
+
+27-07-2024T10:22:30 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+27-07-2024T10:22:30 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1576976, usingTunnel=true}']
+
+27-07-2024T10:22:30 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+27-07-2024T10:22:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-07-2024T10:23:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/signup'
+
+27-07-2024T10:23:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-07-2024T10:23:10 - [MESSAGE][PASSED] - Current window maximized
+
+27-07-2024T10:23:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign up/Sign_up_page"), 5): Object 'Object Repository/Shopping Cart/Sign up/Sign_up_page' is present
+
+27-07-2024T10:23:10 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign up/Sign_up_page' is present
+
+27-07-2024T10:23:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign up/Password_input"), password): Text 'ABC123' is set on object 'Object Repository/Shopping Cart/Sign up/Password_input'
+
+27-07-2024T10:23:13 - [MESSAGE][PASSED] - Text 'ABC123' is set on object 'Object Repository/Shopping Cart/Sign up/Password_input'
+
+27-07-2024T10:23:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Shopping Cart/Sign up/Password_input"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign up/Password_input'
+
+27-07-2024T10:23:14 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign up/Password_input'
+
+27-07-2024T10:23:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign up/Password_error_message_lb"), 5): Object 'Object Repository/Shopping Cart/Sign up/Password_error_message_lb' is present
+
+27-07-2024T10:23:14 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign up/Password_error_message_lb' is present
+
+27-07-2024T10:23:14 - [TEST_STEP][PASSED] - Actual_password_error = getText(findTestObject("Object Repository/Shopping Cart/Sign up/Password_error_message_lb")): Text of object 'Object Repository/Shopping Cart/Sign up/Password_error_message_lb' is: 'at least one lower case'
+
+27-07-2024T10:23:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Sign up/Password_error_message_lb' is: 'at least one lower case'
+
+27-07-2024T10:23:15 - [TEST_STEP][PASSED] - verifyEqual(Actual_password_error, expec_password_error): Actual object 'at least one lower case' and expected object 'at least one lower case' are equal
+
+27-07-2024T10:23:15 - [MESSAGE][PASSED] - Actual object 'at least one lower case' and expected object 'at least one lower case' are equal
+
+27-07-2024T10:23:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-07-2024T10:23:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Sign up/TC20_Fill_wrong_verify_password_rule" time="52.548" classname="Test Cases/Shopping Cart/Sign up/TC20_Fill_wrong_verify_password_rule" status="PASSED">
+         <system-out><![CDATA[27-07-2024T10:23:17 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Sign up/TC20_Fill_wrong_verify_password_rule: Test Cases/Shopping Cart/Sign up/TC20_Fill_wrong_verify_password_rule
+
+27-07-2024T10:23:17 - [TEST_STEP][PASSED] - openBrowser(Signup_URL): Browser is opened with url: 'https://demo-store.katalon.com/signup'
+
+27-07-2024T10:23:17 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+27-07-2024T10:23:17 - [MESSAGE][INFO] - User set preference: ['browserVersion', '17']
+
+27-07-2024T10:23:17 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+27-07-2024T10:23:17 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1576976, usingTunnel=true}']
+
+27-07-2024T10:23:17 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+27-07-2024T10:23:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-07-2024T10:24:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/signup'
+
+27-07-2024T10:24:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-07-2024T10:24:02 - [MESSAGE][PASSED] - Current window maximized
+
+27-07-2024T10:24:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign up/Sign_up_page"), 5): Object 'Object Repository/Shopping Cart/Sign up/Sign_up_page' is present
+
+27-07-2024T10:24:03 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign up/Sign_up_page' is present
+
+27-07-2024T10:24:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign up/Verify_password_input"), password): Text 'def' is set on object 'Object Repository/Shopping Cart/Sign up/Verify_password_input'
+
+27-07-2024T10:24:05 - [MESSAGE][PASSED] - Text 'def' is set on object 'Object Repository/Shopping Cart/Sign up/Verify_password_input'
+
+27-07-2024T10:24:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Shopping Cart/Sign up/Verify_password_input"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign up/Verify_password_input'
+
+27-07-2024T10:24:06 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign up/Verify_password_input'
+
+27-07-2024T10:24:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb"), 5): Object 'Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb' is present
+
+27-07-2024T10:24:07 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb' is present
+
+27-07-2024T10:24:07 - [TEST_STEP][PASSED] - Actual_verify_password_error = getText(findTestObject("Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb")): Text of object 'Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb' is: 'password has to be 6-15 letter'
+
+27-07-2024T10:24:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb' is: 'password has to be 6-15 letter'
+
+27-07-2024T10:24:08 - [TEST_STEP][PASSED] - verifyEqual(Actual_verify_password_error, expec_verify_password_error): Actual object 'password has to be 6-15 letter' and expected object 'password has to be 6-15 letter' are equal
+
+27-07-2024T10:24:08 - [MESSAGE][PASSED] - Actual object 'password has to be 6-15 letter' and expected object 'password has to be 6-15 letter' are equal
+
+27-07-2024T10:24:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-07-2024T10:24:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Sign up/TC20_Fill_wrong_verify_password_rule" time="39.948" classname="Test Cases/Shopping Cart/Sign up/TC20_Fill_wrong_verify_password_rule" status="PASSED">
+         <system-out><![CDATA[27-07-2024T10:24:09 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Sign up/TC20_Fill_wrong_verify_password_rule: Test Cases/Shopping Cart/Sign up/TC20_Fill_wrong_verify_password_rule
+
+27-07-2024T10:24:09 - [TEST_STEP][PASSED] - openBrowser(Signup_URL): Browser is opened with url: 'https://demo-store.katalon.com/signup'
+
+27-07-2024T10:24:09 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+27-07-2024T10:24:09 - [MESSAGE][INFO] - User set preference: ['browserVersion', '17']
+
+27-07-2024T10:24:09 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+27-07-2024T10:24:09 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1576976, usingTunnel=true}']
+
+27-07-2024T10:24:09 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+27-07-2024T10:24:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-07-2024T10:24:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/signup'
+
+27-07-2024T10:24:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-07-2024T10:24:42 - [MESSAGE][PASSED] - Current window maximized
+
+27-07-2024T10:24:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign up/Sign_up_page"), 5): Object 'Object Repository/Shopping Cart/Sign up/Sign_up_page' is present
+
+27-07-2024T10:24:43 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign up/Sign_up_page' is present
+
+27-07-2024T10:24:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign up/Verify_password_input"), password): Text 'abcdef' is set on object 'Object Repository/Shopping Cart/Sign up/Verify_password_input'
+
+27-07-2024T10:24:45 - [MESSAGE][PASSED] - Text 'abcdef' is set on object 'Object Repository/Shopping Cart/Sign up/Verify_password_input'
+
+27-07-2024T10:24:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Shopping Cart/Sign up/Verify_password_input"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign up/Verify_password_input'
+
+27-07-2024T10:24:46 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign up/Verify_password_input'
+
+27-07-2024T10:24:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb"), 5): Object 'Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb' is present
+
+27-07-2024T10:24:47 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb' is present
+
+27-07-2024T10:24:47 - [TEST_STEP][PASSED] - Actual_verify_password_error = getText(findTestObject("Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb")): Text of object 'Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb' is: 'at least one upper case'
+
+27-07-2024T10:24:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb' is: 'at least one upper case'
+
+27-07-2024T10:24:48 - [TEST_STEP][PASSED] - verifyEqual(Actual_verify_password_error, expec_verify_password_error): Actual object 'at least one upper case' and expected object 'at least one upper case' are equal
+
+27-07-2024T10:24:48 - [MESSAGE][PASSED] - Actual object 'at least one upper case' and expected object 'at least one upper case' are equal
+
+27-07-2024T10:24:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-07-2024T10:24:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Sign up/TC20_Fill_wrong_verify_password_rule" time="35.437" classname="Test Cases/Shopping Cart/Sign up/TC20_Fill_wrong_verify_password_rule" status="PASSED">
+         <system-out><![CDATA[27-07-2024T10:24:49 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Sign up/TC20_Fill_wrong_verify_password_rule: Test Cases/Shopping Cart/Sign up/TC20_Fill_wrong_verify_password_rule
+
+27-07-2024T10:24:49 - [TEST_STEP][PASSED] - openBrowser(Signup_URL): Browser is opened with url: 'https://demo-store.katalon.com/signup'
+
+27-07-2024T10:24:49 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+27-07-2024T10:24:49 - [MESSAGE][INFO] - User set preference: ['browserVersion', '17']
+
+27-07-2024T10:24:49 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+27-07-2024T10:24:49 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1576976, usingTunnel=true}']
+
+27-07-2024T10:24:49 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+27-07-2024T10:24:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-07-2024T10:25:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/signup'
+
+27-07-2024T10:25:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-07-2024T10:25:18 - [MESSAGE][PASSED] - Current window maximized
+
+27-07-2024T10:25:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign up/Sign_up_page"), 5): Object 'Object Repository/Shopping Cart/Sign up/Sign_up_page' is present
+
+27-07-2024T10:25:18 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign up/Sign_up_page' is present
+
+27-07-2024T10:25:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign up/Verify_password_input"), password): Text 'ABC123' is set on object 'Object Repository/Shopping Cart/Sign up/Verify_password_input'
+
+27-07-2024T10:25:21 - [MESSAGE][PASSED] - Text 'ABC123' is set on object 'Object Repository/Shopping Cart/Sign up/Verify_password_input'
+
+27-07-2024T10:25:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Shopping Cart/Sign up/Verify_password_input"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign up/Verify_password_input'
+
+27-07-2024T10:25:22 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Shopping Cart/Sign up/Verify_password_input'
+
+27-07-2024T10:25:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb"), 5): Object 'Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb' is present
+
+27-07-2024T10:25:22 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb' is present
+
+27-07-2024T10:25:22 - [TEST_STEP][PASSED] - Actual_verify_password_error = getText(findTestObject("Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb")): Text of object 'Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb' is: 'at least one lower case'
+
+27-07-2024T10:25:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb' is: 'at least one lower case'
+
+27-07-2024T10:25:23 - [TEST_STEP][PASSED] - verifyEqual(Actual_verify_password_error, expec_verify_password_error): Actual object 'at least one lower case' and expected object 'at least one lower case' are equal
+
+27-07-2024T10:25:23 - [MESSAGE][PASSED] - Actual object 'at least one lower case' and expected object 'at least one lower case' are equal
+
+27-07-2024T10:25:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-07-2024T10:25:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping Cart/Sign up/TC21_Leave_all_empty_info" time="39.97" classname="Test Cases/Shopping Cart/Sign up/TC21_Leave_all_empty_info" status="PASSED">
+         <system-out><![CDATA[27-07-2024T10:25:25 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Sign up/TC21_Leave_all_empty_info: Test Cases/Shopping Cart/Sign up/TC21_Leave_all_empty_info
+
+27-07-2024T10:25:25 - [TEST_STEP][PASSED] - openBrowser(Signup_URL): Browser is opened with url: 'https://demo-store.katalon.com/signup'
+
+27-07-2024T10:25:25 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+27-07-2024T10:25:25 - [MESSAGE][INFO] - User set preference: ['browserVersion', '17']
+
+27-07-2024T10:25:25 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+27-07-2024T10:25:25 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1576976, usingTunnel=true}']
+
+27-07-2024T10:25:25 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+27-07-2024T10:25:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-07-2024T10:25:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/signup'
+
+27-07-2024T10:25:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-07-2024T10:25:52 - [MESSAGE][PASSED] - Current window maximized
+
+27-07-2024T10:25:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign up/Sign_up_page"), 5): Object 'Object Repository/Shopping Cart/Sign up/Sign_up_page' is present
+
+27-07-2024T10:25:52 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign up/Sign_up_page' is present
+
+27-07-2024T10:25:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign up/Email_input"), ""): Text '' is set on object 'Object Repository/Shopping Cart/Sign up/Email_input'
+
+27-07-2024T10:25:55 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Shopping Cart/Sign up/Email_input'
+
+27-07-2024T10:25:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign up/Password_input"), ""): Text '' is set on object 'Object Repository/Shopping Cart/Sign up/Password_input'
+
+27-07-2024T10:25:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Shopping Cart/Sign up/Password_input'
+
+27-07-2024T10:25:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign up/Verify_password_input"), ""): Text '' is set on object 'Object Repository/Shopping Cart/Sign up/Verify_password_input'
+
+27-07-2024T10:25:59 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Shopping Cart/Sign up/Verify_password_input'
+
+27-07-2024T10:25:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Sign up/Sign_up_button")): Object: 'Object Repository/Shopping Cart/Sign up/Sign_up_button' is clicked on
+
+27-07-2024T10:26:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Sign up/Sign_up_button' is clicked on
+
+27-07-2024T10:26:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Shopping Cart/Sign up/Email_error_message_lb"), "Required"): Actual text and expected text of test object 'Object Repository/Shopping Cart/Sign up/Email_error_message_lb' are matched.
+
+27-07-2024T10:26:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Shopping Cart/Sign up/Email_error_message_lb' are matched.
+
+27-07-2024T10:26:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Shopping Cart/Sign up/Password_error_message_lb"), "Required"): Actual text and expected text of test object 'Object Repository/Shopping Cart/Sign up/Password_error_message_lb' are matched.
+
+27-07-2024T10:26:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Shopping Cart/Sign up/Password_error_message_lb' are matched.
+
+27-07-2024T10:26:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb"), "Required"): Actual text and expected text of test object 'Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb' are matched.
+
+27-07-2024T10:26:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Shopping Cart/Sign up/VerifyPass_error_message_lb' are matched.
+
+27-07-2024T10:26:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-07-2024T10:26:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-07-2024T10:18:32 - [TEST_SUITE][PASSED] - Sign up: Test Cases/Shopping Cart/Sign up/TC21_Leave_all_empty_info]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

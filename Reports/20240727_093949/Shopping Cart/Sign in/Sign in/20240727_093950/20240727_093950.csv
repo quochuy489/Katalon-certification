@@ -1,0 +1,81 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sign in,TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:40:01,27-07-2024 10:18:19,38m - 17.427s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Sign in/TC01_Fill_wrong_username_password_format,TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:40:02,27-07-2024 09:43:45,3m - 43.093s,PASSED
+openBrowser(Login_URL),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:40:02,27-07-2024 09:41:01,58.738s,PASSED
+maximizeWindow(),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:41:01,27-07-2024 09:41:01,0.474s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign in/Sign_in_page""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:41:01,27-07-2024 09:41:04,2.447s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign in/Email_input""), username)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:41:04,27-07-2024 09:41:08,4.362s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign in/Password_input""), password)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:41:08,27-07-2024 09:42:10,1m - 2.448s,PASSED
+"sendKeys(findTestObject(""Object Repository/Shopping Cart/Sign in/Password_input""), Keys.chord(TAB))",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:42:10,27-07-2024 09:42:41,31.043s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign in/Email_error_message_lb""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:42:41,27-07-2024 09:43:12,30.694s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign in/Password_error_message_lb""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:43:12,27-07-2024 09:43:43,30.848s,PASSED
+closeBrowser(),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:43:43,27-07-2024 09:43:45,1.702s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Sign in/TC01_Fill_wrong_username_password_format,TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:44:50,27-07-2024 09:49:16,4m - 26.181s,PASSED
+openBrowser(Login_URL),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:44:50,27-07-2024 09:46:05,1m - 15.423s,PASSED
+maximizeWindow(),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:46:05,27-07-2024 09:46:06,0.424s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign in/Sign_in_page""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:46:06,27-07-2024 09:46:07,1.186s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign in/Email_input""), username)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:46:07,27-07-2024 09:46:40,32.876s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign in/Password_input""), password)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:46:40,27-07-2024 09:47:42,1m - 2.302s,PASSED
+"sendKeys(findTestObject(""Object Repository/Shopping Cart/Sign in/Password_input""), Keys.chord(TAB))",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:47:42,27-07-2024 09:48:13,30.971s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign in/Email_error_message_lb""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:48:13,27-07-2024 09:48:44,30.659s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign in/Password_error_message_lb""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:48:44,27-07-2024 09:49:14,30.636s,PASSED
+closeBrowser(),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:49:14,27-07-2024 09:49:16,1.686s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Sign in/TC01_Fill_wrong_username_password_format,TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:49:16,27-07-2024 09:55:02,5m - 46.430s,PASSED
+openBrowser(Login_URL),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:49:16,27-07-2024 09:50:47,1m - 31.436s,PASSED
+maximizeWindow(),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:50:47,27-07-2024 09:50:48,0.537s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign in/Sign_in_page""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:50:48,27-07-2024 09:51:19,30.915s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign in/Email_input""), username)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:51:19,27-07-2024 09:52:24,1m - 4.704s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign in/Password_input""), password)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:52:24,27-07-2024 09:53:27,1m - 3.493s,PASSED
+"sendKeys(findTestObject(""Object Repository/Shopping Cart/Sign in/Password_input""), Keys.chord(TAB))",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:53:27,27-07-2024 09:53:59,31.489s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign in/Email_error_message_lb""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:53:59,27-07-2024 09:54:30,30.996s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign in/Password_error_message_lb""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:54:30,27-07-2024 09:55:00,30.878s,PASSED
+closeBrowser(),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:55:00,27-07-2024 09:55:02,1.962s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Sign in/TC02_Login_with_blank_username_password,TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:55:23,27-07-2024 09:59:45,4m - 22.167s,PASSED
+openBrowser(Login_URL),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:55:23,27-07-2024 09:56:04,41.609s,PASSED
+maximizeWindow(),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:56:04,27-07-2024 09:56:05,0.386s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign in/Sign_in_page""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:56:05,27-07-2024 09:56:06,1.335s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign in/Email_input""), """")",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:56:06,27-07-2024 09:57:08,1m - 2.411s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign in/Password_input""), """")",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:57:08,27-07-2024 09:58:11,1m - 2.357s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Sign in/Signin_button""))",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:58:11,27-07-2024 09:58:42,31.121s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign in/Email_error_message_lb""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:58:42,27-07-2024 09:59:13,30.664s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign in/Password_error_message_lb""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:59:13,27-07-2024 09:59:43,30.646s,PASSED
+closeBrowser(),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:59:43,27-07-2024 09:59:45,1.619s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Sign in/TC03_Login_with_incorrect_username_password,TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:04:38,27-07-2024 10:07:49,3m - 10.916s,PASSED
+openBrowser(Login_URL),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:04:38,27-07-2024 10:05:08,30.233s,PASSED
+maximizeWindow(),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:05:08,27-07-2024 10:05:09,0.715s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign in/Sign_in_page""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:05:09,27-07-2024 10:05:10,1.603s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign in/Email_input""), username)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:05:10,27-07-2024 10:06:13,1m - 2.303s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign in/Password_input""), password)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:06:13,27-07-2024 10:07:15,1m - 2.260s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Sign in/Signin_button""))",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:07:15,27-07-2024 10:07:46,30.970s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 5)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:07:46,27-07-2024 10:07:47,0.888s,PASSED
+closeBrowser(),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:07:47,27-07-2024 10:07:49,1.928s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Sign in/TC04_Login_with_correct_username_password,TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:07:49,27-07-2024 10:11:56,4m - 7.239s,PASSED
+openBrowser(Login_URL),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:07:49,27-07-2024 10:08:15,26.068s,PASSED
+maximizeWindow(),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:08:15,27-07-2024 10:08:15,0.389s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign in/Sign_in_page""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:08:15,27-07-2024 10:08:18,2.378s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign in/Email_input""), username)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:08:18,27-07-2024 10:09:20,1m - 2.479s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign in/Password_input""), password)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:09:20,27-07-2024 10:10:23,1m - 2.410s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Sign in/Signin_button""))",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:10:23,27-07-2024 10:10:54,31.024s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:10:54,27-07-2024 10:11:24,30.639s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:11:24,27-07-2024 10:11:55,30.651s,PASSED
+closeBrowser(),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:11:55,27-07-2024 10:11:56,1.067s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Sign in/TC05_Login_page_success_via_Account_button,TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:11:56,27-07-2024 10:18:19,6m - 22.924s,PASSED
+openBrowser(Dashborad_URL),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:11:56,27-07-2024 10:12:33,37.471s,PASSED
+maximizeWindow(),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:12:33,27-07-2024 10:12:38,4.205s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:12:38,27-07-2024 10:13:08,30.697s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Header/User_icon_logged_out""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:13:08,27-07-2024 10:13:39,30.655s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Header/User_icon_logged_out""))",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:13:39,27-07-2024 10:14:10,31.074s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign in/Sign_in_page""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:14:10,27-07-2024 10:14:41,30.657s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign in/Email_input""), username)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:14:41,27-07-2024 10:15:43,1m - 2.375s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign in/Password_input""), password)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:15:43,27-07-2024 10:16:45,1m - 2.341s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Sign in/Signin_button""))",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:16:45,27-07-2024 10:17:16,31.017s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:17:16,27-07-2024 10:17:47,30.676s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:17:47,27-07-2024 10:18:18,30.643s,PASSED
+closeBrowser(),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 10:18:18,27-07-2024 10:18:19,1.034s,PASSED

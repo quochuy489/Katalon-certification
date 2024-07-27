@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign in_success" time="250.11" tests="1" failures="0" errors="0">
+   <testsuite name="Sign in_success" tests="1" failures="0" errors="0" time="250.11" skipped="0" timestamp="27-07-2024T09:29:47" hostname="Admin - DESKTOP-26G4KH6" id="Test Suites/Shopping Cart/Sign in/Sign in_success">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240727_092940\\Shopping Cart\\Sign in\\Sign in_success\\20240727_092940"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240727_092940\\Shopping Cart\\Sign in\\Sign in_success\\20240727_092940\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - DESKTOP-26G4KH6"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;se:cdpEnabled&quot;: false,&#xa;  &quot;platform&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;127.0.0.0&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;kt:requestId&quot;: &quot;2f3860a2-ce73-4e66-b1ed-15b7310b29aa&quot;,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;katalon:option&quot;: {&#xa;    &quot;apiKey&quot;: &quot;4325c767-d65e-4f41-a4c1-bee4a86546dc&quot;,&#xa;    &quot;tunnelMetadataId&quot;: &quot;a5b2e99c-302d-450f-9464-dd0b137fb229&quot;,&#xa;    &quot;userId&quot;: 1544065,&#xa;    &quot;organizationId&quot;: &quot;1576976&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;tenant&quot;: &quot;TestOps&quot;,&#xa;    &quot;usingTunnel&quot;: true,&#xa;    &quot;group&quot;: &quot;59ab00fe-3356-4744-937b-0978994afb56&quot;&#xa;  },&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;127.0.6533.26 (52e197ccd8ed246bf074e9242a8af84851fd268a-refs/branch-heads/6533@{#692})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Program Files\\scoped_dir5380_923592074&quot;&#xa;  },&#xa;  &quot;kt:rid&quot;: &quot;2f3860a2-ce73-4e66-b1ed-15b7310b29aa&quot;,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;se:bidiEnabled&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.191"/>
+         <property name="sessionId" value="9896968335b606707cf4eb775cdbcc64"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Shopping Cart/Sign in/TC04_Login_with_correct_username_password" time="249.836" classname="Test Cases/Shopping Cart/Sign in/TC04_Login_with_correct_username_password" status="PASSED">
+         <system-out><![CDATA[27-07-2024T09:29:47 - [TEST_CASE][PASSED] - Test Cases/Shopping Cart/Sign in/TC04_Login_with_correct_username_password: Test Cases/Shopping Cart/Sign in/TC04_Login_with_correct_username_password
+
+27-07-2024T09:29:48 - [TEST_STEP][PASSED] - openBrowser(Login_URL): Browser is opened with url: 'https://demo-store.katalon.com/signin'
+
+27-07-2024T09:29:48 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+27-07-2024T09:29:48 - [MESSAGE][INFO] - User set preference: ['browserVersion', '127']
+
+27-07-2024T09:29:48 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+27-07-2024T09:29:48 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1576976, usingTunnel=true}']
+
+27-07-2024T09:29:48 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+27-07-2024T09:29:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-07-2024T09:30:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/signin'
+
+27-07-2024T09:30:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-07-2024T09:30:47 - [MESSAGE][PASSED] - Current window maximized
+
+27-07-2024T09:30:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Sign in/Sign_in_page"), 10): Object 'Object Repository/Shopping Cart/Sign in/Sign_in_page' is present
+
+27-07-2024T09:30:48 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Sign in/Sign_in_page' is present
+
+27-07-2024T09:30:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign in/Email_input"), username): Text 'quoc.huy.lu8960@gmail.com' is set on object 'Object Repository/Shopping Cart/Sign in/Email_input'
+
+27-07-2024T09:31:21 - [MESSAGE][PASSED] - Text 'quoc.huy.lu8960@gmail.com' is set on object 'Object Repository/Shopping Cart/Sign in/Email_input'
+
+27-07-2024T09:31:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping Cart/Sign in/Password_input"), password): Text 'KatalonCerti123' is set on object 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+27-07-2024T09:32:24 - [MESSAGE][PASSED] - Text 'KatalonCerti123' is set on object 'Object Repository/Shopping Cart/Sign in/Password_input'
+
+27-07-2024T09:32:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping Cart/Sign in/Signin_button")): Object: 'Object Repository/Shopping Cart/Sign in/Signin_button' is clicked on
+
+27-07-2024T09:32:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping Cart/Sign in/Signin_button' is clicked on
+
+27-07-2024T09:32:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Dashboard_page"), 10): Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+27-07-2024T09:33:25 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+27-07-2024T09:33:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Shopping Cart/Dashboard/Dashboard_page"), 10): Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+27-07-2024T09:33:56 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping Cart/Dashboard/Dashboard_page' is present
+
+27-07-2024T09:33:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-07-2024T09:33:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-07-2024T09:29:47 - [TEST_SUITE][PASSED] - Sign in_success: Test Cases/Shopping Cart/Sign in/TC04_Login_with_correct_username_password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

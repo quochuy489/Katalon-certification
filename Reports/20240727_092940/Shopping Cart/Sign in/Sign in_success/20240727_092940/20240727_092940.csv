@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sign in_success,TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:29:47,27-07-2024 09:33:57,4m - 10.110s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Sign in/TC04_Login_with_correct_username_password,TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:29:47,27-07-2024 09:33:57,4m - 9.836s,PASSED
+openBrowser(Login_URL),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:29:48,27-07-2024 09:30:45,57.870s,PASSED
+maximizeWindow(),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:30:45,27-07-2024 09:30:47,1.441s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Sign in/Sign_in_page""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:30:47,27-07-2024 09:30:48,1.460s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign in/Email_input""), username)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:30:48,27-07-2024 09:31:21,32.877s,PASSED
+"setText(findTestObject(""Object Repository/Shopping Cart/Sign in/Password_input""), password)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:31:21,27-07-2024 09:32:24,1m - 2.362s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Sign in/Signin_button""))",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:32:24,27-07-2024 09:32:55,31.075s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:32:55,27-07-2024 09:33:25,30.668s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 10)",TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:33:25,27-07-2024 09:33:56,30.667s,PASSED
+closeBrowser(),TestCloud - Windows - Chrome 127.0.0.0,,,27-07-2024 09:33:56,27-07-2024 09:33:57,1.038s,PASSED
