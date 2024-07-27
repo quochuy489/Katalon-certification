@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="118.569" tests="4" failures="0" errors="0">
+   <testsuite name="Login" tests="4" failures="0" errors="0" time="118.569" skipped="0" timestamp="25-07-2024T23:21:06" hostname="Admin - DESKTOP-26G4KH6" id="Test Suites/Haealthcare/Login/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240725_232048\\Haealthcare\\Login\\Login\\20240725_232055"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\git\\Katalon-certification\\Reports\\20240725_232048\\Haealthcare\\Login\\Login\\20240725_232055\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - DESKTOP-26G4KH6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.191"/>
+         <property name="sessionId" value="646a2fdae02ceafac9604bcc7f2a1f56"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Healthcare/Login/TC01_Login_success_with_valid_info" time="10.346" classname="Test Cases/Healthcare/Login/TC01_Login_success_with_valid_info" status="PASSED">
+         <system-out><![CDATA[25-07-2024T23:21:06 - [TEST_CASE][PASSED] - Test Cases/Healthcare/Login/TC01_Login_success_with_valid_info: Test Cases/Healthcare/Login/TC01_Login_success_with_valid_info
+
+25-07-2024T23:21:07 - [TEST_STEP][PASSED] - openBrowser(HC_Login_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/profile.php#login'
+
+25-07-2024T23:21:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-07-2024T23:21:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-07-2024T23:21:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/profile.php#login'
+
+25-07-2024T23:21:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+25-07-2024T23:21:13 - [MESSAGE][PASSED] - Current window maximized
+
+25-07-2024T23:21:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Healthcare/Login/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Healthcare/Login/input_Username_username'
+
+25-07-2024T23:21:14 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Healthcare/Login/input_Username_username'
+
+25-07-2024T23:21:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Healthcare/Login/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Healthcare/Login/input_Password_password'
+
+25-07-2024T23:21:15 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Healthcare/Login/input_Password_password'
+
+25-07-2024T23:21:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Login/button_Login")): Object: 'Object Repository/Healthcare/Login/button_Login' is clicked on
+
+25-07-2024T23:21:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Login/button_Login' is clicked on
+
+25-07-2024T23:21:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Appointment/form_Healthcare"), 3): Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+25-07-2024T23:21:17 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+25-07-2024T23:21:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-07-2024T23:21:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Healthcare/Login/TC02_Login_via_make_appointment" time="8.268" classname="Test Cases/Healthcare/Login/TC02_Login_via_make_appointment" status="PASSED">
+         <system-out><![CDATA[25-07-2024T23:21:17 - [TEST_CASE][PASSED] - Test Cases/Healthcare/Login/TC02_Login_via_make_appointment: Test Cases/Healthcare/Login/TC02_Login_via_make_appointment
+
+25-07-2024T23:21:17 - [TEST_STEP][PASSED] - openBrowser(HC_Dashborad_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+25-07-2024T23:21:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-07-2024T23:21:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-07-2024T23:21:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+25-07-2024T23:21:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+25-07-2024T23:21:21 - [MESSAGE][PASSED] - Current window maximized
+
+25-07-2024T23:21:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Dashboard/a_Make Appointment")): Object: 'Object Repository/Healthcare/Dashboard/a_Make Appointment' is clicked on
+
+25-07-2024T23:21:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Dashboard/a_Make Appointment' is clicked on
+
+25-07-2024T23:21:21 - [TEST_STEP][PASSED] - store.Authentication.HC_Login.HC_Login_with_URL("John Doe", "ThisIsNotAPassword"): store.Authentication.HC_Login.HC_Login_with_URL is PASSED
+
+25-07-2024T23:21:22 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Healthcare/Login/input_Username_username'
+
+25-07-2024T23:21:23 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Healthcare/Login/input_Password_password'
+
+25-07-2024T23:21:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Login/button_Login' is clicked on
+
+25-07-2024T23:21:25 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+25-07-2024T23:21:25 - [MESSAGE][PASSED] - store.Authentication.HC_Login.HC_Login_with_URL is PASSED
+
+25-07-2024T23:21:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Appointment/form_Healthcare"), 3): Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+25-07-2024T23:21:25 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+25-07-2024T23:21:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-07-2024T23:21:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Healthcare/Login/TC03_Login_via_burger_menu" time="92.13" classname="Test Cases/Healthcare/Login/TC03_Login_via_burger_menu" status="PASSED">
+         <system-out><![CDATA[25-07-2024T23:21:25 - [TEST_CASE][PASSED] - Test Cases/Healthcare/Login/TC03_Login_via_burger_menu: Test Cases/Healthcare/Login/TC03_Login_via_burger_menu
+
+25-07-2024T23:21:25 - [TEST_STEP][PASSED] - openBrowser(HC_Dashborad_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+25-07-2024T23:21:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-07-2024T23:21:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-07-2024T23:22:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+25-07-2024T23:22:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+25-07-2024T23:22:53 - [MESSAGE][PASSED] - Current window maximized
+
+25-07-2024T23:22:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Burger menu/a_Burger_menu")): Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+25-07-2024T23:22:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Burger_menu' is clicked on
+
+25-07-2024T23:22:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Burger menu/a_Login")): Object: 'Object Repository/Healthcare/Burger menu/a_Login' is clicked on
+
+25-07-2024T23:22:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Burger menu/a_Login' is clicked on
+
+25-07-2024T23:22:54 - [TEST_STEP][PASSED] - store.Authentication.HC_Login.HC_Login_with_URL("John Doe", "ThisIsNotAPassword"): store.Authentication.HC_Login.HC_Login_with_URL is PASSED
+
+25-07-2024T23:22:55 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Healthcare/Login/input_Username_username'
+
+25-07-2024T23:22:55 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Healthcare/Login/input_Password_password'
+
+25-07-2024T23:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Login/button_Login' is clicked on
+
+25-07-2024T23:22:57 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+25-07-2024T23:22:57 - [MESSAGE][PASSED] - store.Authentication.HC_Login.HC_Login_with_URL is PASSED
+
+25-07-2024T23:22:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Appointment/form_Healthcare"), 3): Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+25-07-2024T23:22:57 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Appointment/form_Healthcare' is present
+
+25-07-2024T23:22:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-07-2024T23:22:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Healthcare/Login/TC06_Login_with_invalid_info" time="7.553" classname="Test Cases/Healthcare/Login/TC06_Login_with_invalid_info" status="PASSED">
+         <system-out><![CDATA[25-07-2024T23:22:57 - [TEST_CASE][PASSED] - Test Cases/Healthcare/Login/TC06_Login_with_invalid_info: Test Cases/Healthcare/Login/TC06_Login_with_invalid_info
+
+25-07-2024T23:22:57 - [TEST_STEP][PASSED] - openBrowser(HC_Login_URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/profile.php#login'
+
+25-07-2024T23:22:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-07-2024T23:22:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-07-2024T23:23:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/profile.php#login'
+
+25-07-2024T23:23:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+25-07-2024T23:23:01 - [MESSAGE][PASSED] - Current window maximized
+
+25-07-2024T23:23:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Healthcare/Login/input_Username_username"), "John"): Text 'John' is set on object 'Object Repository/Healthcare/Login/input_Username_username'
+
+25-07-2024T23:23:02 - [MESSAGE][PASSED] - Text 'John' is set on object 'Object Repository/Healthcare/Login/input_Username_username'
+
+25-07-2024T23:23:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Healthcare/Login/input_Password_password"), "ThisIsAPassword"): Text 'ThisIsAPassword' is set on object 'Object Repository/Healthcare/Login/input_Password_password'
+
+25-07-2024T23:23:03 - [MESSAGE][PASSED] - Text 'ThisIsAPassword' is set on object 'Object Repository/Healthcare/Login/input_Password_password'
+
+25-07-2024T23:23:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Healthcare/Login/button_Login")): Object: 'Object Repository/Healthcare/Login/button_Login' is clicked on
+
+25-07-2024T23:23:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Healthcare/Login/button_Login' is clicked on
+
+25-07-2024T23:23:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Healthcare/Login/label_Error_message"), 3): Object 'Object Repository/Healthcare/Login/label_Error_message' is present
+
+25-07-2024T23:23:05 - [MESSAGE][PASSED] - Object 'Object Repository/Healthcare/Login/label_Error_message' is present
+
+25-07-2024T23:23:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-07-2024T23:23:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[25-07-2024T23:21:06 - [TEST_SUITE][PASSED] - Login: Test Cases/Healthcare/Login/TC06_Login_with_invalid_info]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

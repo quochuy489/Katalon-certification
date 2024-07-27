@@ -1,0 +1,131 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Header_menu,Chrome 126.0.0.0,,,26-07-2024 00:09:20,26-07-2024 00:12:54,3m - 33.937s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Filter/TC23_HeaderMenu_Women_product_type_Basics,Chrome 126.0.0.0,,,26-07-2024 00:09:20,26-07-2024 00:09:32,11.548s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,26-07-2024 00:09:21,26-07-2024 00:09:28,7.406s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,26-07-2024 00:09:28,26-07-2024 00:09:28,0.137s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 5)",Chrome 126.0.0.0,,,26-07-2024 00:09:28,26-07-2024 00:09:31,3.313s,PASSED
+"if (department == ""Women"" && type == ""Basics"")",Chrome 126.0.0.0,,,26-07-2024 00:09:31,26-07-2024 00:09:31,0.002s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,26-07-2024 00:09:31,26-07-2024 00:09:32,0.225s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Filter/TC24_HeaderMenu_Women_product_type_Blazer,Chrome 126.0.0.0,,,26-07-2024 00:09:32,26-07-2024 00:09:38,6.443s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,26-07-2024 00:09:32,26-07-2024 00:09:38,5.701s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,26-07-2024 00:09:38,26-07-2024 00:09:38,0.185s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 5)",Chrome 126.0.0.0,,,26-07-2024 00:09:38,26-07-2024 00:09:38,0.281s,PASSED
+"if (department == ""Women"" && type == ""Blazer"")",Chrome 126.0.0.0,,,26-07-2024 00:09:38,26-07-2024 00:09:38,0.001s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,26-07-2024 00:09:38,26-07-2024 00:09:38,0.158s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Filter/TC25_HeaderMenu_Kids_product_type_Girl,Chrome 126.0.0.0,,,26-07-2024 00:09:38,26-07-2024 00:09:44,5.844s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,26-07-2024 00:09:38,26-07-2024 00:09:44,5.288s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,26-07-2024 00:09:44,26-07-2024 00:09:44,0.048s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 5)",Chrome 126.0.0.0,,,26-07-2024 00:09:44,26-07-2024 00:09:44,0.271s,PASSED
+"if (department == ""Kids"" && type == ""Girl"")",Chrome 126.0.0.0,,,26-07-2024 00:09:44,26-07-2024 00:09:44,0.000s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,26-07-2024 00:09:44,26-07-2024 00:09:44,0.151s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Filter/TC26_HeaderMenu_Kids_product_type_Boy,Chrome 126.0.0.0,,,26-07-2024 00:09:44,26-07-2024 00:09:50,5.824s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,26-07-2024 00:09:44,26-07-2024 00:09:49,5.166s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,26-07-2024 00:09:49,26-07-2024 00:09:49,0.148s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 5)",Chrome 126.0.0.0,,,26-07-2024 00:09:49,26-07-2024 00:09:50,0.281s,PASSED
+"if (department == ""Kids"" && type == ""Boy"")",Chrome 126.0.0.0,,,26-07-2024 00:09:50,26-07-2024 00:09:50,0.001s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,26-07-2024 00:09:50,26-07-2024 00:09:50,0.158s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Filter/TC27_HeaderMenu_Men_product_type_Knitwear,Chrome 126.0.0.0,,,26-07-2024 00:09:50,26-07-2024 00:10:02,12.279s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,26-07-2024 00:09:50,26-07-2024 00:09:59,9.445s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,26-07-2024 00:09:59,26-07-2024 00:09:59,0.037s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 5)",Chrome 126.0.0.0,,,26-07-2024 00:09:59,26-07-2024 00:10:02,2.578s,PASSED
+"if (department == ""Men"" && type == ""Knitwear"")",Chrome 126.0.0.0,,,26-07-2024 00:10:02,26-07-2024 00:10:02,0.001s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,26-07-2024 00:10:02,26-07-2024 00:10:02,0.159s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Filter/TC28_HeaderMenu_Men_product_type_Jeans,Chrome 126.0.0.0,,,26-07-2024 00:10:02,26-07-2024 00:10:12,10.319s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,26-07-2024 00:10:02,26-07-2024 00:10:12,9.789s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,26-07-2024 00:10:12,26-07-2024 00:10:12,0.054s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 5)",Chrome 126.0.0.0,,,26-07-2024 00:10:12,26-07-2024 00:10:12,0.283s,PASSED
+"if (department == ""Men"" && type == ""Jeans"")",Chrome 126.0.0.0,,,26-07-2024 00:10:12,26-07-2024 00:10:12,0.000s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,26-07-2024 00:10:12,26-07-2024 00:10:12,0.137s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Filter/TC29_HeaderMenu_Men_product_type_Jackets,Chrome 126.0.0.0,,,26-07-2024 00:10:12,26-07-2024 00:10:25,12.346s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,26-07-2024 00:10:12,26-07-2024 00:10:21,8.712s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,26-07-2024 00:10:21,26-07-2024 00:10:21,0.044s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 5)",Chrome 126.0.0.0,,,26-07-2024 00:10:21,26-07-2024 00:10:24,3.262s,PASSED
+"if (department == ""Men"" && type == ""Jackets"")",Chrome 126.0.0.0,,,26-07-2024 00:10:24,26-07-2024 00:10:24,0.000s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,26-07-2024 00:10:24,26-07-2024 00:10:25,0.268s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Filter/TC30_HeaderMenu_All_products_01,Chrome 126.0.0.0,,,26-07-2024 00:10:25,26-07-2024 00:10:36,11.354s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,26-07-2024 00:10:25,26-07-2024 00:10:31,6.230s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,26-07-2024 00:10:31,26-07-2024 00:10:31,0.031s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 5)",Chrome 126.0.0.0,,,26-07-2024 00:10:31,26-07-2024 00:10:31,0.281s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Header/Header_menu_All_products""))",Chrome 126.0.0.0,,,26-07-2024 00:10:31,26-07-2024 00:10:35,3.555s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,26-07-2024 00:10:35,26-07-2024 00:10:36,1.044s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,26-07-2024 00:10:36,26-07-2024 00:10:36,0.169s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Filter/TC31_HeaderMenu_All_products_02,Chrome 126.0.0.0,,,26-07-2024 00:10:36,26-07-2024 00:11:02,25.577s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,26-07-2024 00:10:36,26-07-2024 00:10:59,22.993s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,26-07-2024 00:10:59,26-07-2024 00:10:59,0.129s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 5)",Chrome 126.0.0.0,,,26-07-2024 00:10:59,26-07-2024 00:11:00,1.159s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Header/Header_menu_All_products""))",Chrome 126.0.0.0,,,26-07-2024 00:11:00,26-07-2024 00:11:01,0.319s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,26-07-2024 00:11:01,26-07-2024 00:11:02,0.807s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,26-07-2024 00:11:02,26-07-2024 00:11:02,0.158s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Filter/TC32_HeaderMenu_All_products_03,Chrome 126.0.0.0,,,26-07-2024 00:11:02,26-07-2024 00:11:18,16.606s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,26-07-2024 00:11:02,26-07-2024 00:11:12,10.273s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,26-07-2024 00:11:12,26-07-2024 00:11:12,0.041s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 5)",Chrome 126.0.0.0,,,26-07-2024 00:11:12,26-07-2024 00:11:12,0.284s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Header/Header_menu_All_products""))",Chrome 126.0.0.0,,,26-07-2024 00:11:12,26-07-2024 00:11:16,3.723s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,26-07-2024 00:11:16,26-07-2024 00:11:17,1.150s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,26-07-2024 00:11:17,26-07-2024 00:11:18,1.125s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Filter/TC33_HeaderMenu_All_products_04,Chrome 126.0.0.0,,,26-07-2024 00:11:18,26-07-2024 00:11:33,15.180s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,26-07-2024 00:11:18,26-07-2024 00:11:28,9.570s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,26-07-2024 00:11:28,26-07-2024 00:11:28,0.130s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 5)",Chrome 126.0.0.0,,,26-07-2024 00:11:28,26-07-2024 00:11:32,3.704s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Header/Header_menu_All_products""))",Chrome 126.0.0.0,,,26-07-2024 00:11:32,26-07-2024 00:11:32,0.319s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,26-07-2024 00:11:32,26-07-2024 00:11:33,1.258s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,26-07-2024 00:11:33,26-07-2024 00:11:33,0.189s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Filter/TC34_HeaderMenu_All_products_05,Chrome 126.0.0.0,,,26-07-2024 00:11:33,26-07-2024 00:11:45,11.367s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,26-07-2024 00:11:34,26-07-2024 00:11:40,6.259s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,26-07-2024 00:11:40,26-07-2024 00:11:40,0.035s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 5)",Chrome 126.0.0.0,,,26-07-2024 00:11:40,26-07-2024 00:11:40,0.277s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Header/Header_menu_All_products""))",Chrome 126.0.0.0,,,26-07-2024 00:11:40,26-07-2024 00:11:44,3.623s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,26-07-2024 00:11:44,26-07-2024 00:11:45,1.037s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,26-07-2024 00:11:45,26-07-2024 00:11:45,0.126s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Filter/TC35_HeaderMenu_All_products_06,Chrome 126.0.0.0,,,26-07-2024 00:11:45,26-07-2024 00:12:03,18.615s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,26-07-2024 00:11:45,26-07-2024 00:11:58,13.057s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,26-07-2024 00:11:58,26-07-2024 00:11:58,0.053s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 5)",Chrome 126.0.0.0,,,26-07-2024 00:11:58,26-07-2024 00:11:58,0.266s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Header/Header_menu_All_products""))",Chrome 126.0.0.0,,,26-07-2024 00:11:58,26-07-2024 00:12:02,3.717s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,26-07-2024 00:12:02,26-07-2024 00:12:03,1.351s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,26-07-2024 00:12:03,26-07-2024 00:12:03,0.160s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Filter/TC36_HeaderMenu_All_products_07,Chrome 126.0.0.0,,,26-07-2024 00:12:03,26-07-2024 00:12:16,12.537s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,26-07-2024 00:12:03,26-07-2024 00:12:10,6.046s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,26-07-2024 00:12:10,26-07-2024 00:12:10,0.111s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 5)",Chrome 126.0.0.0,,,26-07-2024 00:12:10,26-07-2024 00:12:13,3.688s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Header/Header_menu_All_products""))",Chrome 126.0.0.0,,,26-07-2024 00:12:13,26-07-2024 00:12:14,0.367s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,26-07-2024 00:12:14,26-07-2024 00:12:16,2.111s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,26-07-2024 00:12:16,26-07-2024 00:12:16,0.200s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Filter/TC37_HeaderMenu_All_products_08,Chrome 126.0.0.0,,,26-07-2024 00:12:16,26-07-2024 00:12:27,11.066s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,26-07-2024 00:12:16,26-07-2024 00:12:22,6.150s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,26-07-2024 00:12:22,26-07-2024 00:12:22,0.041s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 5)",Chrome 126.0.0.0,,,26-07-2024 00:12:22,26-07-2024 00:12:26,3.582s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Header/Header_menu_All_products""))",Chrome 126.0.0.0,,,26-07-2024 00:12:26,26-07-2024 00:12:26,0.323s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,26-07-2024 00:12:26,26-07-2024 00:12:27,0.816s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,26-07-2024 00:12:27,26-07-2024 00:12:27,0.142s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Filter/TC38_HeaderMenu_All_products_09,Chrome 126.0.0.0,,,26-07-2024 00:12:27,26-07-2024 00:12:38,11.027s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,26-07-2024 00:12:27,26-07-2024 00:12:33,5.942s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,26-07-2024 00:12:33,26-07-2024 00:12:33,0.038s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 5)",Chrome 126.0.0.0,,,26-07-2024 00:12:33,26-07-2024 00:12:33,0.265s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Header/Header_menu_All_products""))",Chrome 126.0.0.0,,,26-07-2024 00:12:33,26-07-2024 00:12:37,3.592s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,26-07-2024 00:12:37,26-07-2024 00:12:38,1.039s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,26-07-2024 00:12:38,26-07-2024 00:12:38,0.139s,PASSED
+,,,,,,,
+Test Cases/Shopping Cart/Filter/TC39_HeaderMenu_All_products_10,Chrome 126.0.0.0,,,26-07-2024 00:12:38,26-07-2024 00:12:54,15.746s,PASSED
+openBrowser(Dashborad_URL),Chrome 126.0.0.0,,,26-07-2024 00:12:38,26-07-2024 00:12:49,10.509s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,26-07-2024 00:12:49,26-07-2024 00:12:49,0.039s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Dashboard_page""), 5)",Chrome 126.0.0.0,,,26-07-2024 00:12:49,26-07-2024 00:12:52,3.649s,PASSED
+"click(findTestObject(""Object Repository/Shopping Cart/Header/Header_menu_All_products""))",Chrome 126.0.0.0,,,26-07-2024 00:12:52,26-07-2024 00:12:53,0.316s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Shopping Cart/Dashboard/Product_item"", [""product_name"":product_name]), 5)",Chrome 126.0.0.0,,,26-07-2024 00:12:53,26-07-2024 00:12:54,1.030s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,26-07-2024 00:12:54,26-07-2024 00:12:54,0.182s,PASSED
